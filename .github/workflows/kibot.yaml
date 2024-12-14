@@ -1,0 +1,67 @@
+name: Export ECAD
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'pcb/**'
+      - 'configs/*.kibot.yaml'
+      - '.github/workflows/kibot.yml'
+  pull_request:
+    paths:
+      - 'pcb/**'
+      - 'configs/*.kibot.yaml'
+      - '.github/workflows/kibot.yml'
+  release:
+    types: [ published ]
+
+jobs:
+  export-ecad:
+    name: Export ECAD
+    runs-on: ubuntu-latest
+    container: ghcr.io/inti-cmnb/kicad_auto_test:nightly
+      
+    steps:
+    - name: Checkout Repository
+      uses: actions/checkout@v4
+
+    - name: Cache 3D models data
+      id: models-cache
+      uses: actions/cache@v4
+      with:
+        path: ~/cache_3d
+        key: cache_3d
+
+    - name: Update the PCBs on release with hash and release tag
+      if: github.event_name == 'release'
+      run: |
+        export COMMIT=$(git rev-parse --short HEAD)
+        echo "COMMIT = ${COMMIT}"
+        echo "GITHUB_REF_NAME = ${GITHUB_REF_NAME}"
+        sed -i "s!<<hash>>!${GITHUB_REF_NAME}-${COMMIT}!" pcb/RemoteStation/RemoteStation.kicad_pcb
+
+    - name: Update the PCBs with the BETA and git hash
+      if: github.event_name != 'release'
+      run: |
+        export COMMIT=$(git rev-parse --short HEAD)
+        echo "COMMIT = ${COMMIT}"
+        sed -i "s!<<hash>>!BETA-${COMMIT}!" pcb/RemoteStation/RemoteStation.kicad_pcb
+
+    - name: Generate RemoteStation Export Files
+      run: export KIBOT_3D_MODELS="$HOME/cache_3d" && cd pcb/RemoteStation && kibot -c ../../configs/config-2layer.kibot.yaml -e RemoteStation.kicad_sch -b RemoteStation.kicad_pcb -d RemoteStation
+
+    - name: Upload Export Files as Artifacts
+      uses: actions/upload-artifact@v4
+      with:
+        name: RemoteStation
+        path: pcb/RemoteStation/RemoteStation
+        if-no-files-found: error
+
+    - name: Zip Export Files for Release
+      if: github.event_name == 'release'
+      run: cd pcb/RemoteStation && zip -r RemoteStation-${{ github.event.release.tag_name }}.zip RemoteStation
+
+    - name: Upload Artifacts to Release
+      uses: softprops/action-gh-release@v2
+      if: github.event_name == 'release'
+      with:
+        files: pcb/RemoteStation/RemoteStation-${{ github.event.release.tag_name }}.zip

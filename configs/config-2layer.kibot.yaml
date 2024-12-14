@@ -1,0 +1,76 @@
+kibot:
+  version: 1
+
+global:
+  field_lcsc_part: LCSC
+
+import:
+  - file: JLCPCB
+  - file: 3DRender_top
+  - file: 3DRender_top_straight
+
+preflight:
+  run_erc:
+    warnings_as_errors: true
+  filters:
+    - filter: 'Ignore KiCad lib_symbol_issues'
+      error: lib_symbol_issues
+      regex: ''
+    - filter: 'Ignore KiCad hole_clearance'
+      error: hole_clearance
+      regex: ''
+    - filter: 'Ignore KiCad lib_footprint_issues'
+      error: lib_footprint_issues
+      regex: ''
+    - filter: 'Ignore KiCad silk_over_copper'
+      error: silk_over_copper
+      regex: ''
+  update_xml: true
+  run_drc: true
+  check_zone_fills: true
+  ignore_unconnected: false
+
+outputs:
+  - name: 'ibom'
+    comment: 'Interactive Bill of Materials'
+    type: ibom
+    dir: ibom
+
+  - name: 'bom'
+    comment: 'Bill of Materials'
+    type: bom
+    dir: bom
+    options:
+      csv:
+        hide_pcb_info: true
+        hide_stats_info: true
+      format: CSV
+
+  - name: 'html_bom'
+    comment: 'HTML BOM'
+    type: bom
+    dir: html_bom
+    options:
+      html:
+        datasheet_as_link: Datasheet
+        digikey_link: Digikey
+        title: 'Index MOBO Bill of Materials'
+
+  - name: board_top
+    comment: "Top layer view"
+    type: pcbdraw
+    options:
+      format: png
+
+  - name: board_bottom
+    comment: "Bottom layer view"
+    type: pcbdraw
+    options:
+      format: png
+      bottom: true
+
+  - name: 'step_file'
+    comment: 'STEP file generation'
+    type: step
+    dir: step
+

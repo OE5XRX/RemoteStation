@@ -1,0 +1,9 @@
+.DS_Store
+
+#kicad files
+*.lck
+*-backups
+*.kicad_prl
+fp-info-cache
+pcb/export
+
