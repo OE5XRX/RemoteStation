@@ -3,7 +3,9 @@
 #kicad files
 *.lck
 *-backups
+*-bak
 *.kicad_prl
 fp-info-cache
 pcb/export
 
+pcb/RemoteStation/RemoteStation.xml
