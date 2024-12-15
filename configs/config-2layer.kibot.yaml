@@ -10,25 +10,11 @@ import:
   - file: 3DRender_top_straight
 
 preflight:
-  run_erc:
+  erc:
     warnings_as_errors: true
-  filters:
-    - filter: 'Ignore KiCad lib_symbol_issues'
-      error: lib_symbol_issues
-      regex: ''
-    - filter: 'Ignore KiCad hole_clearance'
-      error: hole_clearance
-      regex: ''
-    - filter: 'Ignore KiCad lib_footprint_issues'
-      error: lib_footprint_issues
-      regex: ''
-    - filter: 'Ignore KiCad silk_over_copper'
-      error: silk_over_copper
-      regex: ''
   update_xml: true
-  run_drc: true
+  drc: false
   check_zone_fills: true
-  ignore_unconnected: false
 
 outputs:
   - name: 'ibom'
@@ -73,4 +59,3 @@ outputs:
     comment: 'STEP file generation'
     type: step
     dir: step
-

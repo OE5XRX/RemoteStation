@@ -18,7 +18,7 @@ jobs:
   export-ecad:
     name: Export ECAD
     runs-on: ubuntu-latest
-    container: ghcr.io/inti-cmnb/kicad_auto_test:nightly
+    container: ghcr.io/inti-cmnb/kicad8_auto_full:latest
       
     steps:
     - name: Checkout Repository
