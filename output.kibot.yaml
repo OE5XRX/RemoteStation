@@ -1,0 +1,48 @@
+kibot:
+  version: 1
+
+globals:
+  resources_dir: ci
+  field_lcsc_part: LCSC
+
+import:
+  - file: JLCPCB
+
+outputs:
+  - name: 'ibom'
+    comment: 'Interactive Bill of Materials'
+    type: ibom
+    dir: Fabrication/ibom
+
+  - name: 'bom'
+    comment: 'Bill of Materials'
+    type: bom
+    dir: Fabrication/bom
+    options:
+      csv:
+        hide_pcb_info: true
+        hide_stats_info: true
+      format: CSV
+
+  - name: 'html_bom'
+    comment: 'HTML BOM'
+    type: bom
+    dir: Fabrication/html_bom
+    options:
+      html:
+        datasheet_as_link: Datasheet
+        digikey_link: Digikey
+        title: 'Index MOBO Bill of Materials'
+
+  - name: "SchPrint"
+    comment: "Print schematic PDF"
+    type: pdf_sch_print
+    dir: Fabrication/PDFs
+    options:
+      color_theme: dracula
+      background_color: true
+
+  - name: 'step_file'
+    comment: 'STEP file generation'
+    type: step
+    dir: Fabrication/step
