@@ -47,8 +47,11 @@ jobs:
         sed -i "s!<<hash>>!BETA-${COMMIT}!" pcb/RemoteStation/RemoteStation.kicad_pcb
 
     - name: Generate RemoteStation Export Files
-      run: export KIBOT_3D_MODELS="$HOME/cache_3d" && cd pcb/RemoteStation && kibot -c ../../test.kibot.yaml -e RemoteStation.kicad_sch -b RemoteStation.kicad_pcb -d RemoteStation
-      run: export KIBOT_3D_MODELS="$HOME/cache_3d" && cd pcb/RemoteStation && kibot -c ../../output.kibot.yaml -e RemoteStation.kicad_sch -b RemoteStation.kicad_pcb -d RemoteStation
+      run: |
+        export KIBOT_3D_MODELS="$HOME/cache_3d"
+        cd pcb/RemoteStation
+        kibot -c ../../test.kibot.yaml -e RemoteStation.kicad_sch -b RemoteStation.kicad_pcb -d RemoteStation
+        kibot -c ../../output.kibot.yaml -e RemoteStation.kicad_sch -b RemoteStation.kicad_pcb -d RemoteStation
 
     - name: Upload Export Files as Artifacts
       uses: actions/upload-artifact@v4
