@@ -2,15 +2,7 @@ name: Export ECAD
 on:
   workflow_dispatch:
   push:
-    paths:
-      - 'pcb/**'
-      - 'configs/*.kibot.yaml'
-      - '.github/workflows/kibot.yml'
   pull_request:
-    paths:
-      - 'pcb/**'
-      - 'configs/*.kibot.yaml'
-      - '.github/workflows/kibot.yml'
   release:
     types: [ published ]
 
@@ -23,13 +15,6 @@ jobs:
     steps:
     - name: Checkout Repository
       uses: actions/checkout@v4
-
-    - name: Cache 3D models data
-      id: models-cache
-      uses: actions/cache@v4
-      with:
-        path: ~/cache_3d
-        key: cache_3d
 
     - name: Update the PCBs on release with hash and release tag
       if: github.event_name == 'release'
