@@ -1,0 +1,14 @@
+title: OE5XRX
+description: Amateurfunkclub für Remote Stationen
+
+theme: just-the-docs
+
+mermaid:
+  version: "11.3.0"
+
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      layout: "default"
