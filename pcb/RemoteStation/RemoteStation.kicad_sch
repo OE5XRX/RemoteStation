@@ -1402,6 +1402,17 @@
 		)
 		(uuid "fc1b65bd-52ad-41d4-b12a-036cb3a14df5")
 	)
+	(text "<<HASH>>"
+		(exclude_from_sim no)
+		(at 267.97 193.548 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "11650c1e-ab45-4a04-b114-6a25b376c7ea")
+	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x04")
 		(at 240.03 68.58 270)
