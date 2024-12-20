@@ -3572,6 +3572,39 @@
 		)
 		(uuid "b7e3d786-77ff-4c73-b69d-9a7225ef7845")
 	)
+	(text "Remote Station"
+		(exclude_from_sim no)
+		(at 178.816 171.196 0)
+		(effects
+			(font
+				(size 5 5)
+			)
+			(justify left)
+		)
+		(uuid "a295317b-b0ee-48b8-b382-f85ead519321")
+	)
+	(text "Amateurfunkclub fuer Remote Stationen"
+		(exclude_from_sim no)
+		(at 186.436 189.992 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c79faf94-233a-4705-b3b0-d92677116a70")
+	)
+	(text "Bus"
+		(exclude_from_sim no)
+		(at 179.07 178.054 0)
+		(effects
+			(font
+				(size 4 4)
+			)
+			(justify left)
+		)
+		(uuid "df305f89-561b-4416-bc0c-eabd06032c6f")
+	)
 	(label "MASTER_USB_F-"
 		(at 43.18 104.14 180)
 		(fields_autoplaced yes)

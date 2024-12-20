@@ -1413,6 +1413,28 @@
 		)
 		(uuid "11650c1e-ab45-4a04-b114-6a25b376c7ea")
 	)
+	(text "Remote Station"
+		(exclude_from_sim no)
+		(at 178.816 171.196 0)
+		(effects
+			(font
+				(size 5 5)
+			)
+			(justify left)
+		)
+		(uuid "a295317b-b0ee-48b8-b382-f85ead519321")
+	)
+	(text "Amateurfunkclub fuer Remote Stationen"
+		(exclude_from_sim no)
+		(at 186.436 189.992 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c79faf94-233a-4705-b3b0-d92677116a70")
+	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x04")
 		(at 240.03 68.58 270)

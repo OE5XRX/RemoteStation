@@ -31,14 +31,14 @@ jobs:
         export COMMIT=$(git rev-parse --short HEAD)
         echo "COMMIT = ${COMMIT}"
         echo "GITHUB_REF_NAME = ${GITHUB_REF_NAME}"
-        sed -i "s!<<hash>>!${GITHUB_REF_NAME}-${COMMIT}!" pcb/RemoteStation/RemoteStation.kicad_pcb
+        sed -i "s/<<HASH>>/${GITHUB_REF_NAME}-${COMMIT}/g" pcb/RemoteStation/*
 
     - name: Update the PCBs with the BETA and git hash
       if: github.event_name != 'release'
       run: |
         export COMMIT=$(git rev-parse --short HEAD)
         echo "COMMIT = ${COMMIT}"
-        sed -i "s!<<hash>>!BETA-${COMMIT}!" pcb/RemoteStation/RemoteStation.kicad_pcb
+        sed -i "s/<<HASH>>/BETA-${COMMIT}/g" pcb/RemoteStation/*
 
     - name: check KiCad files
       run: kibot -c test.kibot.yaml -e pcb/RemoteStation/RemoteStation.kicad_sch -b pcb/RemoteStation/RemoteStation.kicad_pcb -d output
