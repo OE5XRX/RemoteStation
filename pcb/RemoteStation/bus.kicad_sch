@@ -3572,6 +3572,17 @@
 		)
 		(uuid "b7e3d786-77ff-4c73-b69d-9a7225ef7845")
 	)
+	(text "<<HASH>>"
+		(exclude_from_sim no)
+		(at 267.97 193.548 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "11650c1e-ab45-4a04-b114-6a25b376c7ea")
+	)
 	(text "Remote Station"
 		(exclude_from_sim no)
 		(at 178.816 171.196 0)
