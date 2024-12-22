@@ -431,7 +431,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "RemoteStation.kicad_pro",
+    "filename": "cm4.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -580,12 +580,12 @@
       "Root"
     ],
     [
-      "6dc337b8-e369-47df-a55d-900773b96150",
-      "Bus"
+      "a64f9485-8eaf-45a8-a9d7-21ab5cb8dcb2",
+      "CM4-Board"
     ],
     [
-      "095a1b76-daba-4dc4-b60c-f0f1467fbde3",
-      "Raspberry Pi"
+      "4581d98a-f6dc-4239-8399-d112fb9d43e3",
+      "CM4-IO"
     ]
   ],
   "text_variables": {}

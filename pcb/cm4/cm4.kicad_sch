@@ -1,0 +1,72 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "5d20b266-567e-45c6-9e3e-145c2aea1daa")
+	(paper "A4")
+	(title_block
+		(title "CM4")
+		(rev "<<HASH>>")
+		(company "Amateurfunkclub für Remote Stationen")
+	)
+	(lib_symbols)
+	(no_connect
+		(at 15.24 21.59)
+		(uuid "4d54c800-7017-437b-8b9d-c36dcf3afa52")
+	)
+	(hierarchical_label "+12V"
+		(shape input)
+		(at 15.24 21.59 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "665c76b3-7f00-4419-a7de-8f839239a84b")
+	)
+	(sheet
+		(at 26.67 168.91)
+		(size 25.4 16.51)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "a64f9485-8eaf-45a8-a9d7-21ab5cb8dcb2")
+		(property "Sheetname" "CM4-Board"
+			(at 26.67 168.1984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "cm4-board.kicad_sch"
+			(at 26.67 186.0046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "cm4"
+				(path "/5d20b266-567e-45c6-9e3e-145c2aea1daa"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)

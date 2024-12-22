@@ -20,7 +20,11 @@ jobs:
     name: Export ECAD
     runs-on: ubuntu-latest
     container: ghcr.io/inti-cmnb/kicad8_auto_full:latest
-      
+
+    strategy:
+      matrix:
+        pcbs: [bus, cm4]
+
     steps:
     - name: Checkout Repository
       uses: actions/checkout@v4
@@ -31,25 +35,25 @@ jobs:
         export COMMIT=$(git rev-parse --short HEAD)
         echo "COMMIT = ${COMMIT}"
         echo "GITHUB_REF_NAME = ${GITHUB_REF_NAME}"
-        sed -i "s/<<HASH>>/${GITHUB_REF_NAME}-${COMMIT}/g" pcb/bus/*
+        sed -i "s/<<HASH>>/${GITHUB_REF_NAME}-${COMMIT}/g" pcb/${{ matrix.pcbs }}/*
 
     - name: Update the PCBs with the BETA and git hash
       if: github.event_name != 'release'
       run: |
         export COMMIT=$(git rev-parse --short HEAD)
         echo "COMMIT = ${COMMIT}"
-        sed -i "s/<<HASH>>/BETA-${COMMIT}/g" pcb/bus/*
+        sed -i "s/<<HASH>>/BETA-${COMMIT}/g" pcb/${{ matrix.pcbs }}/*
 
     - name: check KiCad files
-      run: kibot -c test.kibot.yaml -e pcb/bus/bus.kicad_sch -d output/bus
+      run: kibot -c test.kibot.yaml -e pcb/${{ matrix.pcbs }}/${{ matrix.pcbs }}.kicad_sch -d output
 
-    - name: Generate bus Export Files
-      run: kibot -c output.kibot.yaml -e pcb/bus/bus.kicad_sch -b pcb/bus/bus.kicad_pcb -d output
+    - name: Generate ${{ matrix.pcbs }} Export Files
+      run: kibot -c output.kibot.yaml -e pcb/${{ matrix.pcbs }}/${{ matrix.pcbs }}.kicad_sch -b pcb/${{ matrix.pcbs }}/${{ matrix.pcbs }}.kicad_pcb -d output
 
     - name: Upload Export Files as Artifacts
       uses: actions/upload-artifact@v4
       with:
-        name: bus
+        name: ${{ matrix.pcbs }}
         path: output
         if-no-files-found: error
 
