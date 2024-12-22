@@ -43,13 +43,13 @@ jobs:
     - name: check KiCad files
       run: kibot -c test.kibot.yaml -e pcb/bus/bus.kicad_sch -d output/bus
 
-    - name: Generate RemoteStation Export Files
-      run: kibot -c output.kibot.yaml -e pcb/bus/bus.kicad_sch -d output/bus
+    - name: Generate bus Export Files
+      run: kibot -c output.kibot.yaml -e pcb/bus/bus.kicad_sch -b pcb/bus/bus.kicad_pcb -d output
 
     - name: Upload Export Files as Artifacts
       uses: actions/upload-artifact@v4
       with:
-        name: RemoteStation
+        name: bus
         path: output
         if-no-files-found: error
 
