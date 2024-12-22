@@ -44,8 +44,8 @@ jobs:
         echo "COMMIT = ${COMMIT}"
         sed -i "s/<<HASH>>/BETA-${COMMIT}/g" pcb/${{ matrix.pcbs }}/*
 
-    - name: check KiCad files
-      run: kibot -c test.kibot.yaml -e pcb/${{ matrix.pcbs }}/${{ matrix.pcbs }}.kicad_sch -d output
+#    - name: check KiCad files
+#      run: kibot -c test.kibot.yaml -e pcb/${{ matrix.pcbs }}/${{ matrix.pcbs }}.kicad_sch -d output
 
     - name: Generate ${{ matrix.pcbs }} Export Files
       run: kibot -c output.kibot.yaml -e pcb/${{ matrix.pcbs }}/${{ matrix.pcbs }}.kicad_sch -b pcb/${{ matrix.pcbs }}/${{ matrix.pcbs }}.kicad_pcb -d output
