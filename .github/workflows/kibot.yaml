@@ -31,20 +31,20 @@ jobs:
         export COMMIT=$(git rev-parse --short HEAD)
         echo "COMMIT = ${COMMIT}"
         echo "GITHUB_REF_NAME = ${GITHUB_REF_NAME}"
-        sed -i "s/<<HASH>>/${GITHUB_REF_NAME}-${COMMIT}/g" pcb/RemoteStation/*
+        sed -i "s/<<HASH>>/${GITHUB_REF_NAME}-${COMMIT}/g" pcb/bus/*
 
     - name: Update the PCBs with the BETA and git hash
       if: github.event_name != 'release'
       run: |
         export COMMIT=$(git rev-parse --short HEAD)
         echo "COMMIT = ${COMMIT}"
-        sed -i "s/<<HASH>>/BETA-${COMMIT}/g" pcb/RemoteStation/*
+        sed -i "s/<<HASH>>/BETA-${COMMIT}/g" pcb/bus/*
 
     - name: check KiCad files
-      run: kibot -c test.kibot.yaml -e pcb/RemoteStation/RemoteStation.kicad_sch -b pcb/RemoteStation/RemoteStation.kicad_pcb -d output
+      run: kibot -c test.kibot.yaml -e pcb/bus/bus.kicad_sch -d output/bus
 
     - name: Generate RemoteStation Export Files
-      run: kibot -c output.kibot.yaml -e pcb/RemoteStation/RemoteStation.kicad_sch -b pcb/RemoteStation/RemoteStation.kicad_pcb -d output
+      run: kibot -c output.kibot.yaml -e pcb/bus/bus.kicad_sch -d output/bus
 
     - name: Upload Export Files as Artifacts
       uses: actions/upload-artifact@v4
