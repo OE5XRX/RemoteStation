@@ -1000,10 +1000,6 @@
 		(uuid "b5c907da-51ec-45f6-91b5-24a4b5a114d8")
 	)
 	(no_connect
-		(at 292.1 21.59)
-		(uuid "b7c5e460-787c-404e-86cf-4b7add991551")
-	)
-	(no_connect
 		(at 24.13 63.5)
 		(uuid "d16c1c52-97a5-46bf-8253-43e678b27adb")
 	)
