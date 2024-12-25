@@ -5,6 +5,13 @@
 
 Diese Seite listet alle Schaltpläne, Platinen und BOMs des Projektes [Remote Station](https://github.com/OE5XRX/RemoteStation) des Vereines [Amateurfunkclub für Remote Stationen](https://oe5xrx.org).
 
+## Device Tester PCB
+
+- [Schaltplan](pcb/device_test/Fabrication/PDFs/device_test-schematic.pdf)
+- [BOM](pcb/device_test/Fabrication/html_bom/device_test-bom.html)
+- [iBOM](pcb/device_test/Fabrication/ibom/device_test-ibom.html)
+- [JLCPCB-Files](pcb/device_test/JLCPCB/device_test-_JLCPCB_compress.zip)
+
 ## Bus PCB
 
 - [Schaltplan](pcb/bus/Fabrication/PDFs/bus-schematic.pdf)
