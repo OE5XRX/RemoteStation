@@ -3463,7 +3463,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "USB:MicroUSB-920-E52A2021S10100"
 			(at 170.18 60.96 0)
 			(effects
 				(font
@@ -3482,6 +3482,15 @@
 			)
 		)
 		(property "Description" "USB mini/micro connector"
+			(at 166.37 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C10418"
 			(at 166.37 59.69 0)
 			(effects
 				(font
@@ -3684,7 +3693,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Horizontal"
 			(at 232.41 128.27 0)
 			(effects
 				(font
@@ -3703,6 +3712,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 232.41 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
 			(at 232.41 128.27 0)
 			(effects
 				(font
@@ -3766,7 +3784,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
 			(at 203.2 55.88 0)
 			(effects
 				(font
@@ -4043,7 +4061,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
 			(at 203.2 115.57 0)
 			(effects
 				(font
@@ -4336,7 +4354,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x05_P2.54mm_Horizontal"
 			(at 135.89 64.77 0)
 			(effects
 				(font
@@ -4355,6 +4373,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 135.89 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
 			(at 135.89 64.77 0)
 			(effects
 				(font
@@ -4611,7 +4638,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x07_P2.54mm_Horizontal"
 			(at 232.41 71.12 0)
 			(effects
 				(font
@@ -4630,6 +4657,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x07, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 232.41 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
 			(at 232.41 71.12 0)
 			(effects
 				(font
@@ -4694,7 +4730,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "USB:USB_A_C456020"
 			(at 170.18 118.11 0)
 			(effects
 				(font
@@ -4713,6 +4749,15 @@
 			)
 		)
 		(property "Description" "USB Type A connector"
+			(at 166.37 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
 			(at 166.37 116.84 0)
 			(effects
 				(font
@@ -4905,7 +4950,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 201.422 66.04 90)
 			(effects
 				(font
@@ -5116,7 +5161,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 201.422 125.73 90)
 			(effects
 				(font
@@ -5259,7 +5304,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Horizontal"
 			(at 135.89 123.19 0)
 			(effects
 				(font
@@ -5278,6 +5323,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 135.89 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
 			(at 135.89 123.19 0)
 			(effects
 				(font
@@ -5765,7 +5819,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
 			(at 49.53 86.36 0)
 			(effects
 				(font
@@ -5919,7 +5973,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 47.752 96.52 90)
 			(effects
 				(font
