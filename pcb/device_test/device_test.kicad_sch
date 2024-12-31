@@ -5286,7 +5286,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "a5e94bd2-aab9-4a16-892a-cf1585fe32a3")
 		(property "Reference" "J103"
 			(at 135.89 127 90)

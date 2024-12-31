@@ -7,6 +7,6 @@ global:
 preflight:
   erc:
     warnings_as_errors: true
-  drc: false
+  drc: true
   update_xml: false
   check_zone_fills: true
