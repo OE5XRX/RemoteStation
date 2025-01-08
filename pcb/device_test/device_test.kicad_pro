@@ -184,6 +184,7 @@
       ],
       "track_widths": [
         0.0,
+        0.2,
         0.3,
         0.3493,
         0.5
@@ -471,7 +472,7 @@
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.25,
+        "clearance": 0.2,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -611,6 +612,14 @@
     [
       "5d20b266-567e-45c6-9e3e-145c2aea1daa",
       "Root"
+    ],
+    [
+      "35b99cfb-c0ef-4b54-9d41-3482303768a8",
+      "Device Tester Connector"
+    ],
+    [
+      "863e4a9e-7535-46fc-ad01-9a2c57fe0c12",
+      "Bus Tester Connector"
     ]
   ],
   "text_variables": {}
