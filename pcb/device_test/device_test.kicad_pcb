@@ -9129,8 +9129,8 @@
 			(justify left bottom mirror)
 		)
 	)
-	(gr_text "<HASH>"
-		(at 158.682 93.726 -0)
+	(gr_text "<<HASH>>"
+		(at 158.682 93.726 0)
 		(layer "B.SilkS")
 		(uuid "573ea01c-67e5-4812-902f-fa6cb862d76d")
 		(effects
@@ -9165,7 +9165,7 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "<HASH>"
+	(gr_text "<<HASH>>"
 		(at 131.758 99.06 0)
 		(layer "F.SilkS")
 		(uuid "46e35f71-37e3-4fa0-adfc-a652d885bf1f")
