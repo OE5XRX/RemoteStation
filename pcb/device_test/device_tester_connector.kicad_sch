@@ -3007,7 +3007,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C84256"
 			(at 200.66 87.63 0)
 			(effects
 				(font
@@ -3416,7 +3416,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C27834"
 			(at 152.4 96.52 0)
 			(effects
 				(font
@@ -3617,7 +3617,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C27834"
 			(at 163.83 96.52 0)
 			(effects
 				(font
@@ -3887,7 +3887,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "360"
+		(property "Value" "390"
 			(at 203.2 99.0599 0)
 			(effects
 				(font
@@ -3923,7 +3923,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C17655"
 			(at 200.66 97.79 0)
 			(effects
 				(font
@@ -4304,6 +4304,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 234.95 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2691448"
 			(at 234.95 39.37 0)
 			(effects
 				(font
