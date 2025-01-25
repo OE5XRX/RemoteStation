@@ -49,6 +49,7 @@ jobs:
       run: kibot -c test.kibot.yaml -e pcb/${{ matrix.pcbs }}/${{ matrix.pcbs }}.kicad_sch -d output
 
     - name: Generate ${{ matrix.pcbs }} Export Files
+      if: always()
       run: kibot -c output.kibot.yaml -e pcb/${{ matrix.pcbs }}/${{ matrix.pcbs }}.kicad_sch -b pcb/${{ matrix.pcbs }}/${{ matrix.pcbs }}.kicad_pcb -d output
 
     - name: Upload Export Files as Artifacts
