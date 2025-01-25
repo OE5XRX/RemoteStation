@@ -611,8 +611,12 @@
       "CM4-Board"
     ],
     [
-      "4581d98a-f6dc-4239-8399-d112fb9d43e3",
-      "CM4-IO"
+      "a5fd598d-2b1a-4b4e-a237-c40279e78aa9",
+      "Ethernet"
+    ],
+    [
+      "8c670a00-fcb0-468c-ba79-62d0190039f0",
+      "MicroSD"
     ]
   ],
   "text_variables": {}
