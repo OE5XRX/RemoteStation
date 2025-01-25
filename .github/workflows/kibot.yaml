@@ -18,7 +18,7 @@ concurrency:
 jobs:
   export-ecad:
     name: Export ECAD
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     container: ghcr.io/inti-cmnb/kicad8_auto_full:latest
 
     strategy:
@@ -59,7 +59,7 @@ jobs:
         if-no-files-found: error
 
   build:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     needs: export-ecad
     steps:
       - name: Checkout
@@ -94,7 +94,7 @@ jobs:
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     needs: build
     steps:
       - name: Deploy to GitHub Pages
