@@ -111,7 +111,7 @@
 		)
 		(pad_to_mask_clearance 0)
 		(allow_soldermask_bridges_in_footprints no)
-		(grid_origin 76.2 132.08)
+		(grid_origin 155.086 84.13)
 		(pcbplotparams
 			(layerselection 0x00010fc_ffffffff)
 			(plot_on_all_layers_selection 0x0000000_00000000)
@@ -361,7 +361,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "100 Position Connector Receptacle, Center Strip Contacts Surface Mount Gold"
 			(at 0 0 360)
 			(layer "F.Fab")
 			(hide yes)
@@ -369,162 +369,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "MF" "Hirose"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "f8ff9ab9-d22f-46f1-ba7f-8a6cdd9f507d")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "1.65mm"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "2a9b2b83-6202-4a94-bf5a-9457aa45d619")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Package" "None"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "f81dd23c-244d-4695-98dc-dffebd4cbdef")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Price" "None"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "e466ba0e-f55a-4f22-9212-fcbddfef2c81")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/DF40C-100DS-0.4V(51)/Hirose/view-part/?ref=eda"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "9d14ff74-12ec-470b-bb59-06ff52d8fad5")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "77c9c7a2-b287-4376-8590-8438dcda3d40")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "PARTREV" "Oct.1.2023"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "0cf4fc42-e8eb-42a3-bd67-a51bf008ec09")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/DF40C-100DS-0.4V(51)/Hirose/view-part/?ref=snap"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "962cdd29-c9e7-4036-adc2-cb80f10cd4c9")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "MP" "DF40C-100DS-0.4V(51)"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "4f532c93-c0b4-486e-bad2-398e0f896a58")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description_1" "100 Position Connector Receptacle, Center Strip Contacts Surface Mount Gold"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "bce54593-f31a-4ebd-97f9-af3ee042f4ed")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "d3e8a67b-21dc-4d86-b5e2-94aff1178db4")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "MANUFACTURER" "Hirose"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "2018885a-34fd-4539-9f43-00fabb15f88a")
-			(effects
-				(font
-					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -2909,17 +2753,17 @@
 			(uuid "bf2f04de-9d9d-41de-aefa-8dce72a342bf")
 		)
 	)
-	(footprint "Resistor_SMD:R_0805_2012Metric"
+	(footprint "MountingHole:MountingHole_3.2mm_M3_Pad"
 		(layer "F.Cu")
-		(uuid "355098cf-c3e4-4cea-9afc-6db00dadbeab")
-		(at 118.11 81.788)
-		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
-		(tags "resistor")
-		(property "Reference" "R203"
-			(at 0 -1.65 0)
+		(uuid "251c1a4b-a5c0-4dd0-8469-c3c4c6aeb2f6")
+		(at 154.56 80.2)
+		(descr "Mounting Hole 3.2mm, M3")
+		(tags "mounting hole 3.2mm m3")
+		(property "Reference" "REF**"
+			(at 0 -4.2 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "f8e2a26b-d5a3-4ec4-8f97-b9ce02d5563f")
+			(uuid "f9c34a8d-12c0-43c3-a805-0dcb29d6472a")
 			(effects
 				(font
 					(size 1 1)
@@ -2927,11 +2771,11 @@
 				)
 			)
 		)
-		(property "Value" "2k2"
-			(at 0 1.65 0)
+		(property "Value" "MountingHole_3.2mm_M3_Pad"
+			(at 0 4.2 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "f2efdcab-b178-41e9-b3e4-6716c5fa7867")
+			(uuid "de4bd3aa-7d34-4060-80db-8644b64c0f4d")
 			(effects
 				(font
 					(size 1 1)
@@ -2939,12 +2783,12 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "8f378e69-59ab-401b-8d77-9f045e227d92")
+			(uuid "baedb5ef-aee3-43ff-a963-acc0bb6c4e45")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2957,6 +2801,119 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
+			(uuid "cf74c991-58a8-4215-83bf-3430d1bedd01")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "be1385f8-352b-414d-b438-bba5a3c78648")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr exclude_from_pos_files exclude_from_bom)
+		(fp_circle
+			(center 0 0)
+			(end 3.2 0)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(fill none)
+			(layer "Cmts.User")
+			(uuid "03260d5e-bfd6-40ff-98fa-0af56d579c69")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 3.45 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.CrtYd")
+			(uuid "8b2e6749-c56b-40be-8623-9d642048940c")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "4d93191d-35dd-41de-afa4-d4de3d9d5e03")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole circle
+			(at 0 0)
+			(size 6.4 6.4)
+			(drill 3.2)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 1 "GND")
+			(uuid "d5dd4931-fa2a-4649-833f-ee20cf5ae751")
+		)
+	)
+	(footprint "Resistor_SMD:R_0805_2012Metric"
+		(layer "F.Cu")
+		(uuid "355098cf-c3e4-4cea-9afc-6db00dadbeab")
+		(at 115.9745 82.042 180)
+		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
+		(tags "resistor")
+		(property "Reference" "R203"
+			(at 0 -1.65 360)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "f8e2a26b-d5a3-4ec4-8f97-b9ce02d5563f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "2k2"
+			(at 0 1.65 360)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f2efdcab-b178-41e9-b3e4-6716c5fa7867")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8f378e69-59ab-401b-8d77-9f045e227d92")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
 			(uuid "84ea79e3-2f3b-408f-b4a5-715c8e4261b0")
 			(effects
 				(font
@@ -2966,7 +2923,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -2979,7 +2936,7 @@
 			)
 		)
 		(property "LCSC" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -2997,16 +2954,6 @@
 		(sheetfile "cm4-board.kicad_sch")
 		(attr smd)
 		(fp_line
-			(start -0.227064 -0.735)
-			(end 0.227064 -0.735)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "c64f7d23-1fd3-456e-a5ae-41e26789b286")
-		)
-		(fp_line
 			(start -0.227064 0.735)
 			(end 0.227064 0.735)
 			(stroke
@@ -3017,34 +2964,14 @@
 			(uuid "82ac6307-4e4b-44dd-844e-fca6679b94cb")
 		)
 		(fp_line
-			(start -1.68 -0.95)
-			(end 1.68 -0.95)
+			(start -0.227064 -0.735)
+			(end 0.227064 -0.735)
 			(stroke
-				(width 0.05)
+				(width 0.12)
 				(type solid)
 			)
-			(layer "F.CrtYd")
-			(uuid "558a3e32-eded-421c-bd4a-db6c30783f14")
-		)
-		(fp_line
-			(start -1.68 0.95)
-			(end -1.68 -0.95)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "9f2de11d-12bd-4641-996d-792561c5dec5")
-		)
-		(fp_line
-			(start 1.68 -0.95)
-			(end 1.68 0.95)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "d551fedf-1286-4920-8003-5843561375c4")
+			(layer "F.SilkS")
+			(uuid "c64f7d23-1fd3-456e-a5ae-41e26789b286")
 		)
 		(fp_line
 			(start 1.68 0.95)
@@ -3057,24 +2984,44 @@
 			(uuid "f85cbb30-2204-4c0a-be06-d8536a497392")
 		)
 		(fp_line
-			(start -1 -0.625)
-			(end 1 -0.625)
+			(start 1.68 -0.95)
+			(end 1.68 0.95)
 			(stroke
-				(width 0.1)
+				(width 0.05)
 				(type solid)
 			)
-			(layer "F.Fab")
-			(uuid "3a16ccdd-ea1f-4090-b805-27ec01e8d03c")
+			(layer "F.CrtYd")
+			(uuid "d551fedf-1286-4920-8003-5843561375c4")
 		)
 		(fp_line
-			(start -1 0.625)
-			(end -1 -0.625)
+			(start -1.68 0.95)
+			(end -1.68 -0.95)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "9f2de11d-12bd-4641-996d-792561c5dec5")
+		)
+		(fp_line
+			(start -1.68 -0.95)
+			(end 1.68 -0.95)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "558a3e32-eded-421c-bd4a-db6c30783f14")
+		)
+		(fp_line
+			(start 1 0.625)
+			(end -1 0.625)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "eb316a2e-687f-4c3f-9a8e-f238ede645af")
+			(uuid "a1c142e2-7901-4c32-b644-d2bd718c0e58")
 		)
 		(fp_line
 			(start 1 -0.625)
@@ -3087,17 +3034,27 @@
 			(uuid "b4126e06-9493-4432-9a3d-2492b13dd9a5")
 		)
 		(fp_line
-			(start 1 0.625)
-			(end -1 0.625)
+			(start -1 0.625)
+			(end -1 -0.625)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "a1c142e2-7901-4c32-b644-d2bd718c0e58")
+			(uuid "eb316a2e-687f-4c3f-9a8e-f238ede645af")
+		)
+		(fp_line
+			(start -1 -0.625)
+			(end 1 -0.625)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "3a16ccdd-ea1f-4090-b805-27ec01e8d03c")
 		)
 		(pad "1" smd roundrect
-			(at -0.9125 0)
+			(at -0.9125 0 180)
 			(size 1.025 1.4)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.243902)
@@ -3106,7 +3063,7 @@
 			(uuid "2ee6ec63-1730-4d27-8cb4-7402b5478f28")
 		)
 		(pad "2" smd roundrect
-			(at 0.9125 0)
+			(at 0.9125 0 180)
 			(size 1.025 1.4)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.243902)
@@ -3179,7 +3136,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "100 Position Connector Receptacle, Center Strip Contacts Surface Mount Gold"
 			(at 0 0 360)
 			(layer "F.Fab")
 			(hide yes)
@@ -3187,162 +3144,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "MF" "Hirose"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "a8463246-b424-450e-b5cb-ebfc089bc5e6")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "1.65mm"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "aa1600f7-a0f5-4cac-af6b-ea4a6f1c29e2")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Package" "None"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "491bcd89-f4f1-4bdc-b7e8-1d0ed88a9ff3")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Price" "None"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "1c78b997-11cf-4c9f-ac0f-32ec9bbf7eea")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/DF40C-100DS-0.4V(51)/Hirose/view-part/?ref=eda"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "62dc793c-7be9-4eeb-84cf-508592369a21")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "917f7169-223a-4a7b-8f16-6b86820559ec")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "PARTREV" "Oct.1.2023"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "993dc649-d00c-48d6-9247-4d228084c7d1")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/DF40C-100DS-0.4V(51)/Hirose/view-part/?ref=snap"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "c4d1f274-349d-4c9e-a389-ddf8e7ebe8dc")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "MP" "DF40C-100DS-0.4V(51)"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "3a1cb132-f0ff-4f0e-aaef-88b5850fcb21")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description_1" "100 Position Connector Receptacle, Center Strip Contacts Surface Mount Gold"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "e91b7fb8-2795-4ef0-9b98-bab5fa3e7f68")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "1da1d9e2-a5ad-4328-8357-8223f30f8dab")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "MANUFACTURER" "Hirose"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "f6412e91-fc62-4bae-a027-e2a02b19efd7")
-			(effects
-				(font
-					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -8030,6 +7831,119 @@
 			)
 		)
 	)
+	(footprint "MountingHole:MountingHole_2.7mm_M2.5_Pad"
+		(layer "F.Cu")
+		(uuid "44666da8-b242-4547-b886-b18f8e85284e")
+		(at 151.586 87.63)
+		(descr "Mounting Hole 2.7mm, M2.5")
+		(tags "mounting hole 2.7mm m2.5")
+		(property "Reference" "REF**"
+			(at 0 -3.7 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "3c1704b7-4823-4de6-baa4-4bd36c427d93")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "MountingHole_2.7mm_M2.5_Pad"
+			(at 0 3.7 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a1558c2e-5ba8-482c-90ce-443e923186ae")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5_Pad"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "65d1c8cb-599b-4e6a-a33b-3e423b2e3596")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f3adced1-2186-466a-a1d4-d6afbf33e747")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ee012dbf-65cb-4818-aef9-50f683a79ff7")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr exclude_from_pos_files exclude_from_bom)
+		(fp_circle
+			(center 0 0)
+			(end 2.7 0)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(fill none)
+			(layer "Cmts.User")
+			(uuid "fe42c813-ae84-459f-9075-3d2ba17e5e42")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 2.95 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.CrtYd")
+			(uuid "282ae853-2649-462d-b46e-c63d7b42ce91")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "5fbfe543-a71e-4ec3-bcc3-6b12d791ccf4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole circle
+			(at 0 0)
+			(size 5.4 5.4)
+			(drill 2.7)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 1 "GND")
+			(uuid "406902fd-e4e4-4a52-a14e-9182f9fe6279")
+		)
+	)
 	(footprint "Package_SON:USON-10_2.5x1.0mm_P0.5mm"
 		(layer "F.Cu")
 		(uuid "44aa4989-f3b7-4fe6-a167-421fccbd30c0")
@@ -8772,17 +8686,17 @@
 			)
 		)
 	)
-	(footprint "Resistor_SMD:R_0805_2012Metric"
+	(footprint "MountingHole:MountingHole_2.7mm_M2.5_Pad"
 		(layer "F.Cu")
-		(uuid "61dd9f26-7590-45e7-8a95-1269bd87d05e")
-		(at 118.194 79.422)
-		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
-		(tags "resistor")
-		(property "Reference" "R202"
-			(at 0 -1.65 0)
+		(uuid "59d900f6-9d1a-477c-8e35-27b978898d4a")
+		(at 108.586 120.63)
+		(descr "Mounting Hole 2.7mm, M2.5")
+		(tags "mounting hole 2.7mm m2.5")
+		(property "Reference" "REF**"
+			(at 0 -3.7 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "96552943-05e5-480b-8d1a-b4f2764c5246")
+			(uuid "3c1704b7-4823-4de6-baa4-4bd36c427d93")
 			(effects
 				(font
 					(size 1 1)
@@ -8790,11 +8704,11 @@
 				)
 			)
 		)
-		(property "Value" "2k2"
-			(at 0 1.65 0)
+		(property "Value" "MountingHole_2.7mm_M2.5_Pad"
+			(at 0 3.7 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "2bd6bc5f-b8f1-4923-8f0d-c81a0de98b43")
+			(uuid "a1558c2e-5ba8-482c-90ce-443e923186ae")
 			(effects
 				(font
 					(size 1 1)
@@ -8802,12 +8716,12 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5_Pad"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "7c642411-5546-4bc4-ab50-0dc584f64966")
+			(uuid "65d1c8cb-599b-4e6a-a33b-3e423b2e3596")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8820,6 +8734,232 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
+			(uuid "f3adced1-2186-466a-a1d4-d6afbf33e747")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ee012dbf-65cb-4818-aef9-50f683a79ff7")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr exclude_from_pos_files exclude_from_bom)
+		(fp_circle
+			(center 0 0)
+			(end 2.7 0)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(fill none)
+			(layer "Cmts.User")
+			(uuid "fe42c813-ae84-459f-9075-3d2ba17e5e42")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 2.95 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.CrtYd")
+			(uuid "282ae853-2649-462d-b46e-c63d7b42ce91")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "5fbfe543-a71e-4ec3-bcc3-6b12d791ccf4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole circle
+			(at 0 0)
+			(size 5.4 5.4)
+			(drill 2.7)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 1 "GND")
+			(uuid "406902fd-e4e4-4a52-a14e-9182f9fe6279")
+		)
+	)
+	(footprint "MountingHole:MountingHole_3.2mm_M3_Pad"
+		(layer "F.Cu")
+		(uuid "5e2aa55d-577b-457b-bf37-c1ba98dff832")
+		(at 80.2 80.2)
+		(descr "Mounting Hole 3.2mm, M3")
+		(tags "mounting hole 3.2mm m3")
+		(property "Reference" "REF**"
+			(at 0 -4.2 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "02af62fd-7435-40b6-b5dc-0a9af7fe7cd6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "MountingHole_3.2mm_M3_Pad"
+			(at 0 4.2 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4063c1ca-a880-4212-a251-6b593961de7e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3dc7140a-0dcb-453a-9400-1468ffbeb496")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ecb34cee-1730-4c6d-88fe-a5d9721135f0")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a0d24d95-0529-460c-9ea9-ec65d122a85b")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr board_only exclude_from_pos_files exclude_from_bom)
+		(fp_circle
+			(center 0 0)
+			(end 3.2 0)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(fill none)
+			(layer "Cmts.User")
+			(uuid "978cbf24-1739-4f16-adfc-1d77f396eb6a")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 3.45 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.CrtYd")
+			(uuid "87048a19-e834-4248-8fbe-422c6d3c2466")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "df4eb512-eac7-4458-a8fb-da2a3f4690a1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole circle
+			(at 0 0)
+			(size 6.4 6.4)
+			(drill 3.2)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 1 "GND")
+			(uuid "fcb32f9e-8b67-4a62-8f1d-fa9c3bd264ec")
+		)
+	)
+	(footprint "Resistor_SMD:R_0805_2012Metric"
+		(layer "F.Cu")
+		(uuid "61dd9f26-7590-45e7-8a95-1269bd87d05e")
+		(at 120.0385 82.042 180)
+		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
+		(tags "resistor")
+		(property "Reference" "R202"
+			(at 0 -1.65 360)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "96552943-05e5-480b-8d1a-b4f2764c5246")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "2k2"
+			(at 0 1.65 360)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2bd6bc5f-b8f1-4923-8f0d-c81a0de98b43")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7c642411-5546-4bc4-ab50-0dc584f64966")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
 			(uuid "f40adb0f-4bb6-44da-85d1-d340ca4412c8")
 			(effects
 				(font
@@ -8829,7 +8969,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -8842,7 +8982,7 @@
 			)
 		)
 		(property "LCSC" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -8860,16 +9000,6 @@
 		(sheetfile "cm4-board.kicad_sch")
 		(attr smd)
 		(fp_line
-			(start -0.227064 -0.735)
-			(end 0.227064 -0.735)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "57a3c005-2c06-4d99-80de-245ab2257836")
-		)
-		(fp_line
 			(start -0.227064 0.735)
 			(end 0.227064 0.735)
 			(stroke
@@ -8880,34 +9010,14 @@
 			(uuid "efd16de2-1dae-4047-8fe0-cb2a94dfcddb")
 		)
 		(fp_line
-			(start -1.68 -0.95)
-			(end 1.68 -0.95)
+			(start -0.227064 -0.735)
+			(end 0.227064 -0.735)
 			(stroke
-				(width 0.05)
+				(width 0.12)
 				(type solid)
 			)
-			(layer "F.CrtYd")
-			(uuid "5e84f185-d6b3-4ca7-9991-d02ea7c238e7")
-		)
-		(fp_line
-			(start -1.68 0.95)
-			(end -1.68 -0.95)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "80b04e2c-9831-4fd6-8b97-9a776d214fa4")
-		)
-		(fp_line
-			(start 1.68 -0.95)
-			(end 1.68 0.95)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "f404bf89-69de-44c8-957f-bcaf97c816bf")
+			(layer "F.SilkS")
+			(uuid "57a3c005-2c06-4d99-80de-245ab2257836")
 		)
 		(fp_line
 			(start 1.68 0.95)
@@ -8920,24 +9030,44 @@
 			(uuid "a82744ba-da25-42c0-8100-13243eb5ccb6")
 		)
 		(fp_line
-			(start -1 -0.625)
-			(end 1 -0.625)
+			(start 1.68 -0.95)
+			(end 1.68 0.95)
 			(stroke
-				(width 0.1)
+				(width 0.05)
 				(type solid)
 			)
-			(layer "F.Fab")
-			(uuid "36a1fcae-4c6c-4256-a88d-fe4e73a62015")
+			(layer "F.CrtYd")
+			(uuid "f404bf89-69de-44c8-957f-bcaf97c816bf")
 		)
 		(fp_line
-			(start -1 0.625)
-			(end -1 -0.625)
+			(start -1.68 0.95)
+			(end -1.68 -0.95)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "80b04e2c-9831-4fd6-8b97-9a776d214fa4")
+		)
+		(fp_line
+			(start -1.68 -0.95)
+			(end 1.68 -0.95)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "5e84f185-d6b3-4ca7-9991-d02ea7c238e7")
+		)
+		(fp_line
+			(start 1 0.625)
+			(end -1 0.625)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "8b512b23-bae6-4bd4-9c0d-9dfbd5cf1968")
+			(uuid "51397bf9-be1a-489a-bfea-3ec7135abf32")
 		)
 		(fp_line
 			(start 1 -0.625)
@@ -8950,17 +9080,27 @@
 			(uuid "d274caa4-68da-444f-ba9e-c9f2a2fd9131")
 		)
 		(fp_line
-			(start 1 0.625)
-			(end -1 0.625)
+			(start -1 0.625)
+			(end -1 -0.625)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "51397bf9-be1a-489a-bfea-3ec7135abf32")
+			(uuid "8b512b23-bae6-4bd4-9c0d-9dfbd5cf1968")
+		)
+		(fp_line
+			(start -1 -0.625)
+			(end 1 -0.625)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "36a1fcae-4c6c-4256-a88d-fe4e73a62015")
 		)
 		(pad "1" smd roundrect
-			(at -0.9125 0)
+			(at -0.9125 0 180)
 			(size 1.025 1.4)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.243902)
@@ -8969,7 +9109,7 @@
 			(uuid "b730df52-fc50-4954-afd3-9a07123b99a0")
 		)
 		(pad "2" smd roundrect
-			(at 0.9125 0)
+			(at 0.9125 0 180)
 			(size 1.025 1.4)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.243902)
@@ -8987,6 +9127,119 @@
 			(rotate
 				(xyz 0 0 0)
 			)
+		)
+	)
+	(footprint "MountingHole:MountingHole_2.7mm_M2.5_Pad"
+		(layer "F.Cu")
+		(uuid "829c6655-ea83-47d5-a9f9-e29e1a6e21fb")
+		(at 151.586 120.63)
+		(descr "Mounting Hole 2.7mm, M2.5")
+		(tags "mounting hole 2.7mm m2.5")
+		(property "Reference" "REF**"
+			(at 0 -3.7 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "3c1704b7-4823-4de6-baa4-4bd36c427d93")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "MountingHole_2.7mm_M2.5_Pad"
+			(at 0 3.7 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a1558c2e-5ba8-482c-90ce-443e923186ae")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5_Pad"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "65d1c8cb-599b-4e6a-a33b-3e423b2e3596")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f3adced1-2186-466a-a1d4-d6afbf33e747")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ee012dbf-65cb-4818-aef9-50f683a79ff7")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr exclude_from_pos_files exclude_from_bom)
+		(fp_circle
+			(center 0 0)
+			(end 2.7 0)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(fill none)
+			(layer "Cmts.User")
+			(uuid "fe42c813-ae84-459f-9075-3d2ba17e5e42")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 2.95 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.CrtYd")
+			(uuid "282ae853-2649-462d-b46e-c63d7b42ce91")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "5fbfe543-a71e-4ec3-bcc3-6b12d791ccf4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole circle
+			(at 0 0)
+			(size 5.4 5.4)
+			(drill 2.7)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 1 "GND")
+			(uuid "406902fd-e4e4-4a52-a14e-9182f9fe6279")
 		)
 	)
 	(footprint "LED_SMD:LED_0805_2012Metric"
@@ -10405,6 +10658,119 @@
 			(uuid "878a638f-0417-4251-8c01-9adcb3485116")
 		)
 	)
+	(footprint "MountingHole:MountingHole_2.7mm_M2.5_Pad"
+		(layer "F.Cu")
+		(uuid "b293a124-745e-4f96-93e7-58b101cc73c2")
+		(at 108.586 87.63)
+		(descr "Mounting Hole 2.7mm, M2.5")
+		(tags "mounting hole 2.7mm m2.5")
+		(property "Reference" "REF**"
+			(at 0 -3.7 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "6b8b3600-5014-4a8a-90ef-9b9a6bbcef7a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "MountingHole_2.7mm_M2.5_Pad"
+			(at 0 3.7 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4edb39ec-6e24-4a51-9f30-ca570139cd75")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5_Pad"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b428eb06-ed18-4964-ad1d-2904d9b8c1ba")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fa4df62b-8f0e-434d-8119-a742d8e2aa21")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "12187845-c248-4c36-a705-e498f57c48d4")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr exclude_from_pos_files exclude_from_bom)
+		(fp_circle
+			(center 0 0)
+			(end 2.7 0)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(fill none)
+			(layer "Cmts.User")
+			(uuid "f38c50dc-3547-4d65-9065-871b6b5e6465")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 2.95 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.CrtYd")
+			(uuid "b9866686-89bb-4a7a-8c87-1d1d809330d1")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "cb3eb6fc-3525-47f1-853c-f4e3ac4059ec")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole circle
+			(at 0 0)
+			(size 5.4 5.4)
+			(drill 2.7)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 1 "GND")
+			(uuid "790a24c5-6209-4f23-90ab-9980c54d0b11")
+		)
+	)
 	(footprint "Package_SON:USON-10_2.5x1.0mm_P0.5mm"
 		(layer "F.Cu")
 		(uuid "b32b6864-e06d-4e76-afba-6c6435c0dd21")
@@ -11656,6 +12022,119 @@
 			)
 		)
 	)
+	(footprint "MountingHole:MountingHole_3.2mm_M3_Pad"
+		(layer "F.Cu")
+		(uuid "dab60fa6-1723-4a40-a80f-5a3f5876b5fc")
+		(at 158.56 128.08)
+		(descr "Mounting Hole 3.2mm, M3")
+		(tags "mounting hole 3.2mm m3")
+		(property "Reference" "REF**"
+			(at 0 -4.2 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "1c42863e-9e10-40cc-9aa6-377490e1191c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "MountingHole_3.2mm_M3_Pad"
+			(at 0 4.2 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ea00a478-52c1-4bb3-9228-66167cc0c006")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "899d6b48-7bcb-4fff-b9e9-619e0fc380b4")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "77131717-514e-47cd-a607-aaf884acfa0f")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bd707473-fa00-4a00-8333-d83883bb6da5")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr exclude_from_pos_files exclude_from_bom)
+		(fp_circle
+			(center 0 0)
+			(end 3.2 0)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(fill none)
+			(layer "Cmts.User")
+			(uuid "316bf8dc-ac8a-4f5e-b7e9-13b1b189238f")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 3.45 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.CrtYd")
+			(uuid "43ae2e38-d1a3-4f71-9b5d-c437cb1fe929")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "eb0bfdf2-ae27-4896-beaa-c38c486a47ee")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole circle
+			(at 0 0)
+			(size 6.4 6.4)
+			(drill 3.2)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 1 "GND")
+			(uuid "3012ad77-d7cf-4310-8139-fb5c71144407")
+		)
+	)
 	(footprint "Capacitor_SMD:C_0805_2012Metric"
 		(layer "F.Cu")
 		(uuid "e1187966-9366-4e87-a418-734175b5ac21")
@@ -11871,6 +12350,119 @@
 			(rotate
 				(xyz 0 0 0)
 			)
+		)
+	)
+	(footprint "MountingHole:MountingHole_3.2mm_M3_Pad"
+		(layer "F.Cu")
+		(uuid "e43f581b-8a2f-4767-9455-40b016ce72c5")
+		(at 80.2 128.08)
+		(descr "Mounting Hole 3.2mm, M3")
+		(tags "mounting hole 3.2mm m3")
+		(property "Reference" "REF**"
+			(at 0 -4.2 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "f3dcf159-5aeb-4d47-9588-674884dd70f0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "MountingHole_3.2mm_M3_Pad"
+			(at 0 4.2 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "732f82b2-cee4-4f53-9102-537dfc7884ab")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8d626377-14ca-4e5e-aeed-490518510276")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "621e074b-e7ea-4fc0-b992-7537141fc5d7")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "acd1eb3e-e48e-4399-a6d4-c9e4fc3b7b5c")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr exclude_from_pos_files exclude_from_bom)
+		(fp_circle
+			(center 0 0)
+			(end 3.2 0)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(fill none)
+			(layer "Cmts.User")
+			(uuid "b1e5298a-4dcf-4e55-86ae-ac0d1e81622f")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 3.45 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.CrtYd")
+			(uuid "8f2cb63d-a631-4be9-8f7d-b090a9cb8b34")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "e4b5e23e-1b18-40c8-980c-35f5c7b8b084")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole circle
+			(at 0 0)
+			(size 6.4 6.4)
+			(drill 3.2)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 1 "GND")
+			(uuid "f7d77dd0-74a8-4d4e-923e-57ee170f00da")
 		)
 	)
 	(footprint "Package_TO_SOT_SMD:TSOT-23-5"
@@ -12616,86 +13208,6 @@
 		(fill none)
 		(layer "Edge.Cuts")
 		(uuid "4739c8f2-e747-4abc-bbb1-a362da294f2d")
-	)
-	(via
-		(at 158.56 128.08)
-		(size 4.5)
-		(drill 3.2)
-		(layers "F.Cu" "B.Cu")
-		(locked yes)
-		(free yes)
-		(net 1)
-		(uuid "112b3fd9-75e4-4dbe-9502-c3ed202f7c8b")
-	)
-	(via
-		(at 80.2 80.2)
-		(size 4.5)
-		(drill 3.2)
-		(layers "F.Cu" "B.Cu")
-		(locked yes)
-		(free yes)
-		(net 1)
-		(uuid "1443a38a-bf20-4ad2-b882-919229239e9b")
-	)
-	(via
-		(at 80.2 128.08)
-		(size 4.5)
-		(drill 3.2)
-		(layers "F.Cu" "B.Cu")
-		(locked yes)
-		(free yes)
-		(net 1)
-		(uuid "3968c565-33d5-45b7-bef3-05efe4e23e15")
-	)
-	(via
-		(at 108.586 87.63)
-		(size 4)
-		(drill 2.7)
-		(layers "F.Cu" "B.Cu")
-		(locked yes)
-		(free yes)
-		(net 1)
-		(uuid "591d0c23-02f9-4f13-8c4e-d8fa3f127db1")
-	)
-	(via
-		(at 151.586 120.63)
-		(size 4)
-		(drill 2.7)
-		(layers "F.Cu" "B.Cu")
-		(locked yes)
-		(free yes)
-		(net 1)
-		(uuid "70fd46ee-c009-486c-9506-427faf8629da")
-	)
-	(via
-		(at 151.586 87.63)
-		(size 4)
-		(drill 2.7)
-		(layers "F.Cu" "B.Cu")
-		(locked yes)
-		(free yes)
-		(net 1)
-		(uuid "7ad632a9-a7e9-408f-ba32-9e1bcee37d7f")
-	)
-	(via
-		(at 108.586 120.63)
-		(size 4)
-		(drill 2.7)
-		(layers "F.Cu" "B.Cu")
-		(locked yes)
-		(free yes)
-		(net 1)
-		(uuid "82ea1abe-7f21-4a24-b09b-78a3b9fd8202")
-	)
-	(via
-		(at 154.56 80.2)
-		(size 4.5)
-		(drill 3.2)
-		(layers "F.Cu" "B.Cu")
-		(locked yes)
-		(free yes)
-		(net 1)
-		(uuid "a7189ee3-fbf9-468b-95de-ff532a365ffb")
 	)
 	(zone
 		(net 0)
