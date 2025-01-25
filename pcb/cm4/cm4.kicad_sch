@@ -1482,7 +1482,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Horizontal"
 			(at 49.53 101.6 0)
 			(effects
 				(font
@@ -1501,6 +1501,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 49.53 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
 			(at 49.53 101.6 0)
 			(effects
 				(font
@@ -1625,7 +1634,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Horizontal"
 			(at 121.92 96.52 0)
 			(effects
 				(font
@@ -1644,6 +1653,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 121.92 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
 			(at 121.92 96.52 0)
 			(effects
 				(font
@@ -1695,7 +1713,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9b34cc5f-9b17-4573-93fd-9d756d3c48bc")
-		(property "Reference" "#FLG0102"
+		(property "Reference" "#FLG0101"
 			(at 62.23 104.775 0)
 			(effects
 				(font
@@ -1745,7 +1763,7 @@
 		(instances
 			(project "cm4"
 				(path "/5d20b266-567e-45c6-9e3e-145c2aea1daa"
-					(reference "#FLG0102")
+					(reference "#FLG0101")
 					(unit 1)
 				)
 			)
@@ -1827,7 +1845,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "eb36e241-0bc6-447b-b23a-64b25adf01d2")
-		(property "Reference" "#FLG0101"
+		(property "Reference" "#FLG0102"
 			(at 92.71 99.695 0)
 			(effects
 				(font
@@ -1877,7 +1895,7 @@
 		(instances
 			(project "cm4"
 				(path "/5d20b266-567e-45c6-9e3e-145c2aea1daa"
-					(reference "#FLG0101")
+					(reference "#FLG0102")
 					(unit 1)
 				)
 			)

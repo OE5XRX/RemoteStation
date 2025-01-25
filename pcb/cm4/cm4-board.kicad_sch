@@ -6942,7 +6942,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "01ddb5f0-2679-4e1b-9c35-7f293cca4f63")
-		(property "Reference" "R203"
+		(property "Reference" "R204"
 			(at 259.08 123.1899 0)
 			(effects
 				(font
@@ -6960,7 +6960,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 254.762 124.46 90)
 			(effects
 				(font
@@ -6987,6 +6987,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" ""
+			(at 256.54 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d36973ff-29fc-4d3b-89b0-f97a840cfe37")
 		)
@@ -6996,7 +7005,7 @@
 		(instances
 			(project "cm4"
 				(path "/5d20b266-567e-45c6-9e3e-145c2aea1daa/a64f9485-8eaf-45a8-a9d7-21ab5cb8dcb2"
-					(reference "R203")
+					(reference "R204")
 					(unit 1)
 				)
 			)
@@ -7012,7 +7021,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "023a9ee5-64ae-4e0b-84b6-7196688685e9")
-		(property "Reference" "R201"
+		(property "Reference" "R203"
 			(at 227.33 64.7699 0)
 			(effects
 				(font
@@ -7030,7 +7039,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 223.012 66.04 90)
 			(effects
 				(font
@@ -7075,7 +7084,7 @@
 		(instances
 			(project "cm4"
 				(path "/5d20b266-567e-45c6-9e3e-145c2aea1daa/a64f9485-8eaf-45a8-a9d7-21ab5cb8dcb2"
-					(reference "R201")
+					(reference "R203")
 					(unit 1)
 				)
 			)
@@ -7109,7 +7118,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
 			(at 199.39 118.11 0)
 			(effects
 				(font
@@ -7128,6 +7137,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
+			(at 199.39 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
 			(at 199.39 118.11 0)
 			(effects
 				(font
@@ -7161,7 +7179,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "101483fe-b55c-43d2-b3fc-0bc5e47f847b")
-		(property "Reference" "#PWR0208"
+		(property "Reference" "#PWR0207"
 			(at 199.39 115.57 0)
 			(effects
 				(font
@@ -7211,7 +7229,7 @@
 		(instances
 			(project "cm4"
 				(path "/5d20b266-567e-45c6-9e3e-145c2aea1daa/a64f9485-8eaf-45a8-a9d7-21ab5cb8dcb2"
-					(reference "#PWR0208")
+					(reference "#PWR0207")
 					(unit 1)
 				)
 			)
@@ -7293,7 +7311,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2822e545-9985-460b-8720-ac486c02ff97")
-		(property "Reference" "J202"
+		(property "Reference" "J201"
 			(at 66.04 24.13 0)
 			(effects
 				(font
@@ -7769,7 +7787,7 @@
 		(instances
 			(project "cm4"
 				(path "/5d20b266-567e-45c6-9e3e-145c2aea1daa/a64f9485-8eaf-45a8-a9d7-21ab5cb8dcb2"
-					(reference "J202")
+					(reference "J201")
 					(unit 1)
 				)
 			)
@@ -7994,7 +8012,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "840a2874-4818-4617-a4d6-bae822dbda82")
-		(property "Reference" "#PWR0203"
+		(property "Reference" "#PWR0202"
 			(at 50.8 165.1 0)
 			(effects
 				(font
@@ -8044,7 +8062,7 @@
 		(instances
 			(project "cm4"
 				(path "/5d20b266-567e-45c6-9e3e-145c2aea1daa/a64f9485-8eaf-45a8-a9d7-21ab5cb8dcb2"
-					(reference "#PWR0203")
+					(reference "#PWR0202")
 					(unit 1)
 				)
 			)
@@ -8060,7 +8078,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9f8c3912-8e88-4540-86ce-f841d3de29f7")
-		(property "Reference" "R202"
+		(property "Reference" "R201"
 			(at 201.93 126.9999 0)
 			(effects
 				(font
@@ -8078,7 +8096,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 197.612 128.27 90)
 			(effects
 				(font
@@ -8105,6 +8123,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" ""
+			(at 199.39 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "55d44e36-7d23-4871-8f8f-4e2136ca77e2")
 		)
@@ -8114,7 +8141,7 @@
 		(instances
 			(project "cm4"
 				(path "/5d20b266-567e-45c6-9e3e-145c2aea1daa/a64f9485-8eaf-45a8-a9d7-21ab5cb8dcb2"
-					(reference "R202")
+					(reference "R201")
 					(unit 1)
 				)
 			)
@@ -8130,7 +8157,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9fea6ac6-a408-48d5-b576-adf3a3ac1f5b")
-		(property "Reference" "#PWR0205"
+		(property "Reference" "#PWR0204"
 			(at 82.55 30.48 0)
 			(effects
 				(font
@@ -8180,7 +8207,7 @@
 		(instances
 			(project ""
 				(path "/5d20b266-567e-45c6-9e3e-145c2aea1daa/a64f9485-8eaf-45a8-a9d7-21ab5cb8dcb2"
-					(reference "#PWR0205")
+					(reference "#PWR0204")
 					(unit 1)
 				)
 			)
@@ -8262,7 +8289,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cc1aeaa9-474d-4845-bf50-09701dffa29d")
-		(property "Reference" "#PWR0202"
+		(property "Reference" "#PWR0201"
 			(at 49.53 33.02 0)
 			(effects
 				(font
@@ -8312,7 +8339,7 @@
 		(instances
 			(project ""
 				(path "/5d20b266-567e-45c6-9e3e-145c2aea1daa/a64f9485-8eaf-45a8-a9d7-21ab5cb8dcb2"
-					(reference "#PWR0202")
+					(reference "#PWR0201")
 					(unit 1)
 				)
 			)
@@ -8328,7 +8355,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d034b753-7b97-4d6d-82df-c9788805a01b")
-		(property "Reference" "#PWR0206"
+		(property "Reference" "#PWR0205"
 			(at 123.19 165.1 0)
 			(effects
 				(font
@@ -8378,7 +8405,7 @@
 		(instances
 			(project "cm4"
 				(path "/5d20b266-567e-45c6-9e3e-145c2aea1daa/a64f9485-8eaf-45a8-a9d7-21ab5cb8dcb2"
-					(reference "#PWR0206")
+					(reference "#PWR0205")
 					(unit 1)
 				)
 			)
@@ -8394,7 +8421,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d379d6fc-e8f2-4f54-8215-5acde208a9f5")
-		(property "Reference" "J203"
+		(property "Reference" "J202"
 			(at 138.43 24.13 0)
 			(effects
 				(font
@@ -8870,7 +8897,7 @@
 		(instances
 			(project "cm4"
 				(path "/5d20b266-567e-45c6-9e3e-145c2aea1daa/a64f9485-8eaf-45a8-a9d7-21ab5cb8dcb2"
-					(reference "J203")
+					(reference "J202")
 					(unit 1)
 				)
 			)
@@ -8886,7 +8913,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e60ed4ff-922b-4ee4-84e5-87e13906d6d2")
-		(property "Reference" "#PWR0207"
+		(property "Reference" "#PWR0206"
 			(at 153.67 165.1 0)
 			(effects
 				(font
@@ -8936,7 +8963,7 @@
 		(instances
 			(project "cm4"
 				(path "/5d20b266-567e-45c6-9e3e-145c2aea1daa/a64f9485-8eaf-45a8-a9d7-21ab5cb8dcb2"
-					(reference "#PWR0207")
+					(reference "#PWR0206")
 					(unit 1)
 				)
 			)
@@ -8952,7 +8979,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ed0f5445-5626-414c-9607-28a9998c9fea")
-		(property "Reference" "#PWR0204"
+		(property "Reference" "#PWR0203"
 			(at 81.28 165.1 0)
 			(effects
 				(font
@@ -9002,7 +9029,7 @@
 		(instances
 			(project "cm4"
 				(path "/5d20b266-567e-45c6-9e3e-145c2aea1daa/a64f9485-8eaf-45a8-a9d7-21ab5cb8dcb2"
-					(reference "#PWR0204")
+					(reference "#PWR0203")
 					(unit 1)
 				)
 			)
@@ -9018,7 +9045,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f5768728-8cc0-401f-b786-2543f695296a")
-		(property "Reference" "#PWR0201"
+		(property "Reference" "#PWR0208"
 			(at 224.79 78.74 0)
 			(effects
 				(font
@@ -9068,7 +9095,7 @@
 		(instances
 			(project "cm4"
 				(path "/5d20b266-567e-45c6-9e3e-145c2aea1daa/a64f9485-8eaf-45a8-a9d7-21ab5cb8dcb2"
-					(reference "#PWR0201")
+					(reference "#PWR0208")
 					(unit 1)
 				)
 			)
@@ -9084,7 +9111,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f95cf1ad-6091-4bcd-bebb-79e13023913c")
-		(property "Reference" "R204"
+		(property "Reference" "R202"
 			(at 227.33 52.0699 0)
 			(effects
 				(font
@@ -9102,7 +9129,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 223.012 53.34 90)
 			(effects
 				(font
@@ -9147,7 +9174,7 @@
 		(instances
 			(project "cm4"
 				(path "/5d20b266-567e-45c6-9e3e-145c2aea1daa/a64f9485-8eaf-45a8-a9d7-21ab5cb8dcb2"
-					(reference "R204")
+					(reference "R202")
 					(unit 1)
 				)
 			)
@@ -9181,7 +9208,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
 			(at 256.54 114.3 0)
 			(effects
 				(font
@@ -9200,6 +9227,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
+			(at 256.54 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
 			(at 256.54 114.3 0)
 			(effects
 				(font

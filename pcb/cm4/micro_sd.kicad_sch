@@ -1438,7 +1438,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "12551308-1232-4daa-9c4e-271d903be231")
-		(property "Reference" "#PWR0501"
+		(property "Reference" "#PWR0403"
 			(at 165.1 101.6 0)
 			(effects
 				(font
@@ -1488,7 +1488,7 @@
 		(instances
 			(project "cm4"
 				(path "/5d20b266-567e-45c6-9e3e-145c2aea1daa/8c670a00-fcb0-468c-ba79-62d0190039f0"
-					(reference "#PWR0501")
+					(reference "#PWR0403")
 					(unit 1)
 				)
 			)
@@ -1504,7 +1504,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2d4f0243-46ac-4986-a011-82ebadc6f5d5")
-		(property "Reference" "#PWR0505"
+		(property "Reference" "#PWR0406"
 			(at 213.36 102.87 0)
 			(effects
 				(font
@@ -1554,7 +1554,7 @@
 		(instances
 			(project "cm4"
 				(path "/5d20b266-567e-45c6-9e3e-145c2aea1daa/8c670a00-fcb0-468c-ba79-62d0190039f0"
-					(reference "#PWR0505")
+					(reference "#PWR0406")
 					(unit 1)
 				)
 			)
@@ -1570,7 +1570,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4754c67f-047a-48e8-a27b-29c663d5d5a7")
-		(property "Reference" "J501"
+		(property "Reference" "J401"
 			(at 123.825 71.12 0)
 			(effects
 				(font
@@ -1586,7 +1586,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Card:microSD_HC_Wuerth_693072010801"
 			(at 152.4 82.55 0)
 			(effects
 				(font
@@ -1605,6 +1605,15 @@
 			)
 		)
 		(property "Description" "Micro SD Card Socket"
+			(at 123.19 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
 			(at 123.19 90.17 0)
 			(effects
 				(font
@@ -1643,7 +1652,7 @@
 		(instances
 			(project "cm4"
 				(path "/5d20b266-567e-45c6-9e3e-145c2aea1daa/8c670a00-fcb0-468c-ba79-62d0190039f0"
-					(reference "J501")
+					(reference "J401")
 					(unit 1)
 				)
 			)
@@ -1659,7 +1668,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "48107c78-6bf4-40ba-8077-2f5807fef2b9")
-		(property "Reference" "R501"
+		(property "Reference" "R401"
 			(at 177.8 87.6299 0)
 			(effects
 				(font
@@ -1677,7 +1686,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 173.482 88.9 90)
 			(effects
 				(font
@@ -1704,6 +1713,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" ""
+			(at 175.26 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "38d7787e-4527-46ae-aeb1-5787c364c723")
 		)
@@ -1713,7 +1731,7 @@
 		(instances
 			(project "cm4"
 				(path "/5d20b266-567e-45c6-9e3e-145c2aea1daa/8c670a00-fcb0-468c-ba79-62d0190039f0"
-					(reference "R501")
+					(reference "R401")
 					(unit 1)
 				)
 			)
@@ -1729,7 +1747,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "71496d16-cbde-4bf7-81ea-b293a4131c37")
-		(property "Reference" "C502"
+		(property "Reference" "C402"
 			(at 217.17 88.8999 0)
 			(effects
 				(font
@@ -1747,7 +1765,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 214.3252 93.98 0)
 			(effects
 				(font
@@ -1774,6 +1792,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" ""
+			(at 213.36 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "80e754c3-9a9f-4ddb-a719-06f523df0bb0")
 		)
@@ -1783,7 +1810,7 @@
 		(instances
 			(project "cm4"
 				(path "/5d20b266-567e-45c6-9e3e-145c2aea1daa/8c670a00-fcb0-468c-ba79-62d0190039f0"
-					(reference "C502")
+					(reference "C402")
 					(unit 1)
 				)
 			)
@@ -1799,7 +1826,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7e2ffe9b-2222-4815-b5d4-f32c75b4b578")
-		(property "Reference" "#PWR0502"
+		(property "Reference" "#PWR0401"
 			(at 99.06 110.49 0)
 			(effects
 				(font
@@ -1849,7 +1876,7 @@
 		(instances
 			(project "cm4"
 				(path "/5d20b266-567e-45c6-9e3e-145c2aea1daa/8c670a00-fcb0-468c-ba79-62d0190039f0"
-					(reference "#PWR0502")
+					(reference "#PWR0401")
 					(unit 1)
 				)
 			)
@@ -1865,7 +1892,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "93d03e6c-db77-4855-b918-45d0deadcf09")
-		(property "Reference" "U501"
+		(property "Reference" "U401"
 			(at 195.58 78.74 0)
 			(effects
 				(font
@@ -1926,7 +1953,7 @@
 		(instances
 			(project "cm4"
 				(path "/5d20b266-567e-45c6-9e3e-145c2aea1daa/8c670a00-fcb0-468c-ba79-62d0190039f0"
-					(reference "U501")
+					(reference "U401")
 					(unit 1)
 				)
 			)
@@ -1942,7 +1969,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9da56781-adaf-40e8-891f-0e0bcf1d3513")
-		(property "Reference" "#PWR0504"
+		(property "Reference" "#PWR0405"
 			(at 195.58 105.41 0)
 			(effects
 				(font
@@ -1992,7 +2019,7 @@
 		(instances
 			(project "cm4"
 				(path "/5d20b266-567e-45c6-9e3e-145c2aea1daa/8c670a00-fcb0-468c-ba79-62d0190039f0"
-					(reference "#PWR0504")
+					(reference "#PWR0405")
 					(unit 1)
 				)
 			)
@@ -2008,7 +2035,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bae7724a-f78a-4ec6-9235-a3af845f7b30")
-		(property "Reference" "#PWR0503"
+		(property "Reference" "#PWR0404"
 			(at 180.34 85.09 0)
 			(effects
 				(font
@@ -2058,7 +2085,7 @@
 		(instances
 			(project "cm4"
 				(path "/5d20b266-567e-45c6-9e3e-145c2aea1daa/8c670a00-fcb0-468c-ba79-62d0190039f0"
-					(reference "#PWR0503")
+					(reference "#PWR0404")
 					(unit 1)
 				)
 			)
@@ -2074,7 +2101,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cbc13f0d-9e70-4b84-9e65-769c557229a7")
-		(property "Reference" "C501"
+		(property "Reference" "C401"
 			(at 168.91 87.6299 0)
 			(effects
 				(font
@@ -2092,7 +2119,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 166.0652 92.71 0)
 			(effects
 				(font
@@ -2119,6 +2146,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" ""
+			(at 165.1 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a4fc3d57-318e-4335-994e-423b2fccf2ca")
 		)
@@ -2128,7 +2164,7 @@
 		(instances
 			(project "cm4"
 				(path "/5d20b266-567e-45c6-9e3e-145c2aea1daa/8c670a00-fcb0-468c-ba79-62d0190039f0"
-					(reference "C501")
+					(reference "C401")
 					(unit 1)
 				)
 			)
@@ -2144,7 +2180,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d55af718-3b3c-40c2-9fef-5a0f577ed09f")
-		(property "Reference" "#PWR0506"
+		(property "Reference" "#PWR0402"
 			(at 144.78 114.3 0)
 			(effects
 				(font
@@ -2194,7 +2230,7 @@
 		(instances
 			(project "cm4"
 				(path "/5d20b266-567e-45c6-9e3e-145c2aea1daa/8c670a00-fcb0-468c-ba79-62d0190039f0"
-					(reference "#PWR0506")
+					(reference "#PWR0402")
 					(unit 1)
 				)
 			)

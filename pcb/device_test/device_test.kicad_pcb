@@ -418,6 +418,7 @@
 		)
 	)
 	(footprint "Connector_PinSocket_2.54mm:PinSocket_1x08_P2.54mm_Horizontal"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "268fe81b-a4e9-4616-baac-734f84a2372c")
 		(at 164.016 73.152 -90)
@@ -1435,6 +1436,7 @@
 		)
 	)
 	(footprint "Connector_PinSocket_2.54mm:PinSocket_1x05_P2.54mm_Horizontal"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "2f951ef9-a4b5-458f-8b24-77bc1f237c16")
 		(at 136.096 73.234 -90)
@@ -2239,6 +2241,7 @@
 		)
 	)
 	(footprint "Connector_USB:USB_C_Receptacle_G-Switch_GT-USB-7010ASV"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "31b3bfb8-9090-4795-ae47-ca19bc207618")
 		(at 167.826 105.918 90)
@@ -3912,6 +3915,7 @@
 		)
 	)
 	(footprint "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Horizontal"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "81b01671-70a1-482f-8d10-68185320299c")
 		(at 119.82 111.506 180)
@@ -5431,6 +5435,7 @@
 		)
 	)
 	(footprint "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2_1x02_P5.00mm_Horizontal"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "b5bd488e-39c6-4fd3-b300-aa52a9489d71")
 		(at 166.861 87.59 90)
@@ -6159,6 +6164,7 @@
 		)
 	)
 	(footprint "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Horizontal"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "c40f3c9a-5af4-44d8-b5da-c734f625101a")
 		(at 119.82 86.106 180)
@@ -7547,6 +7553,7 @@
 		)
 	)
 	(footprint "Connector_USB:USB_C_Receptacle_G-Switch_GT-USB-7010ASV"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "ec13e34d-e938-440e-8444-c24449e7f3b5")
 		(at 146.236 115.316)
