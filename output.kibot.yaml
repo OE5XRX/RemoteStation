@@ -30,9 +30,8 @@ outputs:
     dir: Fabrication/html_bom
     options:
       html:
-        datasheet_as_link: Datasheet
-        digikey_link: Digikey
         title: 'Index MOBO Bill of Materials'
+        lcsc_link: 'LCSC'
 
   - name: "SchPrint"
     comment: "Print schematic PDF"

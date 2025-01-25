@@ -7,6 +7,7 @@
 *.kicad_prl
 fp-info-cache
 pcb/export
+_autosave-*
 
 pcb/RemoteStation/RemoteStation
 pcb/RemoteStation/RemoteStation.xml
