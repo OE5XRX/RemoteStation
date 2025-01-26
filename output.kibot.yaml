@@ -46,7 +46,20 @@ outputs:
     type: step
     dir: Fabrication/step
 
-  - name: "kikit_present"
-    comment: "HTML Page"
-    type: kikit_present
-    dir: Fabrication/html
+  - name: "pcbdraw_top"
+    comment: "PCB pics top"
+    type: pcbdraw
+    dir: Fabrication/pics_top
+    options:
+      format: png
+      show_components: all
+
+  - name: "pcbdraw_bottom"
+    comment: "PCB pics bottom"
+    type: pcbdraw
+    dir: Fabrication/pics_bottom
+    options:
+      bottom: true
+      format: png
+      show_components: all
+      
