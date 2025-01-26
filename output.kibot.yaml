@@ -49,7 +49,7 @@ outputs:
   - name: "pcbdraw_top"
     comment: "PCB pics top"
     type: pcbdraw
-    dir: Fabrication/pics_top
+    dir: Fabrication/pics
     options:
       format: png
       show_components: all
@@ -57,9 +57,20 @@ outputs:
   - name: "pcbdraw_bottom"
     comment: "PCB pics bottom"
     type: pcbdraw
-    dir: Fabrication/pics_bottom
+    dir: Fabrication/pics
     options:
       bottom: true
       format: png
       show_components: all
-      
+
+  - name: "3d_top"
+    comment: "PCB 3d top"
+    type: blender_export
+    dir: Fabrication/3d
+
+#  - name: "3d_bottom"
+#    comment: "PCB 3d bottom"
+#    type: blender_export
+#    dir: Fabrication/3d
+#    options:
+#      view: "bottom"
