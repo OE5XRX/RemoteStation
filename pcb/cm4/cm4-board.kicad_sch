@@ -7355,7 +7355,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C597931"
 			(at 66.04 92.71 0)
 			(effects
 				(font
@@ -7718,6 +7718,15 @@
 			)
 		)
 		(property "Description" "Single Power Supply, Single Buffer GATE, CMOS Logic, Level Shifter, SOT-23-5"
+			(at 231.14 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C100024"
 			(at 231.14 124.46 0)
 			(effects
 				(font
@@ -8345,7 +8354,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C597931"
 			(at 138.43 92.71 0)
 			(effects
 				(font

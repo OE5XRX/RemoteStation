@@ -2924,6 +2924,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C90627"
+			(at 186.69 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "10"
 			(uuid "74e687b6-be45-4b98-b82c-025545ce8860")
 		)
@@ -3008,6 +3017,15 @@
 			)
 		)
 		(property "Description" "4-Channel ESD Protection for Super-Speed USB 3.0 Interface, USON-10"
+			(at 186.69 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C90627"
 			(at 186.69 63.5 0)
 			(effects
 				(font
@@ -3324,7 +3342,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RJ45 Connector"
 			(at 119.38 83.82 0)
 			(effects
 				(font

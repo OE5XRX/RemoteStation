@@ -2,4 +2,5 @@
   (version 7)
   (lib (name "DF40C-100DS-0.4V_51_")(type "KiCad")(uri "${KIPRJMOD}/../../lib/kicad/DF40C-100DS-0.4V_51_.kicad_sym")(options "")(descr ""))
   (lib (name "HR911130A")(type "KiCad")(uri "${KIPRJMOD}/../../lib/kicad/HR911130A.kicad_sym")(options "")(descr ""))
+  (lib (name "TF-01A")(type "KiCad")(uri "${KIPRJMOD}/../../lib/kicad/TF-01A.kicad_sym")(options "")(descr ""))
 )
