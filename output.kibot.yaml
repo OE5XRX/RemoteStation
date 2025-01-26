@@ -45,3 +45,8 @@ outputs:
     comment: 'STEP file generation'
     type: step
     dir: Fabrication/step
+
+  - name: "kikit_present"
+    comment: "HTML Page"
+    type: kikit_present
+    dir: Fabrication/html
