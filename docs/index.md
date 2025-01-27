@@ -7,8 +7,8 @@ Diese Seite listet alle Schaltpläne, Platinen und BOMs des Projektes [Remote St
 
 ## Device Tester PCB
 
-![Top](pcb/device_test/device_test-top.png)
-![Bottom](pcb/device_test/device_test-bottom.png)
+<img src="pcb/device_test/device_test-top.png" alt="top" width="50%"/>
+<img src="pcb/device_test/device_test-bottom.png" alt="bottom" width="50%"/>
 
 - [Schaltplan](pcb/device_test/device_test-schematic.pdf)
 - [BOM](pcb/device_test/device_test-bom.html)
