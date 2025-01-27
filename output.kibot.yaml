@@ -16,12 +16,10 @@ outputs:
   - name: 'ibom'
     comment: 'Interactive Bill of Materials'
     type: ibom
-    dir: Fabrication/ibom
 
   - name: 'bom'
     comment: 'Bill of Materials'
     type: bom
-    dir: Fabrication/bom
     options:
       csv:
         hide_pcb_info: true
@@ -31,7 +29,6 @@ outputs:
   - name: 'html_bom'
     comment: 'HTML BOM'
     type: bom
-    dir: Fabrication/html_bom
     options:
       html:
         title: 'Index MOBO Bill of Materials'
@@ -40,7 +37,6 @@ outputs:
   - name: "SchPrint"
     comment: "Print schematic PDF"
     type: pdf_sch_print
-    dir: Fabrication/PDFs
     options:
       color_theme: dracula
       background_color: true
@@ -48,12 +44,10 @@ outputs:
   - name: 'step_file'
     comment: 'STEP file generation'
     type: step
-    dir: Fabrication/step
 
   - name: "pcbdraw_top"
     comment: "PCB pics top"
     type: pcbdraw
-    dir: Fabrication/pics
     options:
       format: png
       show_components: all
@@ -61,7 +55,6 @@ outputs:
   - name: "pcbdraw_bottom"
     comment: "PCB pics bottom"
     type: pcbdraw
-    dir: Fabrication/pics
     options:
       bottom: true
       format: png
