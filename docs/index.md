@@ -7,23 +7,26 @@ Diese Seite listet alle Schaltpläne, Platinen und BOMs des Projektes [Remote St
 
 ## Device Tester PCB
 
-- [Schaltplan](pcb/device_test/Fabrication/PDFs/device_test-schematic.pdf)
-- [BOM](pcb/device_test/Fabrication/html_bom/device_test-bom.html)
-- [iBOM](pcb/device_test/Fabrication/ibom/device_test-ibom.html)
+![Top](pcb/device_test/device_test-top.png)
+![Bottom](pcb/device_test/device_test-bottom.png)
+
+- [Schaltplan](pcb/device_test/device_test-schematic.pdf)
+- [BOM](pcb/device_test/device_test-bom.html)
+- [iBOM](pcb/device_test/device_test-ibom.html)
 - [JLCPCB-Files](pcb/device_test/JLCPCB/device_test-_JLCPCB_compress.zip)
 
 ## Bus PCB
 
-- [Schaltplan](pcb/bus/Fabrication/PDFs/bus-schematic.pdf)
-- [BOM](pcb/bus/Fabrication/html_bom/bus-bom.html)
-- [iBOM](pcb/bus/Fabrication/ibom/bus-ibom.html)
+- [Schaltplan](pcb/bus/bus-schematic.pdf)
+- [BOM](pcb/bus/bus-bom.html)
+- [iBOM](pcb/bus/bus-ibom.html)
 - [JLCPCB-Files](pcb/bus/JLCPCB/bus-_JLCPCB_compress.zip)
 
 ## CM4 PCB
 
-- [Schaltplan](pcb/cm4/Fabrication/PDFs/cm4-schematic.pdf)
-- [BOM](pcb/cm4/Fabrication/html_bom/cm4-bom.html)
-- [iBOM](pcb/cm4/Fabrication/ibom/cm4-ibom.html)
+- [Schaltplan](pcb/cm4/cm4-schematic.pdf)
+- [BOM](pcb/cm4/cm4-bom.html)
+- [iBOM](pcb/cm4/cm4-ibom.html)
 - [JLCPCB-Files](pcb/cm4/JLCPCB/cm4-_JLCPCB_compress.zip)
 
 git-hash: {{ site.data['hash'] }}

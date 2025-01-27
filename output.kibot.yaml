@@ -7,10 +7,10 @@ globals:
 
 import:
   - file: JLCPCB_stencil
-  - file: 3DRender_top
-  - file: 3DRender_top_straight
-  - file: 3DRender_bottom
-  - file: 3DRender_bottom_straight
+#  - file: 3DRender_top
+#  - file: 3DRender_top_straight
+#  - file: 3DRender_bottom
+#  - file: 3DRender_bottom_straight
 
 outputs:
   - name: 'ibom'

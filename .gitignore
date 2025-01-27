@@ -9,6 +9,7 @@ fp-info-cache
 pcb/export
 _autosave-*
 
+output
 pcb/RemoteStation/RemoteStation
 pcb/RemoteStation/RemoteStation.xml
 pcb/device_test/#auto_saved_files#
