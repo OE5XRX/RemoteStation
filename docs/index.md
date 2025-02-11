@@ -7,7 +7,8 @@ Diese Seite listet alle Schaltpläne, Platinen und BOMs des Projektes [Remote St
 
 ## Device Tester PCB
 
-<table><tr><th>Top</th><th>Bottom</th></tr>
+<table>
+  <tr><th>Top</th><th>Bottom</th></tr>
   <tr>
     <td><img src="pcb/device_test/device_test-top.png" alt="top" /></td>
     <td><img src="pcb/device_test/device_test-bottom.png" alt="bottom" /></td>
@@ -21,7 +22,8 @@ Diese Seite listet alle Schaltpläne, Platinen und BOMs des Projektes [Remote St
 
 ## Bus PCB
 
-<table><tr><th>Top</th><th>Bottom</th></tr>
+<table>
+  <tr><th>Top</th><th>Bottom</th></tr>
   <tr>
     <td><img src="pcb/bus/bus-top.png" alt="top" /></td>
     <td><img src="pcb/bus/bus-bottom.png" alt="bottom" /></td>
@@ -35,7 +37,8 @@ Diese Seite listet alle Schaltpläne, Platinen und BOMs des Projektes [Remote St
 
 ## CM4 PCB
 
-<table><tr><th>Top</th><th>Bottom</th></tr>
+<table>
+  <tr><th>Top</th><th>Bottom</th></tr>
   <tr>
     <td><img src="pcb/cm4/cm4-top.png" alt="top" /></td>
     <td><img src="pcb/cm4/cm4-bottom.png" alt="bottom" /></td>
