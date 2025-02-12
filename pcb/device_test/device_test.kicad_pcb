@@ -2954,7 +2954,7 @@
 		(descr "LED SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "LED")
 		(property "Reference" "D301"
-			(at 0 -1.65 360)
+			(at 0 -1.65 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "4dcdbd84-243f-4a27-b5de-3921be8625ac")
@@ -2966,7 +2966,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 0 1.65 360)
+			(at 0 1.65 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "0d39d446-514e-4b3e-b1cd-129d5b53283e")
@@ -3751,7 +3751,7 @@
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R101"
-			(at 0 -1.65 360)
+			(at 0 -1.65 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "43d379c4-ce8e-4295-9671-482740a8cbc5")
@@ -3763,7 +3763,7 @@
 			)
 		)
 		(property "Value" "2k2"
-			(at 0 1.65 360)
+			(at 0 1.65 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "45bc0a68-10e4-49f4-bb7a-43f9c2f43525")
@@ -4185,7 +4185,7 @@
 		(descr "LED SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "LED")
 		(property "Reference" "D201"
-			(at 0 -1.65 360)
+			(at 0 -1.65 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "c91a4b16-99e8-44d1-a4cd-e8f48217e6bd")
@@ -4197,7 +4197,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 0 1.65 360)
+			(at 0 1.65 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "09bfd682-9ad1-440a-a4a3-209794b781ad")
@@ -4424,7 +4424,7 @@
 		(descr "LED SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "LED")
 		(property "Reference" "D101"
-			(at 0 -1.65 360)
+			(at 0 -1.65 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "4311b687-a868-40d8-8c3e-cfa1b9ec8fe6")
@@ -4436,7 +4436,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 0 1.65 360)
+			(at 0 1.65 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "3e11cb00-9b85-46a3-b774-08f5ee9435cc")
@@ -5162,7 +5162,7 @@
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R201"
-			(at 0 -1.65 360)
+			(at 0 -1.65 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "3308234f-e32c-4885-b5d6-b1ba8cb1a325")
@@ -5174,7 +5174,7 @@
 			)
 		)
 		(property "Value" "5k1"
-			(at 0 1.65 360)
+			(at 0 1.65 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "fbf2ed1e-8dc1-44b0-afc3-18491309de24")
@@ -5379,7 +5379,7 @@
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R303"
-			(at 0 -1.65 360)
+			(at 0 -1.65 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "3db0358a-57e1-4dfb-8b3d-43fc259d292f")
@@ -5391,7 +5391,7 @@
 			)
 		)
 		(property "Value" "390"
-			(at 0 1.65 360)
+			(at 0 1.65 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "b9ddb02f-8066-4d9a-b993-594c285ff75d")
@@ -5596,7 +5596,7 @@
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R203"
-			(at 0 -1.65 360)
+			(at 0 -1.65 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "98514009-4783-4e2e-b3b1-590a350eae5a")
@@ -5608,7 +5608,7 @@
 			)
 		)
 		(property "Value" "390"
-			(at 0 1.65 360)
+			(at 0 1.65 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "0797efdc-f018-4f45-9274-c6c5a9ce613f")
