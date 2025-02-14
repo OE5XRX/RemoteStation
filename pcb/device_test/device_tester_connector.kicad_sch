@@ -3007,7 +3007,6 @@
 	)
 	(label "nRPIBOOT"
 		(at 185.42 109.22 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3018,7 +3017,6 @@
 	)
 	(label "USB-"
 		(at 106.68 96.52 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3029,7 +3027,6 @@
 	)
 	(label "nRPIBOOT"
 		(at 144.78 68.58 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3040,7 +3037,6 @@
 	)
 	(label "CC1"
 		(at 105.41 87.63 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3051,7 +3047,6 @@
 	)
 	(label "CC2"
 		(at 139.7 100.33 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3062,7 +3057,6 @@
 	)
 	(label "CC1"
 		(at 128.27 100.33 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3073,7 +3067,6 @@
 	)
 	(label "USB+"
 		(at 106.68 101.6 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3084,7 +3077,6 @@
 	)
 	(label "CC2"
 		(at 105.41 90.17 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3095,7 +3087,6 @@
 	)
 	(label "USB-"
 		(at 210.82 101.6 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3106,7 +3097,6 @@
 	)
 	(label "USB+"
 		(at 185.42 101.6 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3117,7 +3107,6 @@
 	)
 	(label "USB_OTG_ID"
 		(at 185.42 106.68 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3128,7 +3117,6 @@
 	)
 	(label "USB_OTG_ID"
 		(at 147.32 68.58 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3238,7 +3226,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_DIN:DIN41612_B3_2x10_Male_Horizontal_THT"
+		(property "Footprint" "USB:PCN10C-20S-2.54DS"
 			(at 196.85 99.06 0)
 			(effects
 				(font
