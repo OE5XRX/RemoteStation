@@ -2496,7 +2496,6 @@
 	(hierarchical_label "TRD3+"
 		(shape input)
 		(at 96.52 76.2 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2508,7 +2507,6 @@
 	(hierarchical_label "TRD0+"
 		(shape input)
 		(at 171.45 96.52 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2520,7 +2518,6 @@
 	(hierarchical_label "TRD3+"
 		(shape input)
 		(at 203.2 55.88 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2532,7 +2529,6 @@
 	(hierarchical_label "TRD0+"
 		(shape input)
 		(at 171.45 101.6 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2544,7 +2540,6 @@
 	(hierarchical_label "TRD0-"
 		(shape input)
 		(at 171.45 106.68 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2556,7 +2551,6 @@
 	(hierarchical_label "TRD2-"
 		(shape input)
 		(at 171.45 55.88 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2568,7 +2562,6 @@
 	(hierarchical_label "TRD1+"
 		(shape input)
 		(at 203.2 96.52 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2580,7 +2573,6 @@
 	(hierarchical_label "TRD1+"
 		(shape input)
 		(at 203.2 101.6 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2592,7 +2584,6 @@
 	(hierarchical_label "TRD2+"
 		(shape input)
 		(at 203.2 106.68 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2604,7 +2595,6 @@
 	(hierarchical_label "TRD0+"
 		(shape input)
 		(at 96.52 60.96 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2616,7 +2606,6 @@
 	(hierarchical_label "TRD1+"
 		(shape input)
 		(at 96.52 66.04 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2628,7 +2617,6 @@
 	(hierarchical_label "TRD2-"
 		(shape input)
 		(at 171.45 60.96 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2640,7 +2628,6 @@
 	(hierarchical_label "TRD1-"
 		(shape input)
 		(at 171.45 71.12 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2652,7 +2639,6 @@
 	(hierarchical_label "TRD1-"
 		(shape input)
 		(at 171.45 66.04 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2664,7 +2650,6 @@
 	(hierarchical_label "TRD1-"
 		(shape input)
 		(at 96.52 73.66 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2676,7 +2661,6 @@
 	(hierarchical_label "TRD0-"
 		(shape input)
 		(at 96.52 63.5 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2688,7 +2672,6 @@
 	(hierarchical_label "TRD2+"
 		(shape input)
 		(at 203.2 111.76 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2700,7 +2683,6 @@
 	(hierarchical_label "TRD3-"
 		(shape input)
 		(at 96.52 78.74 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2712,7 +2694,6 @@
 	(hierarchical_label "TRD2-"
 		(shape input)
 		(at 96.52 71.12 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2724,7 +2705,6 @@
 	(hierarchical_label "TRD0-"
 		(shape input)
 		(at 171.45 111.76 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2736,7 +2716,6 @@
 	(hierarchical_label "TRD2+"
 		(shape input)
 		(at 96.52 68.58 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2748,7 +2727,6 @@
 	(hierarchical_label "TRD3-"
 		(shape input)
 		(at 203.2 66.04 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2760,7 +2738,6 @@
 	(hierarchical_label "ETH_GREEN"
 		(shape input)
 		(at 86.36 93.98 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2772,7 +2749,6 @@
 	(hierarchical_label "TRD3-"
 		(shape input)
 		(at 203.2 71.12 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2784,7 +2760,6 @@
 	(hierarchical_label "TRD3+"
 		(shape input)
 		(at 203.2 60.96 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2796,7 +2771,6 @@
 	(hierarchical_label "ETH_YELLOW"
 		(shape input)
 		(at 86.36 106.68 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3323,7 +3297,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "DF40C-100DS-0.4V_51_:HANRUN_HR911130A"
+		(property "Footprint" "PRJ:HANRUN_HR911130A"
 			(at 119.38 83.82 0)
 			(effects
 				(font
