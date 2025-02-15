@@ -3226,7 +3226,7 @@
 				)
 			)
 		)
-		(property "Footprint" "USB:PCN10C-20S-2.54DS"
+		(property "Footprint" "PRJ:PCN10-20P-2.54DS"
 			(at 196.85 99.06 0)
 			(effects
 				(font
