@@ -1145,16 +1145,16 @@
 		(uuid "4a2d7455-0395-4ef4-9aa3-35667e1b391a")
 	)
 	(no_connect
-		(at 88.9 118.11)
-		(uuid "827b6422-862c-4394-bf56-3795131808c2")
-	)
-	(no_connect
-		(at 88.9 115.57)
-		(uuid "9c7d213f-aba3-443e-8f3b-a578bba8ff4b")
+		(at 76.2 115.57)
+		(uuid "bf0e7df1-d70f-48fc-b200-e090dec76fed")
 	)
 	(no_connect
 		(at 76.2 113.03)
 		(uuid "caa4b90f-5a40-468f-bfdf-e237875a2064")
+	)
+	(no_connect
+		(at 76.2 118.11)
+		(uuid "f49a1d39-8fb4-47f8-889b-ab368b34888a")
 	)
 	(wire
 		(pts
@@ -1285,16 +1285,6 @@
 			(type default)
 		)
 		(uuid "3dc261c4-07d7-433d-9fc0-7b96dd7acf7f")
-	)
-	(wire
-		(pts
-			(xy 69.85 118.11) (xy 76.2 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4b88bbcf-acd1-4a92-bf6a-86a63e9f2eb4")
 	)
 	(wire
 		(pts
@@ -1438,16 +1428,6 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 115.57) (xy 76.2 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "844cb2b4-e0d4-4829-a54e-453b8027cabd")
-	)
-	(wire
-		(pts
 			(xy 69.85 100.33) (xy 69.85 97.79)
 		)
 		(stroke
@@ -1455,6 +1435,16 @@
 			(type default)
 		)
 		(uuid "853b8b04-1ee7-418e-85cd-f7244de7754b")
+	)
+	(wire
+		(pts
+			(xy 88.9 118.11) (xy 93.98 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e8f158a-13d6-4ad1-8622-45b454046b71")
 	)
 	(wire
 		(pts
@@ -1678,6 +1668,16 @@
 	)
 	(wire
 		(pts
+			(xy 88.9 115.57) (xy 93.98 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f2a75660-66f3-4950-994f-2be71a6878f1")
+	)
+	(wire
+		(pts
 			(xy 33.02 71.12) (xy 33.02 69.85)
 		)
 		(stroke
@@ -1717,12 +1717,12 @@
 		(uuid "fcbecc7a-73e7-44dd-b417-0d970096952e")
 	)
 	(label "USB_OTG_ID"
-		(at 69.85 115.57 180)
+		(at 93.98 115.57 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "27a30f2f-aca0-4f2d-a644-af97891abb2c")
 	)
@@ -1787,12 +1787,12 @@
 		(uuid "bdcea601-9a63-45da-92e7-0cc510baff58")
 	)
 	(label "nRPIBOOT"
-		(at 69.85 118.11 180)
+		(at 93.98 118.11 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "d1d28cc7-5596-475c-98a6-45c6d4192b35")
 	)

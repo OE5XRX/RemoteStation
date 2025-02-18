@@ -2487,6 +2487,16 @@
 	)
 	(wire
 		(pts
+			(xy 186.69 101.6) (xy 191.77 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d01ff64-df80-4f0b-9f6a-464e89260cf4")
+	)
+	(wire
+		(pts
 			(xy 185.42 88.9) (xy 185.42 81.28)
 		)
 		(stroke
@@ -2544,16 +2554,6 @@
 			(type default)
 		)
 		(uuid "4162f8a9-8a6a-4ebb-af47-b881171f5079")
-	)
-	(wire
-		(pts
-			(xy 185.42 101.6) (xy 191.77 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4299e1f8-1d33-4490-ae6f-25da3a033160")
 	)
 	(wire
 		(pts
@@ -2674,6 +2674,16 @@
 			(type default)
 		)
 		(uuid "78e3dd28-0180-4405-acfb-01ebef9805ef")
+	)
+	(wire
+		(pts
+			(xy 204.47 101.6) (xy 209.55 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "79ba3eb0-8279-48e3-9aeb-d45108a95793")
 	)
 	(wire
 		(pts
@@ -2995,16 +3005,6 @@
 		)
 		(uuid "fbe12189-d47c-4e7f-bdaa-c8419bd9637e")
 	)
-	(wire
-		(pts
-			(xy 204.47 101.6) (xy 210.82 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fe328497-f332-40ae-87ba-42ce05d65e13")
-	)
 	(label "nRPIBOOT"
 		(at 185.42 109.22 180)
 		(effects
@@ -3086,22 +3086,22 @@
 		(uuid "8bce1dac-917a-4c64-94ab-d6974873abc9")
 	)
 	(label "USB-"
-		(at 210.82 101.6 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "90d62c97-fc63-4f5c-aac4-30d4ddca5380")
-	)
-	(label "USB+"
-		(at 185.42 101.6 180)
+		(at 186.69 101.6 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
+		)
+		(uuid "90d62c97-fc63-4f5c-aac4-30d4ddca5380")
+	)
+	(label "USB+"
+		(at 209.55 101.6 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
 		)
 		(uuid "a5e9a24f-dc55-4955-8e24-97bae913afb6")
 	)
@@ -3195,137 +3195,6 @@
 			(project "device_test"
 				(path "/5d20b266-567e-45c6-9e3e-145c2aea1daa/35b99cfb-c0ef-4b54-9d41-3482303768a8"
 					(reference "#PWR0206")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_02x10_Row_Letter_First")
-		(at 196.85 99.06 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1eadf53f-cc33-4dba-82bd-07b4430e0fde")
-		(property "Reference" "J203"
-			(at 198.12 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_02x10_Row_Letter_First"
-			(at 198.12 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "PRJ:PCN10-20P-2.54DS"
-			(at 196.85 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 196.85 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, double row, 02x10, row letter first pin numbering scheme (pin number consists of a letter for the row and a number for the pin index in this row. a1, ..., aN; b1, ..., bN), script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 196.85 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" ""
-			(at 196.85 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "a5"
-			(uuid "d782d00f-4d09-4839-8268-7fd898c139ef")
-		)
-		(pin "a6"
-			(uuid "4b11377c-42b7-4a8f-9752-7de04a2ffbfd")
-		)
-		(pin "a7"
-			(uuid "85c5100b-9fb2-414d-a14c-808797198145")
-		)
-		(pin "a8"
-			(uuid "c20e38b6-e1dc-4a59-82cc-27ba3ad1ab24")
-		)
-		(pin "a9"
-			(uuid "54c90c13-3db7-49ba-b9c1-9e26460a15b6")
-		)
-		(pin "b1"
-			(uuid "644a5fb5-fbf3-495a-9521-73542d1c847c")
-		)
-		(pin "b10"
-			(uuid "3d23c4d9-56c6-4986-81cb-549a54134be5")
-		)
-		(pin "b2"
-			(uuid "b1d9d3c7-fafc-4a9a-84e1-80d7b83f7b89")
-		)
-		(pin "b3"
-			(uuid "467c70f0-3276-4a77-9dfc-f73cd340efb1")
-		)
-		(pin "a4"
-			(uuid "d0eb02d6-03a4-4396-8eac-4a5af3d7cd26")
-		)
-		(pin "b8"
-			(uuid "0173e50d-7271-4dd8-82c1-145264426700")
-		)
-		(pin "b9"
-			(uuid "5629415a-bfe8-4d38-a87e-f4d29541b6c9")
-		)
-		(pin "a3"
-			(uuid "94e13de4-d598-4fe2-a3fd-00b6204aa63e")
-		)
-		(pin "b4"
-			(uuid "20ad64f5-0806-4ad2-8fef-62949e7cff61")
-		)
-		(pin "b5"
-			(uuid "38e76250-35dd-4738-b943-70294a07c6fe")
-		)
-		(pin "b7"
-			(uuid "4a9fd84b-6d02-4376-8d6f-93d95351ea3a")
-		)
-		(pin "b6"
-			(uuid "dc8bc777-168d-4dc7-a174-eef4e2349128")
-		)
-		(pin "a1"
-			(uuid "02d2972d-493e-439a-a6c2-3f449733a2b4")
-		)
-		(pin "a2"
-			(uuid "3b5d5c0d-f7e9-4a16-988b-f5bf1a71321f")
-		)
-		(pin "a10"
-			(uuid "487f0623-607f-47ab-a35b-238d626192ec")
-		)
-		(instances
-			(project ""
-				(path "/5d20b266-567e-45c6-9e3e-145c2aea1daa/35b99cfb-c0ef-4b54-9d41-3482303768a8"
-					(reference "J203")
 					(unit 1)
 				)
 			)
@@ -4002,6 +3871,137 @@
 			(project "device_test"
 				(path "/5d20b266-567e-45c6-9e3e-145c2aea1daa/35b99cfb-c0ef-4b54-9d41-3482303768a8"
 					(reference "J201")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_02x10_Row_Letter_First")
+		(at 199.39 101.6 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "914f876f-05c3-42e1-97f4-8a151e1983e3")
+		(property "Reference" "J203"
+			(at 198.12 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_02x10_Row_Letter_First"
+			(at 198.12 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PRJ:PCN10-20P-2.54DS"
+			(at 199.39 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 199.39 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, double row, 02x10, row letter first pin numbering scheme (pin number consists of a letter for the row and a number for the pin index in this row. a1, ..., aN; b1, ..., bN), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 199.39 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 199.39 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "a3"
+			(uuid "1c3196d3-c750-44c5-85d2-f30663758266")
+		)
+		(pin "a10"
+			(uuid "d24aecf7-35ca-4ded-a66f-30faf8688d8f")
+		)
+		(pin "a4"
+			(uuid "f6ef51bc-7c7b-4d4b-a389-2b7bcce3b4a2")
+		)
+		(pin "b2"
+			(uuid "f38914dc-c99e-48a8-bea7-a73cfeb3927d")
+		)
+		(pin "b3"
+			(uuid "ef1ceead-dc7b-42e9-bf76-b7d336d81215")
+		)
+		(pin "b4"
+			(uuid "3e103501-feff-4041-84b1-ec6ad00bca31")
+		)
+		(pin "a2"
+			(uuid "0b61ea63-39c9-42fe-bcaa-222b9efec885")
+		)
+		(pin "b5"
+			(uuid "cbd3d38d-253a-4f61-9a9a-03f40a6064e6")
+		)
+		(pin "a5"
+			(uuid "552af7dc-0d39-497c-9674-acc5e77b6f4a")
+		)
+		(pin "b6"
+			(uuid "99886459-ae67-4e1c-a07e-3d2e12dc1c87")
+		)
+		(pin "b1"
+			(uuid "48b5ca88-7413-424b-a13a-f80510aa049e")
+		)
+		(pin "a1"
+			(uuid "7086149d-689f-44e7-a2c7-918bab769f41")
+		)
+		(pin "a9"
+			(uuid "ab4fccb6-1436-441f-9570-3b9d49b4331f")
+		)
+		(pin "a8"
+			(uuid "7c137664-2f3c-4a4e-95af-32fc96b5f53c")
+		)
+		(pin "b8"
+			(uuid "17a93df0-0cd7-4746-853d-c03c3ff91d43")
+		)
+		(pin "b9"
+			(uuid "0f8b3b8e-89ae-42ad-8db9-783005d94c5d")
+		)
+		(pin "b10"
+			(uuid "6ffc9c71-da62-4e09-b71f-4944739df23d")
+		)
+		(pin "a7"
+			(uuid "01b1d10f-8682-4b12-afd2-ddada3aed3b7")
+		)
+		(pin "b7"
+			(uuid "cdccc0b4-05d4-42da-a440-63ff33e9c499")
+		)
+		(pin "a6"
+			(uuid "4364c0aa-6b88-4e3d-96b4-5e87e71966dc")
+		)
+		(instances
+			(project ""
+				(path "/5d20b266-567e-45c6-9e3e-145c2aea1daa/35b99cfb-c0ef-4b54-9d41-3482303768a8"
+					(reference "J203")
 					(unit 1)
 				)
 			)
