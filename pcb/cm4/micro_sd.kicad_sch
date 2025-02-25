@@ -1116,7 +1116,7 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 86.36) (xy 217.17 86.36)
+			(xy 213.36 86.36) (xy 223.52 86.36)
 		)
 		(stroke
 			(width 0)
@@ -1375,12 +1375,12 @@
 		(uuid "0069329b-77bb-4376-9ca7-afa94217f913")
 	)
 	(label "SD_PWR"
-		(at 217.17 86.36 0)
+		(at 223.52 86.36 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "d83203c1-048d-49bc-a2a9-0db7fcba5156")
 	)
