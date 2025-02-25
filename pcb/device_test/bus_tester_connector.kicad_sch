@@ -2178,7 +2178,7 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 90.17) (xy 201.93 90.17)
+			(xy 195.58 90.17) (xy 208.28 90.17)
 		)
 		(stroke
 			(width 0)
@@ -2308,7 +2308,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 90.17) (xy 93.98 90.17)
+			(xy 91.44 90.17) (xy 99.06 90.17)
 		)
 		(stroke
 			(width 0)
@@ -2328,7 +2328,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 88.9) (xy 127 92.71)
+			(xy 127 86.36) (xy 127 92.71)
 		)
 		(stroke
 			(width 0)
@@ -2358,7 +2358,7 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 90.17) (xy 182.88 90.17)
+			(xy 170.18 90.17) (xy 182.88 90.17)
 		)
 		(stroke
 			(width 0)
@@ -2608,7 +2608,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 85.09) (xy 93.98 85.09)
+			(xy 91.44 85.09) (xy 99.06 85.09)
 		)
 		(stroke
 			(width 0)
@@ -2658,7 +2658,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 78.74) (xy 92.71 78.74)
+			(xy 88.9 78.74) (xy 95.25 78.74)
 		)
 		(stroke
 			(width 0)
@@ -2698,7 +2698,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 76.2) (xy 92.71 76.2)
+			(xy 88.9 76.2) (xy 95.25 76.2)
 		)
 		(stroke
 			(width 0)
@@ -2708,7 +2708,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 88.9) (xy 115.57 92.71)
+			(xy 115.57 86.36) (xy 115.57 92.71)
 		)
 		(stroke
 			(width 0)
@@ -2717,82 +2717,82 @@
 		(uuid "f6227ac3-3e02-4b9a-b56b-8c5e3ebafc79")
 	)
 	(label "USB-"
-		(at 201.93 90.17 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "1ef3ade9-bf5d-41ea-92ec-9233e972d88d")
-	)
-	(label "CC2"
-		(at 127 88.9 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "47ffa5b4-7f1f-4431-87f5-c18f26ef1dbb")
-	)
-	(label "USB-"
-		(at 93.98 85.09 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "4a3ad941-5608-437a-9145-b869cfaf6a80")
-	)
-	(label "CC1"
-		(at 115.57 88.9 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "630c690f-0e6d-4b3a-aba0-3395b4f5af70")
-	)
-	(label "CC1"
-		(at 92.71 76.2 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "b74b87fb-65fa-456d-8d50-099d53af2475")
-	)
-	(label "USB+"
-		(at 176.53 90.17 180)
+		(at 208.28 90.17 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "d4c3e78f-0cb6-4553-871e-d3b389db2466")
+		(uuid "1ef3ade9-bf5d-41ea-92ec-9233e972d88d")
+	)
+	(label "CC2"
+		(at 127 86.36 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "47ffa5b4-7f1f-4431-87f5-c18f26ef1dbb")
+	)
+	(label "USB-"
+		(at 99.06 85.09 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "4a3ad941-5608-437a-9145-b869cfaf6a80")
+	)
+	(label "CC1"
+		(at 115.57 86.36 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "630c690f-0e6d-4b3a-aba0-3395b4f5af70")
+	)
+	(label "CC1"
+		(at 95.25 76.2 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b74b87fb-65fa-456d-8d50-099d53af2475")
 	)
 	(label "USB+"
-		(at 93.98 90.17 0)
+		(at 170.18 90.17 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "d4ec1a41-02be-4b46-a74d-2b75ae5a0bfd")
+		(uuid "d4c3e78f-0cb6-4553-871e-d3b389db2466")
 	)
-	(label "CC2"
-		(at 92.71 78.74 0)
+	(label "USB+"
+		(at 99.06 90.17 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
+		)
+		(uuid "d4ec1a41-02be-4b46-a74d-2b75ae5a0bfd")
+	)
+	(label "CC2"
+		(at 95.25 78.74 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
 		)
 		(uuid "d7b5737d-8651-4555-87a5-81ba526a670f")
 	)
