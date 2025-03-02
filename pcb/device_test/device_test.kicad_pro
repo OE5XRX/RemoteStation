@@ -503,7 +503,7 @@
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
-        "name": "USB Data",
+        "name": "USB Data (90 Ohm)",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.315468,
@@ -519,7 +519,7 @@
     "netclass_assignments": null,
     "netclass_patterns": [
       {
-        "netclass": "USB Data",
+        "netclass": "USB Data (90 Ohm)",
         "pattern": "*/USB*"
       }
     ]

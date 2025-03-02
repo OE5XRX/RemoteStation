@@ -7,6 +7,12 @@
 		(legacy_teardrops no)
 	)
 	(paper "A4")
+	(title_block
+		(title "Device Tester")
+		(rev "<<HASH>>")
+		(company "Amateurfunkclub für Remote Stationen")
+		(comment 1 "JLC04161H-7628")
+	)
 	(layers
 		(0 "F.Cu" signal)
 		(1 "In1.Cu" power)
