@@ -3188,7 +3188,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C17520"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7072,7 +7072,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C17710"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7289,7 +7289,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C49678"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7619,7 +7619,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C17520"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7949,7 +7949,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C17520"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8698,7 +8698,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C17520"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8915,7 +8915,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C84256"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -9442,7 +9442,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C17513"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -9659,7 +9659,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C84256"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -11347,7 +11347,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C17444"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -11564,7 +11564,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C17710"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -12131,7 +12131,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C49678"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -12749,7 +12749,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C49678"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -12966,7 +12966,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C17513"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
