@@ -1643,6 +1643,26 @@
 		)
 		(uuid "e5502cba-2c74-464a-87d6-1c74bcb92230")
 	)
+	(wire
+		(pts
+			(xy 133.35 99.06) (xy 133.35 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5351fe7-bdf8-4063-8f87-d0a89dabce1a")
+	)
+	(wire
+		(pts
+			(xy 133.35 101.6) (xy 139.7 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb664192-9e8f-45a0-b63e-0efc2ff96209")
+	)
 	(hierarchical_label "I2C_SDA"
 		(shape input)
 		(at 166.37 96.52 0)
@@ -2205,6 +2225,72 @@
 			(project "bus"
 				(path "/5d20b266-567e-45c6-9e3e-145c2aea1daa/4945f18d-16f7-4109-826d-838a95062554"
 					(reference "#PWR0304")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 133.35 99.06 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "95e3d0ff-caee-42d8-be24-30adb2e6b1ab")
+		(property "Reference" "#FLG0303"
+			(at 133.35 97.155 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 133.35 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 133.35 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 133.35 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 133.35 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "df51e90b-04fe-4074-9d13-bbcb97db8b0a")
+		)
+		(instances
+			(project "bus"
+				(path "/5d20b266-567e-45c6-9e3e-145c2aea1daa/4945f18d-16f7-4109-826d-838a95062554"
+					(reference "#FLG0303")
 					(unit 1)
 				)
 			)
