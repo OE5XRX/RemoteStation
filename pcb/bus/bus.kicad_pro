@@ -608,7 +608,27 @@
     ],
     [
       "fb372245-a002-4eec-821d-6455aa9d9823",
-      "RPI"
+      "RPI Connector"
+    ],
+    [
+      "4945f18d-16f7-4109-826d-838a95062554",
+      "Power Connector"
+    ],
+    [
+      "ecece899-ece4-48de-b271-4963bee84c9a",
+      "Device Connector 1"
+    ],
+    [
+      "df15c1b2-36dd-4442-bd79-cea24442898e",
+      "Device Connector 2"
+    ],
+    [
+      "a48ab697-4962-4524-8c26-c429733868f2",
+      "Device Connector 3"
+    ],
+    [
+      "a33ea60d-14db-47a7-88ea-7c1faf0dd0eb",
+      "Device Connector 4"
     ]
   ],
   "text_variables": {}
