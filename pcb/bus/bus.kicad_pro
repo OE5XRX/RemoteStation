@@ -607,28 +607,8 @@
       "Root"
     ],
     [
-      "34828aa5-e3f0-4e1e-8b2b-4860df86e71c",
-      "Device1"
-    ],
-    [
       "fb372245-a002-4eec-821d-6455aa9d9823",
       "Master"
-    ],
-    [
-      "09ef63c2-9f1c-43ba-94b7-cc23bcbe177d",
-      "Power"
-    ],
-    [
-      "5825efa5-9332-4549-8f0c-afa79cd4940e",
-      "Device2"
-    ],
-    [
-      "d655a730-d20b-4d01-ae1a-04a6c7be9959",
-      "Device3"
-    ],
-    [
-      "8787f37d-11d6-4b7a-b8bb-0630c28004c1",
-      "Device4"
     ]
   ],
   "text_variables": {}
