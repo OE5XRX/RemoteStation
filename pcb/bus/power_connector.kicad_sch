@@ -670,108 +670,6 @@
 				)
 			)
 		)
-		(symbol "Mechanical:MountingHole_Pad"
-			(pin_numbers hide)
-			(pin_names
-				(offset 1.016) hide)
-			(exclude_from_sim yes)
-			(in_bom no)
-			(on_board yes)
-			(property "Reference" "H"
-				(at 0 6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "MountingHole_Pad"
-				(at 0 4.445 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Mounting Hole with connection"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "mounting hole"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "MountingHole*Pad*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "MountingHole_Pad_0_1"
-				(circle
-					(center 0 1.27)
-					(radius 1.27)
-					(stroke
-						(width 1.27)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "MountingHole_Pad_1_1"
-				(pin input line
-					(at 0 -2.54 90)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "power:+12V"
 			(power)
 			(pin_numbers hide)
@@ -1224,12 +1122,6 @@
 		(uuid "6775b4e1-0d7b-496e-a1df-c01129a204ad")
 	)
 	(junction
-		(at 191.77 82.55)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6f4f3d7e-aa98-4a49-87c1-3156fa6a4249")
-	)
-	(junction
 		(at 166.37 86.36)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1365,16 +1257,6 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 74.93) (xy 191.77 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4598bb57-13a4-47d7-a2b2-a7e13ce34b56")
-	)
-	(wire
-		(pts
 			(xy 142.24 86.36) (xy 130.81 86.36)
 		)
 		(stroke
@@ -1402,16 +1284,6 @@
 			(type default)
 		)
 		(uuid "4dc15f3e-624e-4b94-8dc1-c6efe2e3a020")
-	)
-	(wire
-		(pts
-			(xy 191.77 82.55) (xy 191.77 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "53bf51a2-55ed-44bb-87f1-ad99e6df7dbb")
 	)
 	(wire
 		(pts
@@ -1505,16 +1377,6 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 82.55) (xy 195.58 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "89674e04-2775-47a2-a1b9-3bc85e5af407")
-	)
-	(wire
-		(pts
 			(xy 161.29 81.28) (xy 161.29 78.74)
 		)
 		(stroke
@@ -1582,16 +1444,6 @@
 			(type default)
 		)
 		(uuid "bf8decd2-9fb8-4b0b-8604-4440c40e3eff")
-	)
-	(wire
-		(pts
-			(xy 191.77 74.93) (xy 191.77 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c79a38c9-3d21-4673-aadc-9a90d697108b")
 	)
 	(wire
 		(pts
@@ -2042,7 +1894,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7bf95a64-5410-475a-aa47-beaf4c8d1844")
-		(property "Reference" "#FLG0301"
+		(property "Reference" "#FLG0302"
 			(at 156.21 64.135 0)
 			(effects
 				(font
@@ -2092,7 +1944,7 @@
 		(instances
 			(project "bus"
 				(path "/5d20b266-567e-45c6-9e3e-145c2aea1daa/4945f18d-16f7-4109-826d-838a95062554"
-					(reference "#FLG0301")
+					(reference "#FLG0302")
 					(unit 1)
 				)
 			)
@@ -2240,7 +2092,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "95e3d0ff-caee-42d8-be24-30adb2e6b1ab")
-		(property "Reference" "#FLG0303"
+		(property "Reference" "#FLG0301"
 			(at 133.35 97.155 0)
 			(effects
 				(font
@@ -2290,7 +2142,7 @@
 		(instances
 			(project "bus"
 				(path "/5d20b266-567e-45c6-9e3e-145c2aea1daa/4945f18d-16f7-4109-826d-838a95062554"
-					(reference "#FLG0303")
+					(reference "#FLG0301")
 					(unit 1)
 				)
 			)
@@ -2306,7 +2158,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ba3595f8-6102-4b82-a0a1-bc5651d9fb2c")
-		(property "Reference" "#FLG0302"
+		(property "Reference" "#FLG0303"
 			(at 172.72 64.135 0)
 			(effects
 				(font
@@ -2356,7 +2208,7 @@
 		(instances
 			(project ""
 				(path "/5d20b266-567e-45c6-9e3e-145c2aea1daa/4945f18d-16f7-4109-826d-838a95062554"
-					(reference "#FLG0302")
+					(reference "#FLG0303")
 					(unit 1)
 				)
 			)
@@ -2423,224 +2275,6 @@
 			(project "bus"
 				(path "/5d20b266-567e-45c6-9e3e-145c2aea1daa/4945f18d-16f7-4109-826d-838a95062554"
 					(reference "#PWR0303")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 191.77 87.63 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "bd33f93b-1d5f-4492-8550-8112915250e9")
-		(property "Reference" "#PWR0307"
-			(at 191.77 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 191.77 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 191.77 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 191.77 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 191.77 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "148710dd-d737-45ff-aeee-4fdfdd983967")
-		)
-		(instances
-			(project "bus"
-				(path "/5d20b266-567e-45c6-9e3e-145c2aea1daa/4945f18d-16f7-4109-826d-838a95062554"
-					(reference "#PWR0307")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole_Pad")
-		(at 198.12 74.93 270)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d160d2da-5fe9-406e-bac4-b07c656e5169")
-		(property "Reference" "H301"
-			(at 201.93 73.6599 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole_Pad"
-			(at 201.93 76.1999 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via"
-			(at 198.12 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 198.12 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole with connection"
-			(at 198.12 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" ""
-			(at 198.12 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "848dc650-8907-40bb-9426-8e13b0f36401")
-		)
-		(instances
-			(project "bus"
-				(path "/5d20b266-567e-45c6-9e3e-145c2aea1daa/4945f18d-16f7-4109-826d-838a95062554"
-					(reference "H301")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole_Pad")
-		(at 198.12 82.55 270)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e9951aac-a2a5-4b68-8f90-4d0cc977d572")
-		(property "Reference" "H302"
-			(at 201.93 81.2799 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole_Pad"
-			(at 201.93 83.8199 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via"
-			(at 198.12 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 198.12 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole with connection"
-			(at 198.12 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" ""
-			(at 198.12 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7131d185-fafd-4331-a072-dee4557c3391")
-		)
-		(instances
-			(project "bus"
-				(path "/5d20b266-567e-45c6-9e3e-145c2aea1daa/4945f18d-16f7-4109-826d-838a95062554"
-					(reference "H302")
 					(unit 1)
 				)
 			)

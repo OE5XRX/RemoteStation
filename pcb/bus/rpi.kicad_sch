@@ -671,108 +671,6 @@
 				)
 			)
 		)
-		(symbol "Mechanical:MountingHole_Pad"
-			(pin_numbers hide)
-			(pin_names
-				(offset 1.016) hide)
-			(exclude_from_sim yes)
-			(in_bom no)
-			(on_board yes)
-			(property "Reference" "H"
-				(at 0 6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "MountingHole_Pad"
-				(at 0 4.445 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Mounting Hole with connection"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "mounting hole"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "MountingHole*Pad*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "MountingHole_Pad_0_1"
-				(circle
-					(center 0 1.27)
-					(radius 1.27)
-					(stroke
-						(width 1.27)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "MountingHole_Pad_1_1"
-				(pin input line
-					(at 0 -2.54 90)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "power:+12V"
 			(power)
 			(pin_numbers hide)
@@ -1123,12 +1021,6 @@
 		(uuid "46523bae-e377-4464-9d9a-1f4797363daa")
 	)
 	(junction
-		(at 182.88 76.2)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "57a8d36e-067a-499f-9606-c48553728fba")
-	)
-	(junction
 		(at 149.86 74.93)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1240,16 +1132,6 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 68.58) (xy 182.88 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "46663fca-0758-47f3-8f2f-6f5e4cefa165")
-	)
-	(wire
-		(pts
 			(xy 143.51 82.55) (xy 154.94 82.55)
 		)
 		(stroke
@@ -1297,16 +1179,6 @@
 			(type default)
 		)
 		(uuid "6711e11e-9b4a-4fd8-be21-be54bea37889")
-	)
-	(wire
-		(pts
-			(xy 182.88 76.2) (xy 186.69 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6974d02b-e69f-4cac-8fbe-4e242edb68bc")
 	)
 	(wire
 		(pts
@@ -1427,26 +1299,6 @@
 			(type default)
 		)
 		(uuid "d5c19c02-b58a-4823-b84e-893e609a251c")
-	)
-	(wire
-		(pts
-			(xy 182.88 76.2) (xy 182.88 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e13d60fd-4e4e-47ec-a44e-e2cd6b13402b")
-	)
-	(wire
-		(pts
-			(xy 186.69 68.58) (xy 182.88 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e15a2257-1fbd-4cb5-b9a5-f997017bd250")
 	)
 	(wire
 		(pts
@@ -1593,82 +1445,6 @@
 			(project "bus"
 				(path "/5d20b266-567e-45c6-9e3e-145c2aea1daa/fb372245-a002-4eec-821d-6455aa9d9823"
 					(reference "#PWR0202")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole_Pad")
-		(at 189.23 76.2 270)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "100707d3-cb29-4d88-91fe-ad0fcdbd0578")
-		(property "Reference" "H202"
-			(at 193.04 74.9299 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole_Pad"
-			(at 193.04 77.4699 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via"
-			(at 189.23 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 189.23 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole with connection"
-			(at 189.23 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" ""
-			(at 189.23 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "21ed73eb-4cfd-4be0-9b2b-5e3ef04cb7fe")
-		)
-		(instances
-			(project "bus"
-				(path "/5d20b266-567e-45c6-9e3e-145c2aea1daa/fb372245-a002-4eec-821d-6455aa9d9823"
-					(reference "H202")
 					(unit 1)
 				)
 			)
@@ -2013,82 +1789,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole_Pad")
-		(at 189.23 68.58 270)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "de276a38-6068-491b-92b9-ca5c2753b426")
-		(property "Reference" "H201"
-			(at 193.04 67.3099 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole_Pad"
-			(at 193.04 69.8499 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via"
-			(at 189.23 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 189.23 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole with connection"
-			(at 189.23 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" ""
-			(at 189.23 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "33f6e582-92a3-403b-8eb9-3d57c443067e")
-		)
-		(instances
-			(project "bus"
-				(path "/5d20b266-567e-45c6-9e3e-145c2aea1daa/fb372245-a002-4eec-821d-6455aa9d9823"
-					(reference "H201")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 128.27 100.33 0)
 		(unit 1)
@@ -2149,72 +1849,6 @@
 			(project "bus"
 				(path "/5d20b266-567e-45c6-9e3e-145c2aea1daa/fb372245-a002-4eec-821d-6455aa9d9823"
 					(reference "#PWR0203")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 182.88 81.28 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f3af089c-0cca-4671-b42f-ee1cd94c7121")
-		(property "Reference" "#PWR0207"
-			(at 182.88 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 182.88 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 182.88 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 182.88 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 182.88 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9e4a81c2-f2a6-472b-8c62-5462d9389adc")
-		)
-		(instances
-			(project "bus"
-				(path "/5d20b266-567e-45c6-9e3e-145c2aea1daa/fb372245-a002-4eec-821d-6455aa9d9823"
-					(reference "#PWR0207")
 					(unit 1)
 				)
 			)
