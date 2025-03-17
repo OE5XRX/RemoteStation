@@ -19,7 +19,7 @@ jobs:
   export-ecad:
     name: Export ECAD
     runs-on: ubuntu-24.04
-    container: ghcr.io/inti-cmnb/kicad8_auto_full:latest
+    container: ghcr.io/inti-cmnb/kicad9_auto_full:dev
     if: always()
 
     strategy:
