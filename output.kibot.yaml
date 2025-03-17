@@ -59,3 +59,9 @@ outputs:
       bottom: true
       format: png
       show_components: all
+
+#  - name: "stl"
+#    comment: "generate stl files"
+#    type: render_3d
+#    options:
+#      format: stl
