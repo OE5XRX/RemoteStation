@@ -1539,7 +1539,7 @@
 		(uuid "fb664192-9e8f-45a0-b63e-0efc2ff96209")
 	)
 	(hierarchical_label "I2C_SDA"
-		(shape input)
+		(shape bidirectional)
 		(at 166.37 96.52 0)
 		(effects
 			(font
@@ -1550,7 +1550,7 @@
 		(uuid "3c141f8c-1fb8-4075-8fdd-a79a6baf4d23")
 	)
 	(hierarchical_label "I2C_SCL"
-		(shape input)
+		(shape bidirectional)
 		(at 166.37 99.06 0)
 		(effects
 			(font
