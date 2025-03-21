@@ -4,6 +4,7 @@
 *.lck
 *-backups
 *-bak
+*.bak
 *.kicad_prl
 fp-info-cache
 pcb/export
