@@ -118,7 +118,7 @@
 		(pad_to_mask_clearance 0)
 		(allow_soldermask_bridges_in_footprints no)
 		(tenting front back)
-		(grid_origin 93.222 145.794)
+		(grid_origin 93.222 45.794)
 		(pcbplotparams
 			(layerselection 0x00000000_00000000_55555555_5755f5ff)
 			(plot_on_all_layers_selection 0x00000000_00000000_00000000_00000000)
@@ -7840,14 +7840,14 @@
 			)
 		)
 	)
-	(footprint "MountingHole:MountingHole_2.7mm_M2.5"
+	(footprint "MountingHole:MountingHole_3.2mm_M3"
 		(layer "F.Cu")
 		(uuid "6011b9e4-ba32-4a24-8b64-bba5de844ca2")
-		(at 96.792 140.244)
-		(descr "Mounting Hole 2.7mm, no annular, M2.5")
-		(tags "mounting hole 2.7mm no annular m2.5")
+		(at 98.222 138.294)
+		(descr "Mounting Hole 3.2mm, no annular, M3")
+		(tags "mounting hole 3.2mm no annular m3")
 		(property "Reference" "H102"
-			(at 0 -3.7 0)
+			(at 0 -4.2 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "ee45a9a7-1886-4e81-b895-ad2c32778735")
@@ -7859,7 +7859,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 0 3.7 0)
+			(at 0 4.2 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "ea1a9f65-2766-411e-a9be-07abc002aa4f")
@@ -7901,7 +7901,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "0e921c77-a6f1-4a2a-8d83-6a3534ad8ea4")
+			(uuid "58b84f9b-4ad1-42c4-866e-1e52a9ada2b1")
 			(effects
 				(font
 					(size 1 1)
@@ -7916,25 +7916,25 @@
 		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
-			(end 2.7 0)
+			(end 3.2 0)
 			(stroke
 				(width 0.15)
 				(type solid)
 			)
 			(fill no)
 			(layer "Cmts.User")
-			(uuid "30b9e3f4-3f41-44a0-9820-fc0675caebb9")
+			(uuid "86a46453-24be-43cd-8d51-90846021f14f")
 		)
 		(fp_circle
 			(center 0 0)
-			(end 2.95 0)
+			(end 3.45 0)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(fill no)
 			(layer "F.CrtYd")
-			(uuid "07e55902-9a8e-4beb-bbc1-c212be70bbf1")
+			(uuid "524ae471-7f7e-4cc3-ba4d-cd655bc337a6")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 0)
@@ -7949,10 +7949,10 @@
 		)
 		(pad "" np_thru_hole circle
 			(at 0 0)
-			(size 2.7 2.7)
-			(drill 2.7)
+			(size 3.2 3.2)
+			(drill 3.2)
 			(layers "*.Cu" "*.Mask")
-			(uuid "2ff410b5-e2ec-4a29-8105-899ef07e81dd")
+			(uuid "c43bd5cf-7be8-4e27-b270-32e243da5d63")
 		)
 		(embedded_fonts no)
 	)
@@ -8774,14 +8774,14 @@
 			)
 		)
 	)
-	(footprint "MountingHole:MountingHole_2.7mm_M2.5"
+	(footprint "MountingHole:MountingHole_3.2mm_M3"
 		(layer "F.Cu")
 		(uuid "926e1255-1663-4c1f-b262-29f39c7c5dc4")
-		(at 96.792 51.344)
-		(descr "Mounting Hole 2.7mm, no annular, M2.5")
-		(tags "mounting hole 2.7mm no annular m2.5")
+		(at 98.222 53.294)
+		(descr "Mounting Hole 3.2mm, no annular, M3")
+		(tags "mounting hole 3.2mm no annular m3")
 		(property "Reference" "H101"
-			(at 0 -3.7 0)
+			(at 0 -4.2 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "43190f09-676d-462f-b85d-27dda125b2ec")
@@ -8793,7 +8793,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 0 3.7 0)
+			(at 0 4.2 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "3cd18201-b730-4223-b105-2c9d2b2c5d6d")
@@ -8835,7 +8835,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "de982a73-35c8-4492-bdb9-e783ce7c5706")
+			(uuid "6262791c-d6c0-46c9-9bb1-ac5f8936eea9")
 			(effects
 				(font
 					(size 1 1)
@@ -8850,25 +8850,25 @@
 		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
-			(end 2.7 0)
+			(end 3.2 0)
 			(stroke
 				(width 0.15)
 				(type solid)
 			)
 			(fill no)
 			(layer "Cmts.User")
-			(uuid "289f50e8-0b99-4d34-a343-a03db8f9bb60")
+			(uuid "49487954-3484-4452-b3ce-6abde9f4d018")
 		)
 		(fp_circle
 			(center 0 0)
-			(end 2.95 0)
+			(end 3.45 0)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(fill no)
 			(layer "F.CrtYd")
-			(uuid "49529e80-3dde-4204-916b-1f21853c52b6")
+			(uuid "8fedddd5-1b25-4afe-a79b-d4fbb56ee323")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 0)
@@ -8883,10 +8883,10 @@
 		)
 		(pad "" np_thru_hole circle
 			(at 0 0)
-			(size 2.7 2.7)
-			(drill 2.7)
+			(size 3.2 3.2)
+			(drill 3.2)
 			(layers "*.Cu" "*.Mask")
-			(uuid "3fc031af-cb4a-4062-bd87-bc6846f0563d")
+			(uuid "5165f8e2-8e5d-4ce8-b6a0-a0b6c8f51c62")
 		)
 		(embedded_fonts no)
 	)
