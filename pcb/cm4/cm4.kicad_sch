@@ -1427,6 +1427,16 @@
 	)
 	(wire
 		(pts
+			(xy 156.21 93.98) (xy 170.18 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a22322b-5c61-4e77-a0f0-54691b427b22")
+	)
+	(wire
+		(pts
 			(xy 64.77 107.95) (xy 64.77 105.41)
 		)
 		(stroke
@@ -1534,16 +1544,6 @@
 			(type default)
 		)
 		(uuid "39f205b2-e164-441c-b785-51fa3d47d86c")
-	)
-	(wire
-		(pts
-			(xy 156.21 83.82) (xy 170.18 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3dc261c4-07d7-433d-9fc0-7b96dd7acf7f")
 	)
 	(wire
 		(pts
@@ -1707,26 +1707,6 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 92.71) (xy 170.18 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "882e3e5d-ecf2-4bdf-a7f8-06f7af26cd33")
-	)
-	(wire
-		(pts
-			(xy 156.21 90.17) (xy 170.18 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8c04a65a-2388-4ca5-a398-e16ff23be169")
-	)
-	(wire
-		(pts
 			(xy 88.9 118.11) (xy 105.41 118.11)
 		)
 		(stroke
@@ -1784,6 +1764,16 @@
 			(type default)
 		)
 		(uuid "9f7063f5-006d-4886-9a81-820eba13046a")
+	)
+	(wire
+		(pts
+			(xy 156.21 86.36) (xy 170.18 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5184f50-c2de-491d-a82c-cbf1ee8dbb54")
 	)
 	(wire
 		(pts
@@ -1884,6 +1874,16 @@
 			(type default)
 		)
 		(uuid "c9d9367d-6476-4601-b6c1-c781479db7e4")
+	)
+	(wire
+		(pts
+			(xy 156.21 91.44) (xy 170.18 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cbe1feaf-d1ca-463a-9ced-c8c601e9d604")
 	)
 	(wire
 		(pts
@@ -2036,7 +2036,7 @@
 		(uuid "fcbecc7a-73e7-44dd-b417-0d970096952e")
 	)
 	(label "I2C_SDA1"
-		(at 156.21 90.17 0)
+		(at 156.21 91.44 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2046,7 +2046,7 @@
 		(uuid "06e59465-1469-4c6b-b7b7-4c2a7eb76204")
 	)
 	(label "I2C_SCL1"
-		(at 156.21 92.71 0)
+		(at 156.21 93.98 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2055,7 +2055,7 @@
 		)
 		(uuid "1c065f6b-35c5-401e-9231-09f4429306b3")
 	)
-	(label "USB_OTG_ID"
+	(label "USB_ID"
 		(at 105.41 115.57 180)
 		(effects
 			(font
@@ -2065,7 +2065,7 @@
 		)
 		(uuid "27a30f2f-aca0-4f2d-a644-af97891abb2c")
 	)
-	(label "USB+"
+	(label "USB_DP"
 		(at 156.21 76.2 0)
 		(effects
 			(font
@@ -2085,7 +2085,7 @@
 		)
 		(uuid "6126f081-bedf-4d5c-a827-d2366ac88e17")
 	)
-	(label "USB_OTG_ID"
+	(label "USB_ID"
 		(at 156.21 81.28 0)
 		(effects
 			(font
@@ -2095,7 +2095,7 @@
 		)
 		(uuid "9673d7ee-9c4c-4471-9dfc-494d72250be5")
 	)
-	(label "USB+"
+	(label "USB_DP"
 		(at 62.23 110.49 0)
 		(effects
 			(font
@@ -2105,7 +2105,7 @@
 		)
 		(uuid "a0b62f70-9f7b-4966-9879-8e39e6765087")
 	)
-	(label "USB-"
+	(label "USB_DM"
 		(at 156.21 78.74 0)
 		(effects
 			(font
@@ -2116,7 +2116,7 @@
 		(uuid "a83960b7-83bd-42c1-bc69-eb25912ca715")
 	)
 	(label "nRPIBOOT"
-		(at 156.21 83.82 0)
+		(at 156.21 86.36 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2125,7 +2125,7 @@
 		)
 		(uuid "aaf8d633-f369-4f80-8b00-75dba6a66cb0")
 	)
-	(label "USB-"
+	(label "USB_DM"
 		(at 105.41 110.49 180)
 		(effects
 			(font
@@ -3617,89 +3617,9 @@
 				(justify left top)
 			)
 		)
-		(pin "TRD3-" input
-			(at 213.36 91.44 180)
-			(uuid "3af91559-a603-411e-ac25-98d989f1e5db")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "TRD3+" input
-			(at 213.36 88.9 180)
-			(uuid "522934fb-264c-48a6-a6a1-8ce216237b0a")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "TRD2-" input
-			(at 213.36 86.36 180)
-			(uuid "313daa52-c633-4d69-aeee-89ad98ad6464")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "TRD1+" input
-			(at 213.36 78.74 180)
-			(uuid "6c8d0ce8-9d31-4cae-bac2-b85177b88e07")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "TRD0+" input
-			(at 213.36 73.66 180)
-			(uuid "c3b8e6bf-df10-4a54-b3b0-be78474f5ffe")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "TRD2+" input
-			(at 213.36 83.82 180)
-			(uuid "140eb5e4-a4f1-4aa9-a796-0cbb0387a98f")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "TRD1-" input
-			(at 213.36 81.28 180)
-			(uuid "4fd8e6e2-47ac-4033-a908-e6103063be0a")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "TRD0-" input
-			(at 213.36 76.2 180)
-			(uuid "9607a738-b37a-42b3-91bd-b07f5895b0e5")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "ETH_GREEN" input
+		(pin "ETH_LED_G" input
 			(at 213.36 96.52 180)
-			(uuid "daa97e57-1131-4386-ba6f-e45413dbcf98")
+			(uuid "b846e5f2-12e2-4cd1-85ee-7804e8e7381e")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3707,9 +3627,89 @@
 				(justify left)
 			)
 		)
-		(pin "ETH_YELLOW" input
+		(pin "ETH_LED_Y" input
 			(at 213.36 99.06 180)
-			(uuid "bf960c90-de3d-49a4-833a-691844584e63")
+			(uuid "03977ec5-13e0-429d-a93e-b84e9a6f80df")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "ETH_TRD0_M" input
+			(at 213.36 76.2 180)
+			(uuid "2777091d-3b79-4ea3-8c9f-8c3145b0df8e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "ETH_TRD0_P" input
+			(at 213.36 73.66 180)
+			(uuid "aec9f290-9515-498a-b548-e6e5806d0d20")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "ETH_TRD1_M" input
+			(at 213.36 81.28 180)
+			(uuid "68ac43fe-a474-40a8-9f85-45d8658ecd77")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "ETH_TRD1_P" input
+			(at 213.36 78.74 180)
+			(uuid "78f81589-9b8f-45de-9ca0-62e17d1a4cf1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "ETH_TRD2_M" input
+			(at 213.36 86.36 180)
+			(uuid "25b238a9-6630-45c5-b6e0-5cf68550d736")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "ETH_TRD2_P" input
+			(at 213.36 83.82 180)
+			(uuid "c0431148-c4ad-4d88-9ad4-fc1479cd8efa")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "ETH_TRD3_M" input
+			(at 213.36 91.44 180)
+			(uuid "192ac7d8-1f13-41b2-bdd9-76d7486eb0dd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "ETH_TRD3_P" input
+			(at 213.36 88.9 180)
+			(uuid "2f74f7cd-eb6c-413d-9c08-392e55752156")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3759,38 +3759,8 @@
 				(justify left top)
 			)
 		)
-		(pin "USB+" input
-			(at 170.18 76.2 180)
-			(uuid "fbaeb435-a15f-4fe7-8c36-ac81cd0e4676")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "USB_OTG_ID" input
-			(at 170.18 81.28 180)
-			(uuid "66484020-d40a-478a-bbe6-51ec8c70e280")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "USB-" input
-			(at 170.18 78.74 180)
-			(uuid "757d032a-0bef-43de-955e-140b569efc0a")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "nRPIBOOT" input
-			(at 170.18 83.82 180)
+			(at 170.18 86.36 180)
 			(uuid "d40a855b-981e-4478-b922-bff6b2a600c5")
 			(effects
 				(font
@@ -3802,46 +3772,6 @@
 		(pin "SD_CMD" input
 			(at 195.58 116.84 0)
 			(uuid "d7faf41a-e1d0-475e-b2ba-1b9a593a409a")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "TRD0+" input
-			(at 195.58 73.66 0)
-			(uuid "032f2af7-2606-4984-84aa-2f8078c2d227")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "TRD0-" input
-			(at 195.58 76.2 0)
-			(uuid "66ba9cf7-0684-496b-b3b5-eb8f0a987459")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "TRD1-" input
-			(at 195.58 81.28 0)
-			(uuid "c549a363-b13d-4faf-a757-2f97464df66e")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "TRD1+" input
-			(at 195.58 78.74 0)
-			(uuid "14165079-0de9-4dc7-9620-d3dc69658058")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3909,68 +3839,8 @@
 				(justify right)
 			)
 		)
-		(pin "TRD2-" input
-			(at 195.58 86.36 0)
-			(uuid "de3b1798-a799-4cb6-80e1-b3e1b87257d1")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "TRD2+" input
-			(at 195.58 83.82 0)
-			(uuid "32263394-1a97-495e-80d1-1d3de3712de1")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "ETH_YELLOW" input
-			(at 195.58 99.06 0)
-			(uuid "a14943c7-948c-492a-8ae1-e8a94bd1d8a9")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "ETH_GREEN" input
-			(at 195.58 96.52 0)
-			(uuid "93ee80ed-1d82-477c-abbe-df5feed11674")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "TRD3+" input
-			(at 195.58 88.9 0)
-			(uuid "f400fb99-0d5e-40e8-b42a-d60c9ed8fbc7")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "TRD3-" input
-			(at 195.58 91.44 0)
-			(uuid "104302c2-141d-4523-98b0-90c0e4221a18")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "I2C_SDA1" input
-			(at 170.18 90.17 180)
+			(at 170.18 91.44 180)
 			(uuid "ef6a5c51-bcfa-4861-afcb-ccb0e5712f5b")
 			(effects
 				(font
@@ -3980,8 +3850,138 @@
 			)
 		)
 		(pin "I2C_SCL1" input
-			(at 170.18 92.71 180)
+			(at 170.18 93.98 180)
 			(uuid "37cd8539-6a92-4c6e-977c-a7dae34e007d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "ETH_LED_G" input
+			(at 195.58 96.52 0)
+			(uuid "5c6eec3d-57ac-4410-b47c-c00c5fde095d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "ETH_LED_Y" input
+			(at 195.58 99.06 0)
+			(uuid "6c071705-3fac-4c5f-aca0-59e86b469a32")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "ETH_TRD0_M" input
+			(at 195.58 76.2 0)
+			(uuid "0b690750-3f90-44f5-9621-95ec3e4e3f16")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "ETH_TRD0_P" input
+			(at 195.58 73.66 0)
+			(uuid "3139ac3b-82d2-470e-93b5-823c02271248")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "ETH_TRD1_M" input
+			(at 195.58 81.28 0)
+			(uuid "ae2cf169-7e8d-409d-9f0c-68a74902794c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "ETH_TRD1_P" input
+			(at 195.58 78.74 0)
+			(uuid "dc8932b9-8e1f-45b0-9922-f4698538e991")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "ETH_TRD2_M" input
+			(at 195.58 86.36 0)
+			(uuid "ad9ccb8d-33a3-4ab5-bbe0-52cc88599010")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "ETH_TRD2_P" input
+			(at 195.58 83.82 0)
+			(uuid "f22bff1f-b9e6-481b-9a9b-09fd9cc03af5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "ETH_TRD3_M" input
+			(at 195.58 91.44 0)
+			(uuid "6a4e1bed-f650-4a24-8da4-3d82aec36449")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "ETH_TRD3_P" input
+			(at 195.58 88.9 0)
+			(uuid "e8f0f015-fd89-4c22-80cd-f00c64c1f6d1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "USB_DM" input
+			(at 170.18 78.74 180)
+			(uuid "eded3338-67c9-44e0-9b25-a57a0297d0b4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "USB_DP" input
+			(at 170.18 76.2 180)
+			(uuid "17d9a959-ab3d-4d85-9d92-6e7d211885ea")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "USB_ID" input
+			(at 170.18 81.28 180)
+			(uuid "2e4abc18-5b57-4bdc-abd1-67724f8c209f")
 			(effects
 				(font
 					(size 1.27 1.27)
