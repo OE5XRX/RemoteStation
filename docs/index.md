@@ -35,6 +35,21 @@ Diese Seite listet alle Schaltpläne, Platinen und BOMs des Projektes [Remote St
 - [iBOM](pcb/bus/bus-ibom.html)
 - [JLCPCB-Files](pcb/bus/JLCPCB/bus-_JLCPCB_compress.zip)
 
+## Power PCB
+
+<table>
+  <tr><th>Top</th><th>Bottom</th></tr>
+  <tr>
+    <td><img src="pcb/power/power-top.png" alt="top" /></td>
+    <td><img src="pcb/bus/power-power.png" alt="bottom" /></td>
+  </tr>
+</table>
+
+- [Schaltplan](pcb/power/power-schematic.pdf)
+- [BOM](pcb/power/power-bom.html)
+- [iBOM](pcb/power/power-ibom.html)
+- [JLCPCB-Files](pcb/power/JLCPCB/power-_JLCPCB_compress.zip)
+
 ## CM4 PCB
 
 <table>
