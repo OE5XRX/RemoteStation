@@ -41,7 +41,7 @@ Diese Seite listet alle Schaltpläne, Platinen und BOMs des Projektes [Remote St
   <tr><th>Top</th><th>Bottom</th></tr>
   <tr>
     <td><img src="pcb/power/power-top.png" alt="top" /></td>
-    <td><img src="pcb/bus/power-power.png" alt="bottom" /></td>
+    <td><img src="pcb/bus/power-bottom.png" alt="bottom" /></td>
   </tr>
 </table>
 
