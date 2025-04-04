@@ -295,6 +295,19 @@
 				)
 			)
 		)
+		(property "MOUSER" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "32ec316b-0515-461f-8c89-5d3be60d376b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "MountingHole*")
 		(path "/213e009e-1cc2-4b43-88e1-77a9b60f902a")
 		(sheetname "/")
@@ -411,6 +424,19 @@
 				)
 			)
 		)
+		(property "MOUSER" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b0ed1822-c200-4eb5-af77-bb5afe464dd3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "MountingHole*")
 		(path "/f332b674-adbb-4072-b5f2-8b565fe9268a")
 		(sheetname "/")
@@ -514,12 +540,25 @@
 				)
 			)
 		)
-		(property "LCSC" "C307560"
+		(property "LCSC" "C13585"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "20d985a8-6a40-46c7-8822-968ab47d60bd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MOUSER" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a0cab1a0-c1ba-4013-a99a-15780448f4be")
 			(effects
 				(font
 					(size 1 1)
@@ -719,12 +758,25 @@
 				)
 			)
 		)
-		(property "LCSC" "C354365"
+		(property "LCSC" "C28233"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "175d6dea-73eb-4d05-8f2e-3f457679a917")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MOUSER" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6cdd3538-09bc-4c0c-9c9a-ce3b0098be9d")
 			(effects
 				(font
 					(size 1 1)
@@ -920,6 +972,32 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C2827654"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "58a96802-7bad-4e22-b6a0-9b4bd31c9e03")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MOUSER" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a0409de2-af36-481f-9446-6cf89219ca94")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -1196,6 +1274,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "4021a2c9-a5c7-4df5-a920-f742fdbf74af")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MOUSER" "798-PCN1020P254DSA72"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "807112e7-87ca-4c2a-9379-953f7a921253")
 			(effects
 				(font
 					(size 1 1)
@@ -1842,6 +1933,32 @@
 				)
 			)
 		)
+		(property "LCSC" "C2827654"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "959589a1-9931-4b6e-841a-e8b01e81fb4f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MOUSER" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "df723cd0-eb95-436e-86a9-839ae2aed65e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "SOT?23*")
 		(path "/ecece899-ece4-48de-b271-4963bee84c9a/e9b4e640-30cf-4f08-9305-e2300a1b42d4")
 		(sheetname "/Device Connector 1/")
@@ -2121,6 +2238,19 @@
 				)
 			)
 		)
+		(property "MOUSER" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c1f2f3a7-1bac-43dd-8e14-7d0277a905bc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "MountingHole*")
 		(path "/8c461f2a-9fcb-4f82-9c61-9b58997b73f1")
 		(sheetname "/")
@@ -2228,6 +2358,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "b343f734-9aef-4c4b-af4c-9e4844ef0af5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MOUSER" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ce337367-845f-46bb-af32-5264227cd36f")
 			(effects
 				(font
 					(size 1 1)
@@ -2382,6 +2525,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "e16e8326-1e34-4fc4-807b-032badce1986")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MOUSER" "798-PCN1020P254DSA72"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0e3cc2d1-5ae3-4af1-b28b-add26a0df270")
 			(effects
 				(font
 					(size 1 1)
@@ -3573,12 +3729,25 @@
 				)
 			)
 		)
-		(property "LCSC" "C354365"
+		(property "LCSC" "C28233"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "46eee2db-e95e-4d62-96b6-2b51c2987aa2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MOUSER" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "965c5ade-9976-4cd1-b242-70740c40f18c")
 			(effects
 				(font
 					(size 1 1)
@@ -3778,12 +3947,25 @@
 				)
 			)
 		)
-		(property "LCSC" "C354365"
+		(property "LCSC" "C28233"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "5d1b517d-e5c7-4cb4-ae61-3eaae689dc11")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MOUSER" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2edd10a4-cb21-41ba-ae46-4a8b3353eab3")
 			(effects
 				(font
 					(size 1 1)
@@ -3989,6 +4171,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "b6748572-b0e9-47b2-9a0d-f68a1045ba84")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MOUSER" "798-PCN1020P254DSA72"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e5775465-0018-48ca-bfec-be0e43c7a1fc")
 			(effects
 				(font
 					(size 1 1)
@@ -4635,12 +4830,25 @@
 				)
 			)
 		)
-		(property "LCSC" "C354365"
+		(property "LCSC" "C28233"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "beaa7fa2-bd2a-4deb-aaf6-84c199f42366")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MOUSER" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "55ac12bb-22ab-48fb-96c4-269f5dbe297d")
 			(effects
 				(font
 					(size 1 1)
@@ -4836,6 +5044,32 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C2827654"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "714bf8fb-d5b4-4504-9c61-28ec3bb958a1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MOUSER" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a805878b-7208-4bf0-98b3-25ef89fdb68c")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -5102,6 +5336,32 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C2827654"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "afd9b610-960e-47f2-89ee-883438a755b9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MOUSER" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cdb8889c-f89a-4ee6-bc57-1eac5baf02ce")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -5385,6 +5645,19 @@
 				)
 			)
 		)
+		(property "MOUSER" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "708785c4-bcb2-426c-bdcc-794039ac0061")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "MountingHole*")
 		(path "/a7352923-ead4-4dab-b899-d196f5b40c66")
 		(sheetname "/")
@@ -5494,6 +5767,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "c7730ee1-5e93-4bf4-8fa6-adbd82385ae1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MOUSER" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3db97385-51b9-4fc5-a5c2-3f5684de2294")
 			(effects
 				(font
 					(size 1 1)
@@ -5989,12 +6275,25 @@
 				)
 			)
 		)
-		(property "LCSC" "C354365"
+		(property "LCSC" "C28233"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "d6ffcd95-845c-4273-a9cc-f4b03f081562")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MOUSER" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "75ed18fc-465d-4003-96b3-b5474531a52d")
 			(effects
 				(font
 					(size 1 1)
@@ -6200,6 +6499,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "a0e8bed3-ccbf-4d19-b419-8050f04f977f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MOUSER" "798-PCN1020P254DSA72"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6a664c78-f224-48cd-9ba1-26c095b8bbd7")
 			(effects
 				(font
 					(size 1 1)
@@ -6859,6 +7171,19 @@
 				)
 			)
 		)
+		(property "MOUSER" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "75f36f17-8992-419d-84c1-3db749ca2bf5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "MountingHole*")
 		(path "/31388145-af1f-4569-a9b6-1f944b481a56")
 		(sheetname "/")
@@ -6968,6 +7293,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "9c986f22-6a14-4f0b-ac4b-7301c355b8df")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MOUSER" "798-PCN1020P254DSA72"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f6486765-fbe8-4733-8af8-eec65e64d699")
 			(effects
 				(font
 					(size 1 1)
@@ -7627,6 +7965,19 @@
 				)
 			)
 		)
+		(property "MOUSER" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "11c47df7-703b-41f3-b8e1-5f860518fc6c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "MountingHole*")
 		(path "/31730e94-38b1-4a11-af6e-52648144ec76")
 		(sheetname "/")
@@ -7730,12 +8081,25 @@
 				)
 			)
 		)
-		(property "LCSC" "C354365"
+		(property "LCSC" "C28233"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "5fc6afab-4705-454b-b064-a9bfb2f88161")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MOUSER" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ec314361-92cd-46fa-b62b-a6b78c18f54e")
 			(effects
 				(font
 					(size 1 1)
@@ -7935,12 +8299,25 @@
 				)
 			)
 		)
-		(property "LCSC" "C307560"
+		(property "LCSC" "C13585"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "e5feccb5-ca75-48f1-9ca1-7a06f1db0687")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MOUSER" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1bc2161e-08d8-4772-9c89-d69d7608a78d")
 			(effects
 				(font
 					(size 1 1)
@@ -8146,6 +8523,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "ec10a30b-d797-42ee-bbef-04933919e80c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MOUSER" "798-PCN1020P254DSA72"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "aebe9642-e812-406b-be9b-a0ecfc8e773b")
 			(effects
 				(font
 					(size 1 1)
@@ -8805,6 +9195,19 @@
 				)
 			)
 		)
+		(property "MOUSER" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ec7fe047-3681-4a06-b7bd-ddb2f386ebbe")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "MountingHole*")
 		(path "/a71b631a-f41c-403b-832f-39b60d82402f")
 		(sheetname "/")
@@ -8921,6 +9324,19 @@
 				)
 			)
 		)
+		(property "MOUSER" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f0b6bc85-ce36-4c34-9054-09601ee87915")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "MountingHole*")
 		(path "/6bf9776a-474d-4535-8488-ebdbbd77e236")
 		(sheetname "/")
@@ -9020,6 +9436,32 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C2827654"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1bd42033-f3a9-4e3e-9554-ba184b6a26e6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MOUSER" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cc7018be-0151-4aed-b2d5-938e49d59538")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -9303,6 +9745,19 @@
 				)
 			)
 		)
+		(property "MOUSER" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9d67a221-6bc2-460c-8e25-a599167f039a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "MountingHole*")
 		(path "/72380362-9433-45d2-9157-3b5b9c9e9ddb")
 		(sheetname "/")
@@ -9412,6 +9867,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "01026068-b17d-440c-bdbd-145b30d3ee28")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MOUSER" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3149021b-cc4b-4fae-aa89-0eacbb582553")
 			(effects
 				(font
 					(size 1 1)
@@ -9535,6 +10003,19 @@
 				)
 			)
 		)
+		(property "MOUSER" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "46d11146-74a9-48a0-842d-e0a1d5982e47")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "MountingHole*")
 		(path "/2d9b46a7-0fa0-4f4b-8251-e6ed83b22d39")
 		(sheetname "/")
@@ -9651,6 +10132,19 @@
 				)
 			)
 		)
+		(property "MOUSER" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "90c9e36b-a423-48db-9f25-c1f7ce8e37e1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "MountingHole*")
 		(path "/5568f62d-d332-44b1-89dd-4cf017a1febf")
 		(sheetname "/")
@@ -9760,6 +10254,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "7fd4b3b3-c68a-487a-8b5a-2c6cdd71b7ec")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MOUSER" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4b432f1b-0893-4fa9-8801-6f402b75e7be")
 			(effects
 				(font
 					(size 1 1)
