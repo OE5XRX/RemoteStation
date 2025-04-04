@@ -3259,7 +3259,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-7343-43_Kemet-X_Pad2.25x2.55mm_HandSolder"
+		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-7343-43_Kemet-X"
 			(at 122.8852 67.31 0)
 			(effects
 				(font
@@ -3286,13 +3286,21 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C7230"
+		(property "LCSC" "C132558"
 			(at 121.92 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "MOUSER" ""
+			(at 121.92 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -3395,7 +3403,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "390"
+		(property "Value" "1k"
 			(at 146.05 99.0599 0)
 			(effects
 				(font
@@ -3431,13 +3439,21 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C17655"
+		(property "LCSC" "C17513"
 			(at 143.51 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "MOUSER" ""
+			(at 143.51 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -3799,6 +3815,14 @@
 				(hide yes)
 			)
 		)
+		(property "MOUSER" ""
+			(at 73.66 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "B1"
 			(uuid "82737478-360d-438d-bca6-9711df9c254c")
 		)
@@ -3985,6 +4009,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "MOUSER" "798-PCN10C20S254DS72"
+			(at 187.96 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "b2"
@@ -4327,6 +4359,14 @@
 				(hide yes)
 			)
 		)
+		(property "MOUSER" ""
+			(at 115.57 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "45af17c5-9662-4f63-8f82-41b9b13d6a64")
 		)
@@ -4622,6 +4662,14 @@
 				(hide yes)
 			)
 		)
+		(property "MOUSER" ""
+			(at 143.51 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "5a40e014-ebb3-4b18-ba37-51603b630bec")
 		)
@@ -4699,6 +4747,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "MOUSER" ""
+			(at 127 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"

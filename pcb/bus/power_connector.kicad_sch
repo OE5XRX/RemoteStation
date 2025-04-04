@@ -1622,6 +1622,15 @@
 				(hide yes)
 			)
 		)
+		(property "MOUSER" "798-PCN1020P254DSA72"
+			(at 149.86 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "a3"
 			(uuid "5829350a-9ac6-46c5-935f-72e894724afc")
 		)

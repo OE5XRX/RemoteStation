@@ -2432,6 +2432,15 @@
 				(hide yes)
 			)
 		)
+		(property "MOUSER" "798-PCN1020P254DSA72"
+			(at 105.41 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "a3"
 			(uuid "04928972-5425-49f0-bca1-87c404a05b5b")
 		)
@@ -2555,13 +2564,21 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C354365"
+		(property "LCSC" "C28233"
 			(at 162.56 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "MOUSER" ""
+			(at 162.56 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -2773,6 +2790,22 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC" "C2827654"
+			(at 209.55 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MOUSER" ""
+			(at 209.55 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "5"

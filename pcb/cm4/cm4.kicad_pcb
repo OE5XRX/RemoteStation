@@ -317,14 +317,14 @@
 	(net 154 "unconnected-(MICRO_SD401-CD-PadCD1)")
 	(net 155 "unconnected-(J101-Pin_a7-Pada7)")
 	(net 156 "unconnected-(J101-Pin_b7-Padb7)")
-	(footprint "Capacitor_Tantalum_SMD:CP_EIA-7343-43_Kemet-X_Pad2.25x2.55mm_HandSolder"
+	(footprint "Capacitor_Tantalum_SMD:CP_EIA-7343-43_Kemet-X"
 		(layer "F.Cu")
 		(uuid "12ca5a7c-5361-4b54-91ee-9d4cfbf4ab49")
 		(at 179.582 104.532 -90)
 		(descr "Tantalum Capacitor SMD Kemet-X (7343-43 Metric), IPC_7351 nominal, (Body size from: http://www.kemet.com/Lists/ProductCatalog/Attachments/253/KEM_TC101_STD.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor tantalum")
 		(property "Reference" "C101"
-			(at 0 -3.1 90)
+			(at 0 -3.1 270)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "27c2ec8f-c506-4e0c-9529-3b11fcdc7f1a")
@@ -336,7 +336,7 @@
 			)
 		)
 		(property "Value" "100u / 25V"
-			(at 0 3.1 90)
+			(at 0 3.1 270)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "670cb1a6-1e9d-4a05-af4f-a0c5fe38e6e0")
@@ -373,12 +373,25 @@
 				)
 			)
 		)
-		(property "LCSC" "C7230"
+		(property "LCSC" "C132558"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "8b7b8521-43e4-4e68-8c41-d57d71026c52")
+			(uuid "49778930-0f20-4170-b7ab-411418df652a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MOUSER" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "52c467b0-c527-4c54-ac67-70268f3b8347")
 			(effects
 				(font
 					(size 1 1)
@@ -392,74 +405,74 @@
 		(sheetfile "cm4.kicad_sch")
 		(attr smd)
 		(fp_line
-			(start -4.585 2.26)
+			(start -4.41 2.26)
 			(end 3.65 2.26)
 			(stroke
 				(width 0.12)
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "2ce877da-27f3-49a0-b69f-0b10cfef9417")
+			(uuid "0f816596-8075-4fa5-a20b-11b110711174")
 		)
 		(fp_line
-			(start -4.585 -2.26)
-			(end -4.585 2.26)
+			(start -4.41 -2.26)
+			(end -4.41 2.26)
 			(stroke
 				(width 0.12)
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "98cf9e9c-057e-4107-a9ca-6d9966da6e05")
+			(uuid "28ba9520-4852-409f-9747-c27abfe53fb7")
 		)
 		(fp_line
 			(start 3.65 -2.26)
-			(end -4.585 -2.26)
+			(end -4.41 -2.26)
 			(stroke
 				(width 0.12)
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "be21400c-e036-43a4-9c02-4b37d73bf381")
+			(uuid "0d724ccb-07d9-4ec7-9354-ca82a43bceac")
 		)
 		(fp_line
-			(start -4.58 2.4)
-			(end -4.58 -2.4)
+			(start -4.4 2.4)
+			(end -4.4 -2.4)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "f1594bad-65e2-4dc2-b93b-fabeb46c92c8")
+			(uuid "00529c7b-3684-4ec7-8bb9-d2dbb8459f64")
 		)
 		(fp_line
-			(start 4.58 2.4)
-			(end -4.58 2.4)
+			(start 4.4 2.4)
+			(end -4.4 2.4)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "e2cd226c-8871-4b23-ad15-ae772f99f209")
+			(uuid "7ae535e7-8cb6-4398-8328-0acabffd6778")
 		)
 		(fp_line
-			(start -4.58 -2.4)
-			(end 4.58 -2.4)
+			(start -4.4 -2.4)
+			(end 4.4 -2.4)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "3119ce29-d7d0-4c17-b7b1-41f02678cf15")
+			(uuid "aae86dcc-d8f1-4ab3-99ff-3421ab33601a")
 		)
 		(fp_line
-			(start 4.58 -2.4)
-			(end 4.58 2.4)
+			(start 4.4 -2.4)
+			(end 4.4 2.4)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "edf64f58-8840-4374-8127-7515497ea61a")
+			(uuid "fbbc8fa0-7841-432c-a216-1f5d127b4055")
 		)
 		(fp_line
 			(start -3.65 2.15)
@@ -469,7 +482,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "344e370b-d32e-4993-ba99-8f91e3c8effe")
+			(uuid "5798291b-c948-4af4-babe-4cb72b45faa0")
 		)
 		(fp_line
 			(start 3.65 2.15)
@@ -479,7 +492,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "ef06653e-edaa-4ef1-9cb6-83b7a0b2cca3")
+			(uuid "8cc76951-f100-4f9e-b5d8-ec26643a9871")
 		)
 		(fp_line
 			(start -3.65 -1.15)
@@ -489,7 +502,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "ae55c6af-4d9d-4285-a176-0915dd1bc05a")
+			(uuid "87329235-f46c-47b3-8aa5-d3dbbab85477")
 		)
 		(fp_line
 			(start -2.65 -2.15)
@@ -499,7 +512,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "85840f51-53a4-40bb-85c8-c4fb5103a2d9")
+			(uuid "bc035ca2-2330-4c2d-a369-11032b9e9542")
 		)
 		(fp_line
 			(start 3.65 -2.15)
@@ -509,28 +522,28 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "26ad86ff-563e-4a75-88a0-5bf562245ab6")
+			(uuid "a73683f5-e4a2-45da-8606-d281a9a9d7ac")
 		)
 		(pad "1" smd roundrect
-			(at -3.2 0 270)
-			(size 2.25 2.55)
+			(at -3.1125 0 270)
+			(size 2.075 2.55)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(roundrect_rratio 0.111111)
+			(roundrect_rratio 0.120482)
 			(net 13 "+5V")
 			(pintype "passive")
 			(uuid "08ffbd7a-3451-4d2d-bdb4-0f7c02e4486f")
 		)
 		(pad "2" smd roundrect
-			(at 3.2 0 270)
-			(size 2.25 2.55)
+			(at 3.1125 0 270)
+			(size 2.075 2.55)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(roundrect_rratio 0.111111)
+			(roundrect_rratio 0.120482)
 			(net 1 "GND")
 			(pintype "passive")
 			(uuid "ffd4d14f-8ea0-4019-9251-e5a2e7139e20")
 		)
 		(embedded_fonts no)
-		(model "${KICAD8_3DMODEL_DIR}/Capacitor_Tantalum_SMD.3dshapes/CP_EIA-7343-43_Kemet-X.wrl"
+		(model "${KICAD9_3DMODEL_DIR}/Capacitor_Tantalum_SMD.3dshapes/CP_EIA-7343-43_Kemet-X.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -756,6 +769,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "3b2cd223-1b83-45ae-b90f-b57a204723dc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MOUSER" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a0dfd499-ddab-4975-b14b-7f0fdd6bbf9a")
 			(effects
 				(font
 					(size 1 1)
@@ -3212,6 +3238,19 @@
 				)
 			)
 		)
+		(property "MOUSER" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a929a3ab-18f7-43b8-a63d-a17835fbd21f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/a64f9485-8eaf-45a8-a9d7-21ab5cb8dcb2/023a9ee5-64ae-4e0b-84b6-7196688685e9")
 		(sheetname "/CM4-Board/")
@@ -3562,6 +3601,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "0bc3601a-5027-4689-9ef5-c44ca90a6712")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MOUSER" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4f26bb82-505d-41aa-85f1-4a03d2ebc9bc")
 			(effects
 				(font
 					(size 1 1)
@@ -6019,6 +6071,19 @@
 				)
 			)
 		)
+		(property "MOUSER" "798-PCN10C20S254DS72"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7ee0f9ac-383e-4caa-8b64-ec6b9597c269")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Connector*:*_2x??_*")
 		(path "/87c3928c-2b75-4acb-9ad4-c543ec4deb0e")
 		(sheetname "/")
@@ -6883,6 +6948,19 @@
 				)
 			)
 		)
+		(property "MOUSER" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1e9f6512-0d47-417b-9ada-ecef8c14a140")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "USON*2.5x1.0mm*P0.5mm*")
 		(path "/a5fd598d-2b1a-4b4e-a237-c40279e78aa9/43661401-c46f-470d-8e6f-14922e40b81c")
 		(sheetname "/Ethernet/")
@@ -7193,6 +7271,19 @@
 				)
 			)
 		)
+		(property "MOUSER" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9d453039-82cf-43ba-b8c2-17382b6b4776")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/a5fd598d-2b1a-4b4e-a237-c40279e78aa9/5ae0db21-7443-40c6-83bd-0bc09677038f")
 		(sheetname "/Ethernet/")
@@ -7385,12 +7476,25 @@
 				)
 			)
 		)
-		(property "LCSC" "C49678"
+		(property "LCSC" "C28233"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "d09836f2-eba7-4f03-8f89-41ef94269a43")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MOUSER" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1c13dbd6-d0cc-41af-bce6-782d3add8c8f")
 			(effects
 				(font
 					(size 1 1)
@@ -7704,6 +7808,19 @@
 				)
 			)
 		)
+		(property "MOUSER" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "283c8d0a-b3c6-427c-926c-389f9547d4d0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/a64f9485-8eaf-45a8-a9d7-21ab5cb8dcb2/3746882b-a8f2-49a3-af29-a89876293d2c")
 		(sheetname "/CM4-Board/")
@@ -7909,6 +8026,19 @@
 				)
 			)
 		)
+		(property "MOUSER" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e186539b-bc22-4e8c-a252-685d78d72c8a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "MountingHole*")
 		(path "/df999db3-7087-40c6-8ce3-d5dd370ce265")
 		(sheetname "/")
@@ -8018,6 +8148,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "51ce04ef-5ce5-4ca4-91c2-6f24c8f54321")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MOUSER" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "88f13d47-1307-49dc-b918-a2f76fc7d190")
 			(effects
 				(font
 					(size 1 1)
@@ -8425,6 +8568,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "30e5178f-098d-41c0-94f4-33a0f1dd6d23")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MOUSER" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c25b727d-be3f-4617-9742-16977afc5e75")
 			(effects
 				(font
 					(size 1 1)
@@ -8843,6 +8999,19 @@
 				)
 			)
 		)
+		(property "MOUSER" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8794ce39-c67d-42bd-b7ac-19e8623e59a7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "MountingHole*")
 		(path "/232daf58-0468-4f94-bfdb-9142284c844d")
 		(sheetname "/")
@@ -8952,6 +9121,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "27753082-6447-4a80-9b64-a57b88c522ae")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MOUSER" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "68e8a41a-4534-4c39-b93d-4f27eb1a0df2")
 			(effects
 				(font
 					(size 1 1)
@@ -9177,6 +9359,19 @@
 				)
 			)
 		)
+		(property "MOUSER" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e5964fc3-c569-4e54-bb8e-4d7b1b10564f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/a64f9485-8eaf-45a8-a9d7-21ab5cb8dcb2/ffbdd114-1348-4fc0-9bf0-69c0cc38cc27")
 		(sheetname "/CM4-Board/")
@@ -9395,6 +9590,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "3f290738-3a88-48c1-b19f-16e1b95d1345")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MOUSER" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4435f40a-ed7f-4373-80f3-83101be7a216")
 			(effects
 				(font
 					(size 1 1)
@@ -9681,6 +9889,19 @@
 				)
 			)
 		)
+		(property "MOUSER" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2fe566d5-ca1b-438f-857f-1a3b0ddab21e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/a64f9485-8eaf-45a8-a9d7-21ab5cb8dcb2/9f8c3912-8e88-4540-86ce-f841d3de29f7")
 		(sheetname "/CM4-Board/")
@@ -9892,6 +10113,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "187e8424-6fe7-4540-91da-e5e0ca41da89")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MOUSER" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d11a97ac-ea8e-4a90-9840-b027ec6fe56a")
 			(effects
 				(font
 					(size 1 1)
@@ -10271,6 +10505,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "cfc07bed-ea3b-4146-9db7-e3e163debcdd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MOUSER" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "73595c8b-ebae-46f5-82b1-d962372332e4")
 			(effects
 				(font
 					(size 1 1)
@@ -10822,6 +11069,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "51611082-49dc-4bf7-ab6d-88677435e256")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MOUSER" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "dbabb412-322b-4398-b73d-b4d69831a8c7")
 			(effects
 				(font
 					(size 1 1)
@@ -11684,6 +11944,19 @@
 				)
 			)
 		)
+		(property "MOUSER" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d7d2498f-6f7d-4e41-bee7-14fc5a56853e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/8c670a00-fcb0-468c-ba79-62d0190039f0/48107c78-6bf4-40ba-8077-2f5807fef2b9")
 		(sheetname "/MicroSD/")
@@ -11889,6 +12162,19 @@
 				)
 			)
 		)
+		(property "MOUSER" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d6293fb7-1215-48c2-b46e-6c1a8866587e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/a5fd598d-2b1a-4b4e-a237-c40279e78aa9/712712f8-b829-4f6d-904e-895cf8b46320")
 		(sheetname "/Ethernet/")
@@ -12025,7 +12311,7 @@
 			)
 		)
 	)
-	(footprint "Capacitor_Tantalum_SMD:CP_EIA-7343-43_Kemet-X_Pad2.25x2.55mm_HandSolder"
+	(footprint "Capacitor_Tantalum_SMD:CP_EIA-7343-43_Kemet-X"
 		(layer "F.Cu")
 		(uuid "dd1e1a62-6035-4617-8445-efb577b26075")
 		(at 165.866 125.22)
@@ -12081,12 +12367,25 @@
 				)
 			)
 		)
-		(property "LCSC" "C7230"
+		(property "LCSC" "C132558"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "745dace7-b8b1-4ca9-9a12-5f317b1d4cbc")
+			(uuid "a86d0d75-d823-439f-85bd-0ce471c1c5f9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MOUSER" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b7a508df-0b3c-4ea8-9ab3-2335dd2c88c0")
 			(effects
 				(font
 					(size 1 1)
@@ -12100,74 +12399,74 @@
 		(sheetfile "cm4-board.kicad_sch")
 		(attr smd)
 		(fp_line
-			(start -4.585 -2.26)
-			(end -4.585 2.26)
+			(start -4.41 -2.26)
+			(end -4.41 2.26)
 			(stroke
 				(width 0.12)
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "c1cc9f99-9932-4bae-8ce7-86f9fa977675")
+			(uuid "c2aa164d-a938-46c3-bd1c-8de3baff1119")
 		)
 		(fp_line
-			(start -4.585 2.26)
+			(start -4.41 2.26)
 			(end 3.65 2.26)
 			(stroke
 				(width 0.12)
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "a6bcc855-d027-4444-b77d-f96c11b27378")
+			(uuid "353da492-1501-4a64-9343-ad3a58b38d21")
 		)
 		(fp_line
 			(start 3.65 -2.26)
-			(end -4.585 -2.26)
+			(end -4.41 -2.26)
 			(stroke
 				(width 0.12)
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "10f8707d-9fbc-4c58-9fd5-3439a3e37573")
+			(uuid "6817a181-a0a5-4aa6-96aa-a4ad7095b31d")
 		)
 		(fp_line
-			(start -4.58 -2.4)
-			(end 4.58 -2.4)
+			(start -4.4 -2.4)
+			(end 4.4 -2.4)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "6c608ee5-87bc-4280-9a2d-c284771f89b1")
+			(uuid "54e35468-3548-4046-b5eb-fa88256bb200")
 		)
 		(fp_line
-			(start -4.58 2.4)
-			(end -4.58 -2.4)
+			(start -4.4 2.4)
+			(end -4.4 -2.4)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "a3063a4a-e800-4fb0-a4f5-d2d34f0f67c9")
+			(uuid "c8d911b7-aa9b-4af4-9431-cb54a1518d64")
 		)
 		(fp_line
-			(start 4.58 -2.4)
-			(end 4.58 2.4)
+			(start 4.4 -2.4)
+			(end 4.4 2.4)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "d43e3480-1f83-435e-8dc5-b982c5a0efa4")
+			(uuid "becb4c00-4db8-4c9b-99be-8ec49c8e4c4c")
 		)
 		(fp_line
-			(start 4.58 2.4)
-			(end -4.58 2.4)
+			(start 4.4 2.4)
+			(end -4.4 2.4)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "94bc00eb-b973-4ce8-be1e-c19e10ed2530")
+			(uuid "3cc1414c-355d-4636-a52b-c7f3ab2ff790")
 		)
 		(fp_line
 			(start -3.65 -1.15)
@@ -12177,7 +12476,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "84ae0975-8986-46e9-af4a-e50ade0760da")
+			(uuid "9c9baf05-be85-4b7f-86b6-ed1a9f8cea09")
 		)
 		(fp_line
 			(start -3.65 2.15)
@@ -12187,7 +12486,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "94436b9f-a99a-4a13-bb37-dd77aebdb1a1")
+			(uuid "2ff7e1b8-94fe-4c73-b0c1-c0f801b71589")
 		)
 		(fp_line
 			(start -2.65 -2.15)
@@ -12197,7 +12496,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "0a9b8847-9514-48d8-9d21-c7f8dbd9cf58")
+			(uuid "c8ff4bc9-8952-44ef-a475-bc7f4bad2ab3")
 		)
 		(fp_line
 			(start 3.65 -2.15)
@@ -12207,7 +12506,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "47733ce0-cbd9-414a-b617-a4b6abc75abf")
+			(uuid "84ea2be3-dccb-4998-b266-b29e2d96dfcf")
 		)
 		(fp_line
 			(start 3.65 2.15)
@@ -12217,28 +12516,28 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "5687ab2a-50ba-499b-aef2-75562ec066ab")
+			(uuid "9c00206d-cd0d-4dec-8a97-8bceef1b1dbc")
 		)
 		(pad "1" smd roundrect
-			(at -3.2 0)
-			(size 2.25 2.55)
+			(at -3.1125 0)
+			(size 2.075 2.55)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(roundrect_rratio 0.111111)
+			(roundrect_rratio 0.120482)
 			(net 2 "+3V3")
 			(pintype "passive")
 			(uuid "17de973c-87c0-4f11-a047-e76b247a2366")
 		)
 		(pad "2" smd roundrect
-			(at 3.2 0)
-			(size 2.25 2.55)
+			(at 3.1125 0)
+			(size 2.075 2.55)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(roundrect_rratio 0.111111)
+			(roundrect_rratio 0.120482)
 			(net 1 "GND")
 			(pintype "passive")
 			(uuid "bbb98b46-1374-4423-8c12-f6d355c93a62")
 		)
 		(embedded_fonts no)
-		(model "${KICAD8_3DMODEL_DIR}/Capacitor_Tantalum_SMD.3dshapes/CP_EIA-7343-43_Kemet-X.wrl"
+		(model "${KICAD9_3DMODEL_DIR}/Capacitor_Tantalum_SMD.3dshapes/CP_EIA-7343-43_Kemet-X.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -12306,12 +12605,25 @@
 				)
 			)
 		)
-		(property "LCSC" "C49678"
+		(property "LCSC" "C28233"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "79f5f0db-b381-42d6-a521-cc0d4e3c9c23")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MOUSER" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b1da08b6-0fcc-4de0-808f-d461ec1cefef")
 			(effects
 				(font
 					(size 1 1)
@@ -12515,6 +12827,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "e25ca034-1885-497c-a537-c3d4014d8878")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MOUSER" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d38398e3-da58-4bd3-91c2-a73151d2036b")
 			(effects
 				(font
 					(size 1 1)
@@ -12788,12 +13113,25 @@
 				)
 			)
 		)
-		(property "LCSC" "C49678"
+		(property "LCSC" "C28233"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "f9caccb3-196d-49cf-8fe0-0339c94db2fe")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MOUSER" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8ef41cf2-4eb6-4008-8989-20b6d52485ca")
 			(effects
 				(font
 					(size 1 1)
@@ -12999,6 +13337,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "3d78eb6c-a030-4a22-adfb-71425c92e47c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MOUSER" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "75cbcfe1-b141-4650-890e-4c2e75e7f995")
 			(effects
 				(font
 					(size 1 1)

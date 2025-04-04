@@ -2311,6 +2311,14 @@
 				(hide yes)
 			)
 		)
+		(property "MOUSER" ""
+			(at 132.08 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "10"
 			(uuid "afa3e4b7-cea5-495d-a41d-801240477066")
 		)
@@ -2523,13 +2531,21 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C307560"
+		(property "LCSC" "C13585"
 			(at 116.84 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "MOUSER" ""
+			(at 116.84 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -2611,6 +2627,14 @@
 				(hide yes)
 			)
 		)
+		(property "MOUSER" ""
+			(at 38.1 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(instances
 			(project "bus"
 				(path "/5d20b266-567e-45c6-9e3e-145c2aea1daa"
@@ -2674,13 +2698,21 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C354365"
+		(property "LCSC" "C28233"
 			(at 143.51 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "MOUSER" ""
+			(at 143.51 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -2762,6 +2794,14 @@
 				(hide yes)
 			)
 		)
+		(property "MOUSER" ""
+			(at 38.1 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(instances
 			(project "bus"
 				(path "/5d20b266-567e-45c6-9e3e-145c2aea1daa"
@@ -2833,6 +2873,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "MOUSER" ""
+			(at 63.5 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(instances
@@ -2908,6 +2956,14 @@
 				(hide yes)
 			)
 		)
+		(property "MOUSER" ""
+			(at 38.1 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(instances
 			(project ""
 				(path "/5d20b266-567e-45c6-9e3e-145c2aea1daa"
@@ -2979,6 +3035,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "MOUSER" ""
+			(at 38.1 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(instances
@@ -3119,6 +3183,14 @@
 				(hide yes)
 			)
 		)
+		(property "MOUSER" ""
+			(at 38.1 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(instances
 			(project "bus"
 				(path "/5d20b266-567e-45c6-9e3e-145c2aea1daa"
@@ -3187,6 +3259,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "MOUSER" ""
+			(at 105.41 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -3268,6 +3348,14 @@
 				(hide yes)
 			)
 		)
+		(property "MOUSER" ""
+			(at 63.5 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(instances
 			(project "bus"
 				(path "/5d20b266-567e-45c6-9e3e-145c2aea1daa"
@@ -3339,6 +3427,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "MOUSER" ""
+			(at 63.5 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(instances
@@ -3479,6 +3575,14 @@
 				(hide yes)
 			)
 		)
+		(property "MOUSER" ""
+			(at 63.5 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(instances
 			(project "bus"
 				(path "/5d20b266-567e-45c6-9e3e-145c2aea1daa"
@@ -3542,13 +3646,21 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C307560"
+		(property "LCSC" "C13585"
 			(at 129.54 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "MOUSER" ""
+			(at 129.54 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -3630,6 +3742,14 @@
 				(hide yes)
 			)
 		)
+		(property "MOUSER" ""
+			(at 38.1 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(instances
 			(project "bus"
 				(path "/5d20b266-567e-45c6-9e3e-145c2aea1daa"
@@ -3701,6 +3821,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "MOUSER" ""
+			(at 63.5 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(instances
@@ -3970,6 +4098,14 @@
 				(hide yes)
 			)
 		)
+		(property "MOUSER" ""
+			(at 107.95 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "3d2442e1-23cb-47dd-a8d3-ea6fb5f88bfe")
 		)
@@ -4047,6 +4183,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "MOUSER" ""
+			(at 63.5 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(instances

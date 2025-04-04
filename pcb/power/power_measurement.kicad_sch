@@ -1001,7 +1001,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "100n"
 			(at 180.34 87.6299 0)
 			(effects
 				(font
@@ -1037,13 +1037,21 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C354365"
+		(property "LCSC" "C28233"
 			(at 176.53 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "MOUSER" ""
+			(at 176.53 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -1199,6 +1207,14 @@
 				(hide yes)
 			)
 		)
+		(property "MOUSER" ""
+			(at 121.92 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "e05ae3b4-d4fc-434e-8b31-07fc9be91408")
 		)
@@ -1271,6 +1287,22 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC" "C49851"
+			(at 143.51 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MOUSER" ""
+			(at 143.51 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "8"
