@@ -1678,7 +1678,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "XT30PW-M:XT30PW-M"
+		(symbol "XT60PW-M:XT60PW-M"
 			(pin_names
 				(offset 1.016)
 			)
@@ -1686,7 +1686,7 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "J"
-				(at -7.62 3.302 0)
+				(at -5.08 5.7234 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1694,8 +1694,8 @@
 					(justify left bottom)
 				)
 			)
-			(property "Value" "XT30PW-M"
-				(at -7.62 -7.62 0)
+			(property "Value" "XT60PW-M"
+				(at -5.08 -5.0923 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1703,7 +1703,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Footprint" "XT30PW-M:AMASS_XT30PW-M"
+			(property "Footprint" "XT60PW-M:AMASS_XT60PW-M"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1741,7 +1741,7 @@
 					(hide yes)
 				)
 			)
-			(property "MAXIMUM_PACKAGE_HEIGHT" "5 mm"
+			(property "MAXIMUM_PACKAGE_HEIGHT" "8.4 mm"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1751,7 +1751,7 @@
 					(hide yes)
 				)
 			)
-			(property "Package" "None"
+			(property "Package" "Package"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1771,7 +1771,7 @@
 					(hide yes)
 				)
 			)
-			(property "Check_prices" "https://www.snapeda.com/parts/XT30PW-M/AMASS/view-part/?ref=eda"
+			(property "Check_prices" "https://www.snapeda.com/parts/XT60PW-M/AMASS/view-part/?ref=eda"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1781,7 +1781,7 @@
 					(hide yes)
 				)
 			)
-			(property "STANDARD" "Manufacturer Recommendations"
+			(property "STANDARD" "Manufacturer recommendations"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1791,7 +1791,7 @@
 					(hide yes)
 				)
 			)
-			(property "PARTREV" "1.2"
+			(property "PARTREV" "V1.2"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1801,7 +1801,7 @@
 					(hide yes)
 				)
 			)
-			(property "SnapEDA_Link" "https://www.snapeda.com/parts/XT30PW-M/AMASS/view-part/?ref=snap"
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/XT60PW-M/AMASS/view-part/?ref=snap"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1811,7 +1811,7 @@
 					(hide yes)
 				)
 			)
-			(property "MP" "XT30PW-M"
+			(property "MP" "XT60PW-M"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1821,17 +1821,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description_1" "Socket; DC supply; XT30; male; PIN: 2; on PCBs; THT; Colour: yellow"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "MANUFACTURER" "Amass"
+			(property "Description_1" "Socket, DC supply, male, PIN: 2"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1851,7 +1841,7 @@
 					(hide yes)
 				)
 			)
-			(property "SNAPEDA_PN" "XT30PW-M"
+			(property "MANUFACTURER" "AMASS"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1861,148 +1851,29 @@
 					(hide yes)
 				)
 			)
-			(symbol "XT30PW-M_0_0"
-				(polyline
-					(pts
-						(xy -7.62 2.54) (xy -1.27 2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -7.62 -5.08) (xy -7.62 2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
+			(symbol "XT60PW-M_0_0"
 				(rectangle
-					(start -2.2225 -0.3175)
-					(end -0.635 0.3175)
-					(stroke
-						(width 0.1)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start -2.2225 -2.8575)
-					(end -0.635 -2.2225)
-					(stroke
-						(width 0.1)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -5.08) (xy -7.62 -5.08)
-					)
+					(start -5.08 -2.54)
+					(end 5.08 5.08)
 					(stroke
 						(width 0.254)
 						(type default)
 					)
 					(fill
-						(type none)
+						(type background)
 					)
 				)
-				(polyline
-					(pts
-						(xy 0 1.27) (xy -1.27 2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 1.27) (xy 0 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy -1.905 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 -3.81)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -2.54) (xy -1.905 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -3.81) (xy -1.27 -5.08)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin power_in line
-					(at 5.08 0 180)
+				(pin passive line
+					(at -10.16 2.54 0)
 					(length 5.08)
-					(name "P"
+					(name "+"
 						(effects
 							(font
 								(size 1.016 1.016)
 							)
 						)
 					)
-					(number "P"
+					(number "1"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -2010,17 +1881,17 @@
 						)
 					)
 				)
-				(pin power_in line
-					(at 5.08 -2.54 180)
+				(pin passive line
+					(at -10.16 0 0)
 					(length 5.08)
-					(name "N"
+					(name "-"
 						(effects
 							(font
 								(size 1.016 1.016)
 							)
 						)
 					)
-					(number "N"
+					(number "2"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -2414,6 +2285,26 @@
 	)
 	(wire
 		(pts
+			(xy 41.91 41.91) (xy 41.91 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d1e09f5-1509-4df8-ae5a-a272e73c27f8")
+	)
+	(wire
+		(pts
+			(xy 38.1 41.91) (xy 41.91 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e359ec3-0af5-47b8-8700-7673b6c9ea4f")
+	)
+	(wire
+		(pts
 			(xy 116.84 45.72) (xy 116.84 48.26)
 		)
 		(stroke
@@ -2514,16 +2405,6 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 39.37) (xy 52.07 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "252d2427-4ec6-4159-99d8-1af40f7e6760")
-	)
-	(wire
-		(pts
 			(xy 232.41 68.58) (xy 234.95 68.58)
 		)
 		(stroke
@@ -2531,6 +2412,16 @@
 			(type default)
 		)
 		(uuid "26b75ab2-323d-493c-a49c-647019617567")
+	)
+	(wire
+		(pts
+			(xy 38.1 39.37) (xy 40.64 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "29da5697-09a0-484b-808f-f15ba3d4d2fa")
 	)
 	(wire
 		(pts
@@ -2581,6 +2472,16 @@
 			(type default)
 		)
 		(uuid "355a94c2-ac8d-4283-b556-c1d0d652b42e")
+	)
+	(wire
+		(pts
+			(xy 40.64 43.18) (xy 46.99 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "37c22c74-a226-4d86-a1b5-45473d33447c")
 	)
 	(wire
 		(pts
@@ -2684,6 +2585,16 @@
 	)
 	(wire
 		(pts
+			(xy 41.91 39.37) (xy 52.07 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f66895c-2336-4797-9c19-04faddf3c727")
+	)
+	(wire
+		(pts
 			(xy 64.77 80.01) (xy 72.39 80.01)
 		)
 		(stroke
@@ -2714,13 +2625,13 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 41.91) (xy 46.99 41.91)
+			(xy 40.64 39.37) (xy 40.64 43.18)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6206c482-32d5-4924-a682-6fbe1a760377")
+		(uuid "5dd7957a-a93f-47c2-9066-3413e0117dca")
 	)
 	(wire
 		(pts
@@ -2964,7 +2875,7 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 41.91) (xy 46.99 53.34)
+			(xy 46.99 43.18) (xy 46.99 53.34)
 		)
 		(stroke
 			(width 0)
@@ -4064,6 +3975,204 @@
 		)
 	)
 	(symbol
+		(lib_id "XT60PW-M:XT60PW-M")
+		(at 27.94 39.37 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "491d111a-6cb8-4195-9133-30b92a484061")
+		(property "Reference" "J101"
+			(at 27.94 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "XT60PW-M"
+			(at 27.94 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PRJ:AMASS_XT60PW-M"
+			(at 27.94 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 27.94 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 27.94 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "AMASS"
+			(at 27.94 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "8.4 mm"
+			(at 27.94 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "Package"
+			(at 27.94 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 27.94 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/XT60PW-M/AMASS/view-part/?ref=eda"
+			(at 27.94 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer recommendations"
+			(at 27.94 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "V1.2"
+			(at 27.94 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/XT60PW-M/AMASS/view-part/?ref=snap"
+			(at 27.94 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "XT60PW-M"
+			(at 27.94 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "Socket, DC supply, male, PIN: 2"
+			(at 27.94 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "Not in stock"
+			(at 27.94 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "AMASS"
+			(at 27.94 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 27.94 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "988f23dd-9c30-4433-b01a-d58bd1b6b421")
+		)
+		(pin "2"
+			(uuid "ba544b05-ba67-4c62-8993-c897bf45eb20")
+		)
+		(instances
+			(project ""
+				(path "/f29935ff-76ad-48dd-a9d8-f60fd99054e1"
+					(reference "J101")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:PWR_FLAG")
 		(at 72.39 76.2 0)
 		(unit 1)
@@ -4394,222 +4503,6 @@
 			(project "power"
 				(path "/f29935ff-76ad-48dd-a9d8-f60fd99054e1"
 					(reference "C103")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "XT30PW-M:XT30PW-M")
-		(at 39.37 39.37 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6de69865-34db-4980-bcf7-f51727d38262")
-		(property "Reference" "J101"
-			(at 35.56 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "XT30PW-M"
-			(at 35.56 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "PRJ:XT30PW-M"
-			(at 39.37 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 39.37 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 39.37 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" "AMASS"
-			(at 39.37 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "5 mm"
-			(at 39.37 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "None"
-			(at 39.37 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 39.37 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/XT30PW-M/AMASS/view-part/?ref=eda"
-			(at 39.37 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 39.37 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" "1.2"
-			(at 39.37 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/XT30PW-M/AMASS/view-part/?ref=snap"
-			(at 39.37 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "XT30PW-M"
-			(at 39.37 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "Socket; DC supply; XT30; male; PIN: 2; on PCBs; THT; Colour: yellow"
-			(at 39.37 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "Amass"
-			(at 39.37 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "Not in stock"
-			(at 39.37 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SNAPEDA_PN" "XT30PW-M"
-			(at 39.37 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "LCSC" ""
-			(at 39.37 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MOUSER" ""
-			(at 39.37 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "N"
-			(uuid "ab676697-7124-48e0-a0fc-96f3b09aa377")
-		)
-		(pin "P"
-			(uuid "2f7cb372-e077-4790-b5e1-e18f5a62c4c9")
-		)
-		(instances
-			(project ""
-				(path "/f29935ff-76ad-48dd-a9d8-f60fd99054e1"
-					(reference "J101")
 					(unit 1)
 				)
 			)

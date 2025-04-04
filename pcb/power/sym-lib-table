@@ -4,4 +4,5 @@
   (lib (name "HR911130A")(type "KiCad")(uri "${KIPRJMOD}/../../lib/kicad/HR911130A.kicad_sym")(options "")(descr ""))
   (lib (name "TF-01A")(type "KiCad")(uri "${KIPRJMOD}/../../lib/kicad/TF-01A.kicad_sym")(options "")(descr ""))
   (lib (name "XT30PW-M")(type "KiCad")(uri "${KIPRJMOD}/../../lib/kicad/XT30PW-M.kicad_sym")(options "")(descr ""))
+  (lib (name "XT60PW-M")(type "KiCad")(uri "${KIPRJMOD}/../../lib/kicad/XT60PW-M.kicad_sym")(options "")(descr ""))
 )
