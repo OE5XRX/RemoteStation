@@ -10,6 +10,7 @@ fp-info-cache
 pcb/export
 _autosave-*
 *auto_saved_files*
+*.csv
 
 output
 pcb/RemoteStation/RemoteStation
