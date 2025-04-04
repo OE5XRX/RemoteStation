@@ -1679,182 +1679,110 @@
 			(embedded_fonts no)
 		)
 		(symbol "XT60PW-M:XT60PW-M"
-			(pin_names
-				(offset 1.016)
-			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "J"
-				(at -5.08 5.7234 0)
+				(at 19.05 7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left bottom)
+					(justify left top)
 				)
 			)
 			(property "Value" "XT60PW-M"
-				(at -5.08 -5.0923 0)
+				(at 19.05 5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left bottom)
+					(justify left top)
 				)
 			)
-			(property "Footprint" "XT60PW-M:AMASS_XT60PW-M"
+			(property "Footprint" "XT60PWM"
+				(at 19.05 -94.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.tme.eu/Document/b13629717d44ae038681dba08d18c0b6/XT60PW-M.pdf"
+				(at 19.05 -194.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "Connector: DC supply; socket; XT60; male; PIN: 2; on PCBs; THT; 30A"
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify bottom)
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
-				(at 0 0 0)
+			(property "Height" "8.4"
+				(at 19.05 -394.92 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left top)
 					(hide yes)
 				)
 			)
-			(property "Description" ""
-				(at 0 0 0)
+			(property "TME Electronic Components Part Number" ""
+				(at 19.05 -494.92 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left top)
 					(hide yes)
 				)
 			)
-			(property "MF" "AMASS"
-				(at 0 0 0)
+			(property "TME Electronic Components Price/Stock" ""
+				(at 19.05 -594.92 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify bottom)
+					(justify left top)
 					(hide yes)
 				)
 			)
-			(property "MAXIMUM_PACKAGE_HEIGHT" "8.4 mm"
-				(at 0 0 0)
+			(property "Manufacturer_Name" "Amass"
+				(at 19.05 -694.92 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify bottom)
+					(justify left top)
 					(hide yes)
 				)
 			)
-			(property "Package" "Package"
-				(at 0 0 0)
+			(property "Manufacturer_Part_Number" "XT60PW-M"
+				(at 19.05 -794.92 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify bottom)
+					(justify left top)
 					(hide yes)
 				)
 			)
-			(property "Price" "None"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Check_prices" "https://www.snapeda.com/parts/XT60PW-M/AMASS/view-part/?ref=eda"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "STANDARD" "Manufacturer recommendations"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "PARTREV" "V1.2"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "SnapEDA_Link" "https://www.snapeda.com/parts/XT60PW-M/AMASS/view-part/?ref=snap"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "MP" "XT60PW-M"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Description_1" "Socket, DC supply, male, PIN: 2"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Availability" "Not in stock"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "MANUFACTURER" "AMASS"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(symbol "XT60PW-M_0_0"
+			(symbol "XT60PW-M_1_1"
 				(rectangle
-					(start -5.08 -2.54)
-					(end 5.08 5.08)
+					(start 5.08 2.54)
+					(end 17.78 -5.08)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -1864,37 +1792,73 @@
 					)
 				)
 				(pin passive line
-					(at -10.16 2.54 0)
+					(at 0 0 0)
 					(length 5.08)
-					(name "+"
+					(name "1"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
 					(number "1"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
 				)
 				(pin passive line
-					(at -10.16 0 0)
+					(at 0 -2.54 0)
 					(length 5.08)
-					(name "-"
+					(name "2"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
 					(number "2"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 22.86 0 180)
+					(length 5.08)
+					(name "MH1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 22.86 -2.54 180)
+					(length 5.08)
+					(name "MH2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
 							)
 						)
 					)
@@ -2105,26 +2069,6 @@
 			(embedded_fonts no)
 		)
 	)
-	(text_box "Power Connector"
-		(exclude_from_sim no)
-		(at 21.59 16.51 0)
-		(size 62.23 46.99)
-		(margins 0.9525 0.9525 0.9525 0.9525)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left top)
-		)
-		(uuid "b337a300-6f7c-4aeb-b6e7-3c109b40eb81")
-	)
 	(junction
 		(at 72.39 80.01)
 		(diameter 0)
@@ -2144,7 +2088,7 @@
 		(uuid "1e174943-63cc-43f1-8a1c-eb90339d0148")
 	)
 	(junction
-		(at 52.07 39.37)
+		(at 74.93 39.37)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "28c1f1e0-9862-47fa-bfec-b3c9b02fc0f9")
@@ -2174,25 +2118,31 @@
 		(uuid "5e97b624-a9ec-4790-ba38-48f3c9030ad5")
 	)
 	(junction
+		(at 25.4 33.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "74446903-563d-4dfe-9a94-7ede0c02561b")
+	)
+	(junction
+		(at 57.15 35.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "77e23b42-ff54-43aa-bee0-5a94d55b9aa5")
+	)
+	(junction
 		(at 234.95 86.36)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8ea1fb6f-db2b-4e89-8709-1bd72d889c5f")
 	)
 	(junction
-		(at 46.99 53.34)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a4aeccb8-91b2-4a02-8b81-77b5096cfafe")
-	)
-	(junction
-		(at 71.12 39.37)
+		(at 93.98 39.37)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "aa6755f6-7dc7-4c43-b67d-826aafce6edb")
 	)
 	(junction
-		(at 64.77 39.37)
+		(at 87.63 39.37)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "caf8e991-7100-4c55-a9f8-a8d14837697a")
@@ -2275,33 +2225,13 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 48.26) (xy 64.77 49.53)
+			(xy 87.63 48.26) (xy 87.63 49.53)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "08e2ca1e-02ac-4d68-99de-2185d1c3646e")
-	)
-	(wire
-		(pts
-			(xy 41.91 41.91) (xy 41.91 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0d1e09f5-1509-4df8-ae5a-a272e73c27f8")
-	)
-	(wire
-		(pts
-			(xy 38.1 41.91) (xy 41.91 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0e359ec3-0af5-47b8-8700-7673b6c9ea4f")
 	)
 	(wire
 		(pts
@@ -2375,7 +2305,7 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 39.37) (xy 53.34 39.37)
+			(xy 74.93 39.37) (xy 76.2 39.37)
 		)
 		(stroke
 			(width 0)
@@ -2405,6 +2335,16 @@
 	)
 	(wire
 		(pts
+			(xy 57.15 35.56) (xy 57.15 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "269ff8a0-7673-441d-8a28-abf789a80670")
+	)
+	(wire
+		(pts
 			(xy 232.41 68.58) (xy 234.95 68.58)
 		)
 		(stroke
@@ -2415,16 +2355,6 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 39.37) (xy 40.64 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "29da5697-09a0-484b-808f-f15ba3d4d2fa")
-	)
-	(wire
-		(pts
 			(xy 165.1 76.2) (xy 170.18 76.2)
 		)
 		(stroke
@@ -2432,16 +2362,6 @@
 			(type default)
 		)
 		(uuid "2ab04088-4d51-409e-a9f0-883424f84deb")
-	)
-	(wire
-		(pts
-			(xy 46.99 53.34) (xy 53.34 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2ca4cca3-5fca-4915-98d4-f772eea43c4a")
 	)
 	(wire
 		(pts
@@ -2472,16 +2392,6 @@
 			(type default)
 		)
 		(uuid "355a94c2-ac8d-4283-b556-c1d0d652b42e")
-	)
-	(wire
-		(pts
-			(xy 40.64 43.18) (xy 46.99 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "37c22c74-a226-4d86-a1b5-45473d33447c")
 	)
 	(wire
 		(pts
@@ -2535,7 +2445,7 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 39.37) (xy 64.77 39.37)
+			(xy 83.82 39.37) (xy 87.63 39.37)
 		)
 		(stroke
 			(width 0)
@@ -2585,13 +2495,13 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 39.37) (xy 52.07 39.37)
+			(xy 25.4 29.21) (xy 25.4 33.02)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4f66895c-2336-4797-9c19-04faddf3c727")
+		(uuid "504c7109-e42c-46cc-864a-e7ec7aab27e4")
 	)
 	(wire
 		(pts
@@ -2615,23 +2525,33 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 50.8) (xy 53.34 53.34)
+			(xy 57.15 33.02) (xy 57.15 35.56)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5dc1b9fc-7a28-4938-b63e-7650a74d816e")
+		(uuid "59f1763d-a053-4e57-9a83-028e59a8fff1")
 	)
 	(wire
 		(pts
-			(xy 40.64 39.37) (xy 40.64 43.18)
+			(xy 27.94 39.37) (xy 74.93 39.37)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5dd7957a-a93f-47c2-9066-3413e0117dca")
+		(uuid "5e58ac8e-4f6e-4620-be2f-e5ed1eef4bdd")
+	)
+	(wire
+		(pts
+			(xy 53.34 35.56) (xy 57.15 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "60662666-29a7-41f3-bc63-81f3730be40c")
 	)
 	(wire
 		(pts
@@ -2642,6 +2562,16 @@
 			(type default)
 		)
 		(uuid "63c898ef-a12a-4ca3-b30d-194f5f11a948")
+	)
+	(wire
+		(pts
+			(xy 25.4 33.02) (xy 25.4 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "64725b3b-b852-40b5-af22-d8acad15bf39")
 	)
 	(wire
 		(pts
@@ -2705,7 +2635,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 34.29) (xy 71.12 39.37)
+			(xy 93.98 34.29) (xy 93.98 39.37)
 		)
 		(stroke
 			(width 0)
@@ -2735,7 +2665,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 39.37) (xy 77.47 39.37)
+			(xy 93.98 39.37) (xy 100.33 39.37)
 		)
 		(stroke
 			(width 0)
@@ -2745,7 +2675,7 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 39.37) (xy 71.12 39.37)
+			(xy 87.63 39.37) (xy 93.98 39.37)
 		)
 		(stroke
 			(width 0)
@@ -2782,16 +2712,6 @@
 			(type default)
 		)
 		(uuid "82057546-edd8-437e-aecd-2f9ac20bc47a")
-	)
-	(wire
-		(pts
-			(xy 46.99 53.34) (xy 46.99 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "87278b43-ed87-48b0-aa62-5b6610e754f5")
 	)
 	(wire
 		(pts
@@ -2865,23 +2785,13 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 34.29) (xy 52.07 39.37)
+			(xy 74.93 34.29) (xy 74.93 39.37)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "b9bdafe2-8ef3-4b76-a293-19cc632d0441")
-	)
-	(wire
-		(pts
-			(xy 46.99 43.18) (xy 46.99 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bb07144b-c314-474b-a238-d30a33e63860")
 	)
 	(wire
 		(pts
@@ -2895,7 +2805,7 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 39.37) (xy 64.77 40.64)
+			(xy 87.63 39.37) (xy 87.63 40.64)
 		)
 		(stroke
 			(width 0)
@@ -2945,6 +2855,16 @@
 	)
 	(wire
 		(pts
+			(xy 27.94 35.56) (xy 30.48 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dca587db-1720-4c67-b38e-51a81cfbbabc")
+	)
+	(wire
+		(pts
 			(xy 71.12 151.13) (xy 71.12 153.67)
 		)
 		(stroke
@@ -2975,6 +2895,16 @@
 	)
 	(wire
 		(pts
+			(xy 25.4 33.02) (xy 30.48 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e103584d-93d4-4eee-bfc1-8d605bfe4c10")
+	)
+	(wire
+		(pts
 			(xy 113.03 73.66) (xy 123.19 73.66)
 		)
 		(stroke
@@ -2982,6 +2912,16 @@
 			(type default)
 		)
 		(uuid "e17fc58f-b8ff-482f-8158-b4d40ba546c4")
+	)
+	(wire
+		(pts
+			(xy 53.34 33.02) (xy 57.15 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e1a871bf-1773-4b4b-a0dc-49be7ac7c978")
 	)
 	(wire
 		(pts
@@ -3055,13 +2995,23 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 31.75) (xy 77.47 39.37)
+			(xy 100.33 31.75) (xy 100.33 39.37)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "fae9902a-4311-41a9-b495-0916871e2659")
+	)
+	(wire
+		(pts
+			(xy 27.94 39.37) (xy 27.94 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb81b415-70b4-48e7-9f0f-96c8c5e02566")
 	)
 	(label "5V"
 		(at 116.84 43.18 0)
@@ -3104,7 +3054,7 @@
 		(uuid "45eda850-4220-477e-8d99-930adaa0911c")
 	)
 	(label "12V_IN"
-		(at 77.47 31.75 270)
+		(at 100.33 31.75 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3254,7 +3204,7 @@
 		(uuid "c600860b-f423-448f-a0c9-fb025eda7ff1")
 	)
 	(label "12V_IN_UNPROTECTED"
-		(at 46.99 39.37 90)
+		(at 69.85 39.37 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3975,43 +3925,34 @@
 		)
 	)
 	(symbol
-		(lib_id "XT60PW-M:XT60PW-M")
-		(at 27.94 39.37 180)
+		(lib_id "power:GND")
+		(at 57.15 44.45 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "491d111a-6cb8-4195-9133-30b92a484061")
-		(property "Reference" "J101"
-			(at 27.94 31.75 0)
+		(uuid "47b5fd1d-e023-49d5-8cc5-5d0a6cbc1aad")
+		(property "Reference" "#PWR0111"
+			(at 57.15 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-			)
-		)
-		(property "Value" "XT60PW-M"
-			(at 27.94 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "PRJ:AMASS_XT60PW-M"
-			(at 27.94 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 27.94 39.37 0)
+		(property "Value" "GND"
+			(at 57.15 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 57.15 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4019,8 +3960,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 27.94 39.37 0)
+		(property "Datasheet" ""
+			(at 57.15 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4028,128 +3969,8 @@
 				(hide yes)
 			)
 		)
-		(property "MF" "AMASS"
-			(at 27.94 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "8.4 mm"
-			(at 27.94 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "Package"
-			(at 27.94 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 27.94 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/XT60PW-M/AMASS/view-part/?ref=eda"
-			(at 27.94 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" "Manufacturer recommendations"
-			(at 27.94 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" "V1.2"
-			(at 27.94 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/XT60PW-M/AMASS/view-part/?ref=snap"
-			(at 27.94 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "XT60PW-M"
-			(at 27.94 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "Socket, DC supply, male, PIN: 2"
-			(at 27.94 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "Not in stock"
-			(at 27.94 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "AMASS"
-			(at 27.94 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "LCSC" ""
-			(at 27.94 39.37 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 57.15 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4158,15 +3979,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "988f23dd-9c30-4433-b01a-d58bd1b6b421")
-		)
-		(pin "2"
-			(uuid "ba544b05-ba67-4c62-8993-c897bf45eb20")
+			(uuid "c608c990-6cac-4f37-9bf1-79da7da2278e")
 		)
 		(instances
-			(project ""
+			(project "power"
 				(path "/f29935ff-76ad-48dd-a9d8-f60fd99054e1"
-					(reference "J101")
+					(reference "#PWR0111")
 					(unit 1)
 				)
 			)
@@ -4576,7 +4394,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 71.12 34.29 0)
+		(at 93.98 34.29 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4585,7 +4403,7 @@
 		(fields_autoplaced yes)
 		(uuid "743634e1-c0a1-4139-a537-d5ae45774efc")
 		(property "Reference" "#FLG0101"
-			(at 71.12 32.385 0)
+			(at 93.98 32.385 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4594,7 +4412,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 71.12 29.21 0)
+			(at 93.98 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4602,7 +4420,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 71.12 34.29 0)
+			(at 93.98 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4611,7 +4429,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 71.12 34.29 0)
+			(at 93.98 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4620,7 +4438,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 71.12 34.29 0)
+			(at 93.98 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4641,8 +4459,143 @@
 		)
 	)
 	(symbol
+		(lib_id "XT60PW-M:XT60PW-M")
+		(at 30.48 33.02 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "766da13f-a9ee-4bc3-81f8-b04a7fcbf722")
+		(property "Reference" "J101"
+			(at 41.91 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "XT60PW-M"
+			(at 41.91 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PRJ:XT60PWM"
+			(at 49.53 127.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tme.eu/Document/b13629717d44ae038681dba08d18c0b6/XT60PW-M.pdf"
+			(at 49.53 227.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Connector: DC supply; socket; XT60; male; PIN: 2; on PCBs; THT; 30A"
+			(at 30.48 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "8.4"
+			(at 49.53 427.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "TME Electronic Components Part Number" ""
+			(at 49.53 527.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "TME Electronic Components Price/Stock" ""
+			(at 49.53 627.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Amass"
+			(at 49.53 727.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "XT60PW-M"
+			(at 49.53 827.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 30.48 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "59c698f4-9968-4305-800b-359fe603254f")
+		)
+		(pin "2"
+			(uuid "e836b4fa-7e9b-4713-9926-7cb36afaab60")
+		)
+		(pin "3"
+			(uuid "c590571a-e35a-44fe-99d5-af51c638aa19")
+		)
+		(pin "4"
+			(uuid "6d0f77a9-9668-4d52-8f5a-506047727ac9")
+		)
+		(instances
+			(project ""
+				(path "/f29935ff-76ad-48dd-a9d8-f60fd99054e1"
+					(reference "J101")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 53.34 50.8 0)
+		(at 25.4 29.21 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4651,7 +4604,7 @@
 		(fields_autoplaced yes)
 		(uuid "96ece14c-f0ea-41b1-a9e7-3a584c6e72fe")
 		(property "Reference" "#FLG0102"
-			(at 53.34 48.895 0)
+			(at 25.4 27.305 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4660,7 +4613,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 53.34 45.72 0)
+			(at 25.4 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4668,7 +4621,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 53.34 50.8 0)
+			(at 25.4 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4677,7 +4630,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 53.34 50.8 0)
+			(at 25.4 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4686,7 +4639,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 53.34 50.8 0)
+			(at 25.4 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4925,7 +4878,7 @@
 	)
 	(symbol
 		(lib_id "Device:Fuse")
-		(at 57.15 39.37 90)
+		(at 80.01 39.37 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4934,7 +4887,7 @@
 		(fields_autoplaced yes)
 		(uuid "bacd5a90-a717-4cf8-8865-58ab1d127792")
 		(property "Reference" "F101"
-			(at 57.15 33.02 90)
+			(at 80.01 33.02 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4942,7 +4895,7 @@
 			)
 		)
 		(property "Value" "Fuse"
-			(at 57.15 35.56 90)
+			(at 80.01 35.56 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4950,7 +4903,7 @@
 			)
 		)
 		(property "Footprint" "PRJ:Fuseholder"
-			(at 57.15 41.148 90)
+			(at 80.01 41.148 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4959,7 +4912,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 57.15 39.37 0)
+			(at 80.01 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4968,7 +4921,7 @@
 			)
 		)
 		(property "Description" "Fuse"
-			(at 57.15 39.37 0)
+			(at 80.01 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4977,7 +4930,7 @@
 			)
 		)
 		(property "LCSC" "C19727304"
-			(at 57.15 39.37 0)
+			(at 80.01 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4986,7 +4939,7 @@
 			)
 		)
 		(property "MOUSER" ""
-			(at 57.15 39.37 0)
+			(at 80.01 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5097,7 +5050,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 64.77 49.53 0)
+		(at 87.63 49.53 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5106,7 +5059,7 @@
 		(fields_autoplaced yes)
 		(uuid "cf41804e-5647-4c17-a68e-d87c38e9ceb5")
 		(property "Reference" "#PWR0102"
-			(at 64.77 55.88 0)
+			(at 87.63 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5115,7 +5068,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 64.77 54.61 0)
+			(at 87.63 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5123,7 +5076,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 64.77 49.53 0)
+			(at 87.63 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5132,7 +5085,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 64.77 49.53 0)
+			(at 87.63 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5141,7 +5094,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 64.77 49.53 0)
+			(at 87.63 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5384,7 +5337,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 52.07 34.29 0)
+		(at 74.93 34.29 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5393,7 +5346,7 @@
 		(fields_autoplaced yes)
 		(uuid "e64c67a7-44d6-4d8f-9b76-a6980dbec30e")
 		(property "Reference" "#FLG0106"
-			(at 52.07 32.385 0)
+			(at 74.93 32.385 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5402,7 +5355,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 52.07 29.21 0)
+			(at 74.93 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5410,7 +5363,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 52.07 34.29 0)
+			(at 74.93 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5419,7 +5372,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 52.07 34.29 0)
+			(at 74.93 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5428,7 +5381,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 52.07 34.29 0)
+			(at 74.93 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5450,7 +5403,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 64.77 44.45 0)
+		(at 87.63 44.45 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5459,7 +5412,7 @@
 		(fields_autoplaced yes)
 		(uuid "ec858325-386e-4cb0-a385-856da277a7fb")
 		(property "Reference" "C101"
-			(at 68.58 43.1799 0)
+			(at 91.44 43.1799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5468,7 +5421,7 @@
 			)
 		)
 		(property "Value" "10u"
-			(at 68.58 45.7199 0)
+			(at 91.44 45.7199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5477,7 +5430,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
-			(at 65.7352 48.26 0)
+			(at 88.5952 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5486,7 +5439,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 64.77 44.45 0)
+			(at 87.63 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5495,7 +5448,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 64.77 44.45 0)
+			(at 87.63 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5504,7 +5457,7 @@
 			)
 		)
 		(property "LCSC" "C13585"
-			(at 64.77 44.45 0)
+			(at 87.63 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5513,7 +5466,7 @@
 			)
 		)
 		(property "MOUSER" ""
-			(at 64.77 44.45 0)
+			(at 87.63 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5537,16 +5490,16 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 46.99 55.88 0)
+		(at 25.4 44.45 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "edd20555-ee8e-4e5a-babd-d79334030e43")
 		(property "Reference" "#PWR0101"
-			(at 46.99 62.23 0)
+			(at 25.4 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5555,7 +5508,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 46.99 60.96 0)
+			(at 25.4 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5563,7 +5516,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 46.99 55.88 0)
+			(at 25.4 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5572,7 +5525,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 46.99 55.88 0)
+			(at 25.4 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5581,7 +5534,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 46.99 55.88 0)
+			(at 25.4 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
