@@ -53,7 +53,7 @@ outputs:
       orthographic: true
       ray_tracing: true
       auto_crop: true
-      #enable_crop_workaround: true
+      enable_crop_workaround: true
       transparent_background: true
 
   - name: KiCad_3D_bottom
@@ -64,5 +64,5 @@ outputs:
       orthographic: true
       ray_tracing: true
       auto_crop: true
-      #enable_crop_workaround: true
+      enable_crop_workaround: true
       transparent_background: true
