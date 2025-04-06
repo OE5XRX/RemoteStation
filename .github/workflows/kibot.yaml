@@ -50,7 +50,9 @@ jobs:
 
     - name: Generate ${{ matrix.pcbs }} Export Files
       if: always()
-      run: kibot -c output.kibot.yaml -e pcb/${{ matrix.pcbs }}/${{ matrix.pcbs }}.kicad_sch -b pcb/${{ matrix.pcbs }}/${{ matrix.pcbs }}.kicad_pcb -d output
+      run: |
+        cd pcb/${{ matrix.pcbs }}
+        kibot -c ../../output.kibot.yaml -e ${{ matrix.pcbs }}.kicad_sch -b ${{ matrix.pcbs }}.kicad_pcb -d ../../output
 
     - name: Upload Export Files as Artifacts
       uses: actions/upload-artifact@v4
