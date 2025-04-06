@@ -45,17 +45,24 @@ outputs:
     comment: 'STEP file generation'
     type: step
 
-  - name: "pcbdraw_top"
-    comment: "PCB pics top"
-    type: pcbdraw
+  - name: KiCad_3D_top
+    comment: "render 3D top"
+    type: render_3d
     options:
-      format: png
-      show_components: all
+      view: 'top'
+      orthographic: true
+      ray_tracing: true
+      auto_crop: true
+      #enable_crop_workaround: true
+      transparent_background: true
 
-  - name: "pcbdraw_bottom"
-    comment: "PCB pics bottom"
-    type: pcbdraw
+  - name: KiCad_3D_bottom
+    comment: "render 3D bottom"
+    type: render_3d
     options:
-      bottom: true
-      format: png
-      show_components: all
+      view: 'bottom'
+      orthographic: true
+      ray_tracing: true
+      auto_crop: true
+      #enable_crop_workaround: true
+      transparent_background: true
