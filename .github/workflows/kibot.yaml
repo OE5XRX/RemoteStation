@@ -57,6 +57,7 @@ jobs:
         config: test.kibot.yaml
         dir: output
         schema: 'pcb/${{ matrix.pcbs }}/${{ matrix.pcbs }}.kicad_sch'
+        verbose: 2
 
     - name: Generate ${{ matrix.pcbs }} Export Files
       if: always()
@@ -67,6 +68,7 @@ jobs:
         schema: 'pcb/${{ matrix.pcbs }}/${{ matrix.pcbs }}.kicad_sch'
         board: 'pcb/${{ matrix.pcbs }}/${{ matrix.pcbs }}.kicad_pcb'
         cache3D: YES
+        verbose: 2
 
     - name: Upload Export Files as Artifacts
       uses: actions/upload-artifact@v4
