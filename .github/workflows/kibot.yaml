@@ -30,6 +30,13 @@ jobs:
     - name: Checkout Repository
       uses: actions/checkout@v4
 
+    - name: Cache 3D models data
+      id: models-cache
+      uses: set-soft/cache@main
+      with:
+        path: ~/cache_3d
+        key: cache_3d
+
     - name: Update the PCBs on release with hash and release tag
       if: github.event_name == 'release'
       run: |
@@ -65,6 +72,7 @@ jobs:
         dir: output
         schema: 'pcb/${{ matrix.pcbs }}/${{ matrix.pcbs }}.kicad_sch'
         board: 'pcb/${{ matrix.pcbs }}/${{ matrix.pcbs }}.kicad_pcb'
+        cache3D: YES
 
     - name: Upload Export Files as Artifacts
       uses: actions/upload-artifact@v4
