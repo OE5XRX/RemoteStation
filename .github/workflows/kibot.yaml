@@ -19,7 +19,7 @@ jobs:
   export-ecad:
     name: Export ECAD
     runs-on: ubuntu-24.04
-    container: ghcr.io/inti-cmnb/kicad9_auto_full:dev
+    #container: ghcr.io/inti-cmnb/kicad9_auto_full:dev
     if: always()
 
     strategy:
@@ -45,12 +45,26 @@ jobs:
         echo "COMMIT = ${COMMIT}"
         sed -i "s/<<HASH>>/BETA-${COMMIT}/g" pcb/${{ matrix.pcbs }}/*
 
+    #- name: check KiCad files
+    #  run: kibot -c test.kibot.yaml -e pcb/${{ matrix.pcbs }}/${{ matrix.pcbs }}.kicad_sch -d output
     - name: check KiCad files
-      run: kibot -c test.kibot.yaml -e pcb/${{ matrix.pcbs }}/${{ matrix.pcbs }}.kicad_sch -d output
+      uses: INTI-CMNB/KiBot@v2_k9
+      with:
+        config: test.kibot.yaml
+        dir: output
+        schema: 'pcb/${{ matrix.pcbs }}/${{ matrix.pcbs }}.kicad_sch'
 
+    #- name: Generate ${{ matrix.pcbs }} Export Files
+    #  if: always()
+    #  run: kibot -c output.kibot.yaml -e pcb/${{ matrix.pcbs }}/${{ matrix.pcbs }}.kicad_sch -b pcb/${{ matrix.pcbs }}/${{ matrix.pcbs }}.kicad_pcb -d output
     - name: Generate ${{ matrix.pcbs }} Export Files
       if: always()
-      run: kibot -c output.kibot.yaml -e pcb/${{ matrix.pcbs }}/${{ matrix.pcbs }}.kicad_sch -b pcb/${{ matrix.pcbs }}/${{ matrix.pcbs }}.kicad_pcb -d output
+      uses: INTI-CMNB/KiBot@v2_k9
+      with:
+        config: test.kibot.yaml
+        dir: output
+        schema: 'pcb/${{ matrix.pcbs }}/${{ matrix.pcbs }}.kicad_sch'
+        board: 'pcb/${{ matrix.pcbs }}/${{ matrix.pcbs }}.kicad_pcb'
 
     - name: Upload Export Files as Artifacts
       uses: actions/upload-artifact@v4
