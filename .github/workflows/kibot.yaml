@@ -57,18 +57,18 @@ jobs:
         config: test.kibot.yaml
         dir: output
         schema: 'pcb/${{ matrix.pcbs }}/${{ matrix.pcbs }}.kicad_sch'
-        verbose: 2
+        verbose: 1
 
     - name: Generate ${{ matrix.pcbs }} Export Files
       if: always()
       uses: INTI-CMNB/KiBot@v2_k9
       with:
-        config: test.kibot.yaml
+        config: output.kibot.yaml
         dir: output
         schema: 'pcb/${{ matrix.pcbs }}/${{ matrix.pcbs }}.kicad_sch'
         board: 'pcb/${{ matrix.pcbs }}/${{ matrix.pcbs }}.kicad_pcb'
         cache3D: YES
-        verbose: 2
+        verbose: 1
 
     - name: Upload Export Files as Artifacts
       uses: actions/upload-artifact@v4
