@@ -2023,7 +2023,7 @@
 		)
 		(uuid "fed961b3-ea20-4f09-938a-f62c170763b3")
 	)
-	(label "NS_USB+"
+	(label "NS_USB-"
 		(at 193.04 87.63 0)
 		(effects
 			(font
@@ -2053,7 +2053,7 @@
 		)
 		(uuid "cb0ed25d-2784-4004-b8ea-7bbd33d8c9f7")
 	)
-	(label "NS_USB-"
+	(label "NS_USB+"
 		(at 193.04 85.09 0)
 		(effects
 			(font
@@ -2063,7 +2063,7 @@
 		)
 		(uuid "ea4e30c4-9184-4e4b-b0fe-4dc5d860f455")
 	)
-	(hierarchical_label "USB-"
+	(hierarchical_label "USB+"
 		(shape bidirectional)
 		(at 219.71 85.09 0)
 		(effects
@@ -2096,7 +2096,7 @@
 		)
 		(uuid "d2b61305-b5db-48bd-983d-0f8efe6e96e0")
 	)
-	(hierarchical_label "USB+"
+	(hierarchical_label "USB-"
 		(shape bidirectional)
 		(at 219.71 87.63 0)
 		(effects
