@@ -10,8 +10,8 @@ Diese Seite listet alle Schaltpläne, Platinen und BOMs des Projektes [Remote St
 <table>
   <tr><th>Top</th><th>Bottom</th></tr>
   <tr>
-    <td><img src="pcb/device_test/device_test-3D_top.png?dummy={{ site.time }}" alt="top" /></td>
-    <td><img src="pcb/device_test/device_test-3D_bottom.png?dummy={{ site.time }}" alt="bottom" /></td>
+    <td><img src="pcb/device_test/device_test-3D_top.png?dummy={{ site.time | date: '%s' }}" alt="top" /></td>
+    <td><img src="pcb/device_test/device_test-3D_bottom.png?dummy={{ site.time | date: '%s' }}" alt="bottom" /></td>
   </tr>
 </table>
 
@@ -27,8 +27,8 @@ Diese Seite listet alle Schaltpläne, Platinen und BOMs des Projektes [Remote St
 <table>
   <tr><th>Top</th><th>Bottom</th></tr>
   <tr>
-    <td><img src="pcb/bus/bus-3D_top.png?dummy={{ site.time }}" alt="top" /></td>
-    <td><img src="pcb/bus/bus-3D_bottom.png?dummy={{ site.time }}" alt="bottom" /></td>
+    <td><img src="pcb/bus/bus-3D_top.png?dummy={{ site.time | date: '%s' }}" alt="top" /></td>
+    <td><img src="pcb/bus/bus-3D_bottom.png?dummy={{ site.time | date: '%s' }}" alt="bottom" /></td>
   </tr>
 </table>
 
@@ -44,8 +44,8 @@ Diese Seite listet alle Schaltpläne, Platinen und BOMs des Projektes [Remote St
 <table>
   <tr><th>Top</th><th>Bottom</th></tr>
   <tr>
-    <td><img src="pcb/power/power-3D_top.png?dummy={{ site.time }}" alt="top" /></td>
-    <td><img src="pcb/power/power-3D_bottom.png?dummy={{ site.time }}" alt="bottom" /></td>
+    <td><img src="pcb/power/power-3D_top.png?dummy={{ site.time | date: '%s' }}" alt="top" /></td>
+    <td><img src="pcb/power/power-3D_bottom.png?dummy={{ site.time | date: '%s' }}" alt="bottom" /></td>
   </tr>
 </table>
 
@@ -61,8 +61,8 @@ Diese Seite listet alle Schaltpläne, Platinen und BOMs des Projektes [Remote St
 <table>
   <tr><th>Top</th><th>Bottom</th></tr>
   <tr>
-    <td><img src="pcb/cm4/cm4-3D_top.png?dummy={{ site.time }}" alt="top" /></td>
-    <td><img src="pcb/cm4/cm4-3D_bottom.png?dummy={{ site.time }}" alt="bottom" /></td>
+    <td><img src="pcb/cm4/cm4-3D_top.png?dummy={{ site.time | date: '%s' }}" alt="top" /></td>
+    <td><img src="pcb/cm4/cm4-3D_bottom.png?dummy={{ site.time | date: '%s' }}" alt="bottom" /></td>
   </tr>
 </table>
 
