@@ -102,7 +102,7 @@ jobs:
           JEKYLL_ENV: production
       - uses: actions/download-artifact@v4
         with:
-          path: _site/pcb
+          path: docs/_site/pcb
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
