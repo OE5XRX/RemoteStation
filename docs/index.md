@@ -73,4 +73,4 @@ Diese Seite listet alle Schaltpläne, Platinen und BOMs des Projektes [Remote St
 - [JLCPCB Bom](pcb/cm4/JLCPCB/cm4_bom_jlc.csv)
 - [JLCPCB Pic&Place](pcb/cm4/JLCPCB/cm4_cpl_jlc.csv)
 
-git-hash: {{ site.data['hash'] }}
+Erstellt am {{ site.time | '%d.%m.%Y %H:%i:%s' }}, mit git hash: {{ site.data['hash'] }}.
