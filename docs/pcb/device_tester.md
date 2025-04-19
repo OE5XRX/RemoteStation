@@ -19,3 +19,5 @@ nav_order: 1
 - [JLCPCB fabrication & stencil](pcb/device_test/JLCPCB/device_test-_JLCPCB_compress.zip)
 - [JLCPCB Bom](pcb/device_test/JLCPCB/device_test_bom_jlc.csv)
 - [JLCPCB Pic&Place](pcb/device_test/JLCPCB/device_test_cpl_jlc.csv)
+
+Erstellt am {{ site.time | '%d.%m.%Y %H:%i:%s' }}, mit git hash: {{ site.data['hash'] }}.
