@@ -5,23 +5,6 @@
 
 Diese Seite listet alle Schaltpläne, Platinen und BOMs des Projektes [Remote Station](https://github.com/OE5XRX/RemoteStation) des Vereines [Amateurfunkclub für Remote Stationen](https://oe5xrx.org).
 
-## Device Tester PCB
-
-<table>
-  <tr><th>Top</th><th>Bottom</th></tr>
-  <tr>
-    <td><img src="pcb/device_test/device_test-3D_top.png?dummy={{ site.data['hash'] }}" alt="top" /></td>
-    <td><img src="pcb/device_test/device_test-3D_bottom.png?dummy={{ site.data['hash'] }}" alt="bottom" /></td>
-  </tr>
-</table>
-
-- [Schaltplan](pcb/device_test/device_test-schematic.pdf)
-- [BOM](pcb/device_test/device_test-bom.html)
-- [iBOM](pcb/device_test/device_test-ibom.html)
-- [JLCPCB fabrication & stencil](pcb/device_test/JLCPCB/device_test-_JLCPCB_compress.zip)
-- [JLCPCB Bom](pcb/device_test/JLCPCB/device_test_bom_jlc.csv)
-- [JLCPCB Pic&Place](pcb/device_test/JLCPCB/device_test_cpl_jlc.csv)
-
 ## Bus PCB
 
 <table>
@@ -74,3 +57,8 @@ Diese Seite listet alle Schaltpläne, Platinen und BOMs des Projektes [Remote St
 - [JLCPCB Pic&Place](pcb/cm4/JLCPCB/cm4_cpl_jlc.csv)
 
 Erstellt am {{ site.time | '%d.%m.%Y %H:%i:%s' }}, mit git hash: {{ site.data['hash'] }}.
+
+**Wir lieben Open Source!**
+
+![Open_Source_Initiative](https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Open_Source_Initiative.svg/183px-Open_Source_Initiative.svg.png "Open_Source_Initiative")
+![Open-source-hardware-logo](https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Open-source-hardware-logo.svg/228px-Open-source-hardware-logo.svg.png "Open-source-hardware-logo")

@@ -97,18 +97,16 @@ jobs:
         with:
           generator_config_file: docs
       - name: Build with Jekyll
-        # Outputs to the './_site' directory by default
-        run: cd docs && bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}"
+        run:  bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}"
         env:
           JEKYLL_ENV: production
       - uses: actions/download-artifact@v4
         with:
-          path: docs/_site/pcb
+          path: _site/pcb
       - name: Upload artifact
-        # Automatically uploads an artifact from the './_site' directory by default
         uses: actions/upload-pages-artifact@v3
         with:
-          path: docs/_site
+          path: _site
 
   # Deployment job
   deploy:
