@@ -15,4 +15,4 @@ build:
     - gem install bundler
     - bundle install
     # Build the site and save generated files into Read the Docs directory
-    - cd docs && jekyll build --destination $READTHEDOCS_OUTPUT/html --baseurl $READTHEDOCS_CANONICAL_URL
+    - cd docs && jekyll build --destination $READTHEDOCS_OUTPUT/html --baseurl "$READTHEDOCS_CANONICAL_URL"
