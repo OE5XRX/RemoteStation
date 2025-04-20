@@ -1,0 +1,3 @@
+# _config.prod.yml
+url: "https://oe5xrx-remote-station.readthedocs.io"
+baseurl: "/de/latest"

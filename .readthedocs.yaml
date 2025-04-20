@@ -16,4 +16,4 @@ build:
     - bundle install
     - echo "$READTHEDOCS_CANONICAL_URL"
     # Build the site and save generated files into Read the Docs directory
-    - cd docs && jekyll build --destination $READTHEDOCS_OUTPUT/html --url "$READTHEDOCS_CANONICAL_URL"
+    - cd docs && jekyll build --config _config.yml,_config.rtd.yml --destination $READTHEDOCS_OUTPUT/html
