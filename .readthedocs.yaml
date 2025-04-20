@@ -8,11 +8,11 @@ version: 2
 build:
   os: ubuntu-24.04
   tools:
-    ruby: "3.3"
+    ruby: "3.1"
 
   commands:
     # Install dependencies
     - gem install bundler
     - bundle install
     # Build the site and save generated files into Read the Docs directory
-    - jekyll build --destination $READTHEDOCS_OUTPUT/html
+    - cd docs && jekyll build --destination $READTHEDOCS_OUTPUT/html
