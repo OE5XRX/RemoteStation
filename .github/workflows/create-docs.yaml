@@ -4,10 +4,6 @@ on:
   push:
     branches:
       - 'main'
-      - 'rtd'
-
-permissions:
-  contents: write
 
 jobs:
   export-ecad:
@@ -64,25 +60,23 @@ jobs:
         path: output
         if-no-files-found: error
 
-  build-and-push:
+  collect-and-provide:
     runs-on: ubuntu-24.04
     needs: export-ecad
     if: always()
     steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-        with:
-          ref: rtd
-
       - uses: actions/download-artifact@v4
         with:
-          path: docs/_static/pcb
+          path: docs
 
-      - name: Commit & push artifacts to rtd branch
-        run: |
-          git config user.name "GitHub Actions"
-          git config user.email "actions@users.noreply.github.com"
+      - uses: actions/upload-artifact@v4
+        with:
+          name: artifacts-for-${{ github.sha }}
+          path: docs
 
-          git add .
-          git commit -m "Update doc artifacts from main branch"
-          git push
+      - name: Trigger RTDs build
+        uses: dfm/rtds-action@v1
+        with:
+          webhook_url: ${{ secrets.RTDS_WEBHOOK_URL }}
+          webhook_token: ${{ secrets.RTDS_WEBHOOK_TOKEN }}
+          commit_ref: ${{ github.ref }}
