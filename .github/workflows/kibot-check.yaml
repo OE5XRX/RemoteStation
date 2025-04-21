@@ -4,6 +4,10 @@ on:
   pull_request:
     branches:
       - 'main'
+    paths:
+      - 'pcb/**'
+      - 'lib/kicad/**'
+
 
 jobs:
   kibot_check:
@@ -22,7 +26,7 @@ jobs:
     - name: check KiCad files
       uses: INTI-CMNB/KiBot@v2_k9
       with:
-        config: test.kibot.yaml
+        config: pcb/test.kibot.yaml
         dir: output
         schema: 'pcb/${{ matrix.pcbs }}/${{ matrix.pcbs }}.kicad_sch'
         verbose: 0
