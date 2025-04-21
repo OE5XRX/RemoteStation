@@ -1,0 +1,84 @@
+name: Create Docs on Main
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - 'main'
+      - 'rtd'
+
+jobs:
+  export-ecad:
+    name: Export ECAD
+    runs-on: ubuntu-24.04
+    if: always()
+
+    strategy:
+      matrix:
+        pcbs: [bus, cm4, device_test, power]
+
+    steps:
+    - name: Checkout Repository
+      uses: actions/checkout@v4
+
+    - name: Cache 3D models data
+      id: models-cache
+      uses: set-soft/cache@main
+      with:
+        path: ~/cache_3d
+        key: cache_3d
+
+    - name: Update the PCBs on release with hash and release tag
+      if: github.event_name == 'release'
+      run: |
+        export COMMIT=$(git rev-parse --short HEAD)
+        echo "COMMIT = ${COMMIT}"
+        echo "GITHUB_REF_NAME = ${GITHUB_REF_NAME}"
+        sed -i "s/<<HASH>>/${GITHUB_REF_NAME}-${COMMIT}/g" pcb/${{ matrix.pcbs }}/*
+
+    - name: Update the PCBs with the BETA and git hash
+      if: github.event_name != 'release'
+      run: |
+        export COMMIT=$(git rev-parse --short HEAD)
+        echo "COMMIT = ${COMMIT}"
+        sed -i "s/<<HASH>>/BETA-${COMMIT}/g" pcb/${{ matrix.pcbs }}/*
+
+    - name: Generate ${{ matrix.pcbs }} Export Files
+      if: always()
+      uses: INTI-CMNB/KiBot@v2_k9
+      with:
+        config: output.kibot.yaml
+        dir: output
+        schema: 'pcb/${{ matrix.pcbs }}/${{ matrix.pcbs }}.kicad_sch'
+        board: 'pcb/${{ matrix.pcbs }}/${{ matrix.pcbs }}.kicad_pcb'
+        cache3D: YES
+        verbose: 0
+
+    - name: Upload Export Files as Artifacts
+      uses: actions/upload-artifact@v4
+      if: always()
+      with:
+        name: ${{ matrix.pcbs }}
+        path: output
+        if-no-files-found: error
+
+  build and push:
+    runs-on: ubuntu-24.04
+    needs: export-ecad
+    if: always()
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        ref: rtd
+
+      - uses: actions/download-artifact@v4
+        with:
+          path: docs/_static/pcb
+
+      - name: Commit & push artifacts to rtd branch
+        run: |
+          git config user.name "GitHub Actions"
+          git config user.email "actions@users.noreply.github.com"
+
+          git add .
+          git commit -m "Update doc artifacts from main branch"
+          git push
