@@ -6,6 +6,9 @@ on:
       - 'main'
       - 'rtd'
 
+permissions:
+  contents: write
+
 jobs:
   export-ecad:
     name: Export ECAD
