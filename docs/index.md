@@ -1,17 +1,11 @@
+---
+---
+
 # Amateurfunkclub für Remote Stationen
 
 Diese Seite listet alle Schaltpläne, Platinen und BOMs des Projektes [Remote Station](https://github.com/OE5XRX/RemoteStation) des Vereines [Amateurfunkclub für Remote Stationen](https://oe5xrx.org).
 
-
-```{toctree}
-:maxdepth: 3
-:caption: PCBs
-
-Device Tester <pcb/device_tester>
-Bus <pcb/bus>
-CM4 <pcb/cm4>
-Power <pcb/power>
-```
+Erstellt am {{ site.time | '%d.%m.%Y %H:%i:%s' }}, mit git hash: {{ site.data['hash'] }}.
 
 **Wir lieben Open Source!**
 
