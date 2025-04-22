@@ -1,0 +1,15 @@
+Row,Description,Part,References,Value,Footprint,Quantity Per PCB,Status,Datasheet,LCSC,MOUSER,MF,Description_1,Package,Price,SnapEDA_Link,MP,Availability,Check_prices,MAXIMUM_PACKAGE_HEIGHT,STANDARD,PARTREV,MANUFACTURER,Sim.Pins
+1,Unpolarized capacitor,C,C301 C401 C402,100n,C_0805_2012Metric,3, ,~,C28233,,,,,,,,,,,,,,
+2,Polarized capacitor,C_Polarized,C101 C201,100u / 25V,CP_EIA-7343-43_Kemet-X,2, ,~,C132558,,,,,,,,,,,,,,
+3,Light emitting diode,LED,D201 D202,LED,LED_0805_2012Metric,2, ,~,C84256,,,,,,,,,,,,,,1=K 2=A
+4,"Generic connector, double row, 02x10, row letter first pin numbering scheme (pin number consists of a letter for the row and a number for the pin index in this row. a1, ..., aN; b1, ..., bN), script generated (kicad-library-utils/schlib/autogen/connector/)",Conn_02x10_Row_Letter_First,J101,Conn_02x10_Row_Letter_First,PCN10C-20S-2.54DS,1, ,~,,798-PCN10C20S254DS72,,,,,,,,,,,,,
+5,"100 Position Connector Receptacle, Center Strip Contacts Surface Mount Gold",DF40C-100DS-0.4V_51_,J201 J202,DF40C-100DS-0.4V_51_,HIROSE_DF40C-100DS-0.4V_51_,2, ,,C597931,,Hirose,"100 Position Connector Receptacle, Center Strip Contacts Surface Mount Gold",None,None,https://www.snapeda.com/parts/DF40C-100DS-0.4V(51)/Hirose/view-part/?ref=snap,DF40C-100DS-0.4V(51),In Stock,https://www.snapeda.com/parts/DF40C-100DS-0.4V(51)/Hirose/view-part/?ref=eda,1.65mm,Manufacturer Recommendations,Oct.1.2023,Hirose,
+6,RJ45 Connector,HR911130A,J301,HR911130A,HANRUN_HR911130A,1, ,,C54408,,hanrun,,None,None,https://www.snapeda.com/parts/HR911130A/HanRun/view-part/?ref=snap,HR911130A,In Stock,https://www.snapeda.com/parts/HR911130A/HanRun/view-part/?ref=eda,13.75 mm,Manufacturer Recommendations,A,HanRun,
+7,MicroSD Card Slot,TF-01A,MICRO_SD401,TF-01A,TF-01A,1, ,,C91145,,"HRO Electronics Co., Ltd.",Standard Card Edge Connectors,Package,None,https://www.snapeda.com/parts/TF-01A/HRO+Electronics+Co.%252C+Ltd./view-part/?ref=snap,TF-01A,Not in stock,https://www.snapeda.com/parts/TF-01A/HRO+Electronics+Co.%252C+Ltd./view-part/?ref=eda,,,,,
+8,Resistor,R,R301 R302,470,R_0805_2012Metric,2, ,~,C17710,,,,,,,,,,,,,,
+9,Resistor,R,R201 R204,1k,R_0805_2012Metric,2, ,~,C17513,,,,,,,,,,,,,,
+10,Resistor,R,R202 R203 R205 R206,2k2,R_0805_2012Metric,4, ,~,C17520,,,,,,,,,,,,,,
+11,Resistor,R,R401,12k,R_0805_2012Metric,1, ,~,C17444,,,,,,,,,,,,,,
+12,,RT9742AGJ5F,U401,RT9742GGJ5,TSOT-23-5,1, ,,C250547,,,,,,,,,,,,,,
+13,"Single Power Supply, Single Buffer GATE, CMOS Logic, Level Shifter, SOT-23-5",SN74LV1T34DBV,U201,SN74LV1T34DBV,SOT-23-5,1, ,https://www.ti.com/lit/ds/symlink/sn74lv1t34.pdf,C100024,,,,,,,,,,,,,,
+14,"4-Channel ESD Protection for Super-Speed USB 3.0 Interface, USON-10",TPD4EUSB30,U301 U302,TPD4EUSB30,USON-10_2.5x1.0mm_P0.5mm,2, ,http://www.ti.com/lit/ds/symlink/tpd2eusb30a.pdf,C90627,,,,,,,,,,,,,,
