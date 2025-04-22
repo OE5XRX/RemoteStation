@@ -7,9 +7,6 @@ on:
   release:
     types: [published]
 
-env:
-  BASEURL: ${{ steps.pages.outputs.base_path }}
-
 permissions:
   contents: write
 
@@ -73,10 +70,6 @@ jobs:
     needs: export-ecad
     if: always()
     steps:
-      - name: Update BASEURL for releases
-        if: ${{ startsWith(github.ref, 'refs/tags/') }}
-        run: echo BASEURL=${{ steps.pages.outputs.base_path }}/version/$(echo $GITHUB_REF | cut -d / -f 3 | cut -d v -f 2- | cut -d . -f 1,2)/ >> $GITHUB_ENV
-
       - name: Checkout Repository
         uses: actions/checkout@v4
 
@@ -92,6 +85,14 @@ jobs:
         uses: actions/configure-pages@v5
         with:
           generator_config_file: docs
+
+      - name: Update BASEURL for releases
+        if: ${{ startsWith(github.ref, 'refs/tags/') }}
+        run: echo BASEURL=${{ steps.pages.outputs.base_path }}/version/$(echo $GITHUB_REF | cut -d / -f 3 | cut -d v -f 2- | cut -d . -f 1,2)/ >> $GITHUB_ENV
+
+      - name: Update BASEURL for main branches
+        if: ${{ github.ref_type == 'branch' && github.ref_name == 'main'}}
+        run: echo BASEURL=${{ steps.pages.outputs.base_path }}/ >> $GITHUB_ENV
 
       - name: Build with Jekyll
         run:  cd docs && bundle exec jekyll build --baseurl ${{ env.BASEURL }}
