@@ -1,0 +1,37 @@
+{"0": {
+    "doc": "Bus PCB",
+    "title": "Bus PCB",
+    "content": "| Top | Bottom | . | | . | Schaltplan | BOM | iBOM | JLCPCB fabrication &amp; stencil | JLCPCB Bom | JLCPCB Pic&amp;Place | . Erstellt am 2025-04-22 19:49:30 +0000, mit git hash: 7bf5e84. ",
+    "url": "/RemoteStation/pcb/bus.html",
+    
+    "relUrl": "/pcb/bus.html"
+  },"1": {
+    "doc": "CM4 PCB",
+    "title": "CM4 PCB",
+    "content": "| Top | Bottom | . | | . | Schaltplan | BOM | iBOM | JLCPCB fabrication &amp; stencil | JLCPCB Bom | JLCPCB Pic&amp;Place | . Erstellt am 2025-04-22 19:49:30 +0000, mit git hash: 7bf5e84. ",
+    "url": "/RemoteStation/pcb/cm4.html",
+    
+    "relUrl": "/pcb/cm4.html"
+  },"2": {
+    "doc": "Device Tester",
+    "title": "Device Tester PCB",
+    "content": "| Top | Bottom | . | | . | Schaltplan | BOM | iBOM | JLCPCB fabrication &amp; stencil | JLCPCB Bom | JLCPCB Pic&amp;Place | . Erstellt am 2025-04-22 19:49:30 +0000, mit git hash: 7bf5e84. ",
+    "url": "/RemoteStation/pcb/device_tester.html#device-tester-pcb",
+    
+    "relUrl": "/pcb/device_tester.html#device-tester-pcb"
+  },"3": {
+    "doc": "Device Tester",
+    "title": "Device Tester",
+    "content": " ",
+    "url": "/RemoteStation/pcb/device_tester.html",
+    
+    "relUrl": "/pcb/device_tester.html"
+  },"4": {
+    "doc": "Power PCB",
+    "title": "Power PCB",
+    "content": "| Top | Bottom | . | | . | Schaltplan | BOM | iBOM | JLCPCB fabrication &amp; stencil | JLCPCB Bom | JLCPCB Pic&amp;Place | . Erstellt am 2025-04-22 19:49:30 +0000, mit git hash: 7bf5e84. ",
+    "url": "/RemoteStation/pcb/power.html",
+    
+    "relUrl": "/pcb/power.html"
+  }
+}
