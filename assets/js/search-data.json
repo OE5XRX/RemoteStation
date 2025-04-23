@@ -1,37 +1,79 @@
 {"0": {
     "doc": "Bus PCB",
     "title": "Bus PCB",
-    "content": "| Top | Bottom | . | | . | Schaltplan | BOM | iBOM | JLCPCB fabrication &amp; stencil | JLCPCB Bom | JLCPCB Pic&amp;Place | . Erstellt am 2025-04-23 15:02:11 +0000, mit git hash: a385bce. ",
+    "content": "| Top | Bottom | . | | . Die Bus Platine verteilt die benötigten Versorgungsspannungen (+5V und +12V) zu allen Modulen. Weiters ist ein USB-Hub auf der Rückseite der Platine vorhanden um dem CM4-Modul Zugriff zu den Devices zu geben. Die Platine welche die benötigten Versorgungsspannungen zur Verfügung stellt hat auch noch eine I2C Bus Verbindung zum CM4-Modul um die Spannungen und Ströme auslesen zu können. | Spannung | benötigter Strom | . | +5V | 100mA | . | +12V | - | . ",
     "url": "/RemoteStation/pcb/bus.html",
     
     "relUrl": "/pcb/bus.html"
   },"1": {
+    "doc": "Bus PCB",
+    "title": "Daten",
+    "content": ". | Schaltplan | BOM | iBOM | JLCPCB fabrication &amp; stencil | JLCPCB Bom | JLCPCB Pick&amp;Place | . ",
+    "url": "/RemoteStation/pcb/bus.html#daten",
+    
+    "relUrl": "/pcb/bus.html#daten"
+  },"2": {
     "doc": "CM4 PCB",
     "title": "CM4 PCB",
-    "content": "| Top | Bottom | . | | . | Schaltplan | BOM | iBOM | JLCPCB fabrication &amp; stencil | JLCPCB Bom | JLCPCB Pic&amp;Place | . Erstellt am 2025-04-23 15:02:11 +0000, mit git hash: a385bce. ",
+    "content": "| Top | Bottom | . | | . Das CM4 Modul beherbergt das Gehirn der Remote Station: ein Computer Module 4 (CM4) von Raspberry Pi. Das CM4 ist eine einfache Platine welche CPU, Speicher, Wifi und andere Komponenten direkt aufgelötet hat. Somit können über die zwei 100pin Stecker alle Schnittstellen direkt angesprochen werden. Verwendete Schnittstellen: . | CM4 Schnittstelle | Anwendung | . | I2C | Messen der Versorgungsspannungen und Ströme | . | Ethernet | für die Verbindung zum Internet oder andere Netzwerke (Lan, externes Modem, etc.) | . | SD-Card | für die Software (im Produktiven Betrieb soll das interne eMMC verwendet werden) | . | USB | zum aufspielen eines neuen Images in den eMMC oder zum ansprechen der Bus-Devices | . Der benötigter Strom für das CM4 ist immer stark Abhängig welche Schnittstellen aktiv sind. Bei einem Raspberry Pi 4 kann dies bis zu 3A betragen. Nachdem jedoch kein HDMI vorgesehen ist wird sich der benötigter Strom auf unter 1A beschränken. | Spannung | benötigter Strom | . | +5V | max. 1A | . | +12V | - | . ",
     "url": "/RemoteStation/pcb/cm4.html",
     
     "relUrl": "/pcb/cm4.html"
-  },"2": {
+  },"3": {
+    "doc": "CM4 PCB",
+    "title": "Daten",
+    "content": ". | Schaltplan | BOM | iBOM | JLCPCB fabrication &amp; stencil | JLCPCB Bom | JLCPCB Pick&amp;Place | . ",
+    "url": "/RemoteStation/pcb/cm4.html#daten",
+    
+    "relUrl": "/pcb/cm4.html#daten"
+  },"4": {
     "doc": "Device Tester",
     "title": "Device Tester PCB",
-    "content": "| Top | Bottom | . | | . | Schaltplan | BOM | iBOM | JLCPCB fabrication &amp; stencil | JLCPCB Bom | JLCPCB Pic&amp;Place | . Erstellt am 2025-04-23 15:02:11 +0000, mit git hash: a385bce. ",
+    "content": "| Top | Bottom | . | | . Die Device Test Platine enthält alle wichtigen Schnittstellen um die Bus- oder Device-Platinen zu testen. Sie enthält zwei Bus Stecker um sich an einem Bus-Master oder Bus-Device anzustecken. Weiters verfügt es einen Device Stecker um ein Device anzustecken. Über zwei USB-C Stecker kann die Platine an einem Computer angesteckt werden. Es befinden sich auch Jumper auf der Platine um ein Computer Module 4 (Raspberry Pi) zu flashen. | Spannung | bereitgestellt durch | . | +5V | USB-C | . | +12V | Schraubverbinder | . ",
     "url": "/RemoteStation/pcb/device_tester.html#device-tester-pcb",
     
     "relUrl": "/pcb/device_tester.html#device-tester-pcb"
-  },"3": {
+  },"5": {
+    "doc": "Device Tester",
+    "title": "Daten",
+    "content": ". | Schaltplan | BOM | iBOM | JLCPCB fabrication &amp; stencil | JLCPCB Bom | JLCPCB Pick&amp;Place | . ",
+    "url": "/RemoteStation/pcb/device_tester.html#daten",
+    
+    "relUrl": "/pcb/device_tester.html#daten"
+  },"6": {
     "doc": "Device Tester",
     "title": "Device Tester",
     "content": " ",
     "url": "/RemoteStation/pcb/device_tester.html",
     
     "relUrl": "/pcb/device_tester.html"
-  },"4": {
+  },"7": {
+    "doc": "Platinen",
+    "title": "Platinen",
+    "content": "In den Unterseite findest du die Dokumentation der Platinen. ",
+    "url": "/RemoteStation/pcb.html",
+    
+    "relUrl": "/pcb.html"
+  },"8": {
     "doc": "Power PCB",
     "title": "Power PCB",
-    "content": "| Top | Bottom | . | | . | Schaltplan | BOM | iBOM | JLCPCB fabrication &amp; stencil | JLCPCB Bom | JLCPCB Pic&amp;Place | . Erstellt am 2025-04-23 15:02:11 +0000, mit git hash: a385bce. ",
+    "content": "| Top | Bottom | . | | . Dieses Modul stellt die benötigten Spannungen (+5V und +12V) für den Bus zur Verfügung. Diese Spannungen und Ströme können mit 2 INA226 gemessen werden. | Spannung | INA226 Adresse | . | +12V | 0b1000001 (0x41) | . | +5V | 0b1000000 (0x40) | . Die +12V Versorgungsspannung wird über eine XT60 Buchse ermöglicht. Diese Spannung wird direkt an den Bus weiter gegeben. Somit ist die +12V Bus-Spannung direkt abhängig vom Eingang des Modules. | Spannung | Spannungsbereich | . | +12V | 11.8 - 14.6V | . Die +5V Versorgungsspannung wird von den +12V über einen Buck-Converter erzeugt. Diese ist somit stabil auf +5V geregelt, jedoch auf 3A begrenzt. ",
     "url": "/RemoteStation/pcb/power.html",
     
     "relUrl": "/pcb/power.html"
+  },"9": {
+    "doc": "Power PCB",
+    "title": "Daten",
+    "content": ". | Schaltplan | BOM | iBOM | JLCPCB fabrication &amp; stencil | JLCPCB Bom | JLCPCB Pick&amp;Place | . ",
+    "url": "/RemoteStation/pcb/power.html#daten",
+    
+    "relUrl": "/pcb/power.html#daten"
+  },"10": {
+    "doc": "Versionen",
+    "title": "Versionen",
+    "content": "Aktuell kannst du folgende Versionen dieses Dokumentes online finden: . | Mainline | . Um neuere Versionen zu finden musst du auf die Mainline-Version dieser Seite wechseln. ",
+    "url": "/RemoteStation/versionen.html",
+    
+    "relUrl": "/versionen.html"
   }
 }
