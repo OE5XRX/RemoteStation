@@ -1,6 +1,7 @@
 ---
 title: Device Tester
 nav_order: 1
+parent: Platinen
 ---
 
 # Device Tester PCB
@@ -13,11 +14,22 @@ nav_order: 1
   </tr>
 </table>
 
+Die `Device Test` Platine enthält alle wichtigen Schnittstellen um die Bus- oder Device-Platinen zu testen.
+Sie enthält zwei Bus Stecker um sich an einem Bus-Master oder Bus-Device anzustecken. Weiters verfügt es einen Device Stecker um ein Device anzustecken.
+Über zwei USB-C Stecker kann die Platine an einem Computer angesteckt werden.
+
+Es befinden sich auch Jumper auf der Platine um ein Computer Module 4 (Raspberry Pi) zu flashen.
+
+| Spannung | bereitgestellt durch |
+| -------- | -------------------- |
+|      +5V |                USB-C |
+|     +12V |     Schraubverbinder |
+
+## Daten
+
 - [Schaltplan](device_test/device_test-schematic.pdf)
 - [BOM](device_test/device_test-bom.html)
 - [iBOM](device_test/device_test-ibom.html)
 - [JLCPCB fabrication & stencil](device_test/JLCPCB/device_test-_JLCPCB_compress.zip)
 - [JLCPCB Bom](device_test/JLCPCB/device_test_bom_jlc.csv)
-- [JLCPCB Pic&Place](device_test/JLCPCB/device_test_cpl_jlc.csv)
-
-Erstellt am {{ site.time | '%d.%m.%Y %H:%i:%s' }}, mit git hash: {{ site.data['hash'] }}.
+- [JLCPCB Pick&Place](device_test/JLCPCB/device_test_cpl_jlc.csv)
