@@ -5,7 +5,7 @@
 
 Diese Seite listet alle Schaltpläne, Platinen und BOMs des Projektes [Remote Station](https://github.com/OE5XRX/RemoteStation) des Vereines [Amateurfunkclub für Remote Stationen](https://oe5xrx.org).
 
-Erstellt am {{ site.time | '%d.%m.%Y %H:%i:%s' }}, mit git hash: {{ site.data['hash'] }}.
+Weiters findet man die komplette Dokumentation und Hardwareaufbau so wie Platinenbeschreibungen.
 
 **Wir lieben Open Source!**
 
