@@ -30,3 +30,8 @@ Die Platine welche die benötigten Versorgungsspannungen zur Verfügung stellt h
 - [JLCPCB fabrication & stencil](bus/JLCPCB/bus-_JLCPCB_compress.zip)
 - [JLCPCB Bom](bus/JLCPCB/bus_bom_jlc.csv)
 - [JLCPCB Pick&Place](bus/JLCPCB/bus_cpl_jlc.csv)
+
+
+## Gefundene Probleme in v0.1
+
+- [ ] USBLC6-2SC6 hat falschen Footprint, richtiger ist: SOT-23-6

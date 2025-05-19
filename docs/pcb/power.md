@@ -38,3 +38,8 @@ Die +5V Versorgungsspannung wird von den +12V über einen Buck-Converter erzeugt
 - [JLCPCB fabrication & stencil](power/JLCPCB/power-_JLCPCB_compress.zip)
 - [JLCPCB Bom](power/JLCPCB/power_bom_jlc.csv)
 - [JLCPCB Pick&Place](power/JLCPCB/power_cpl_jlc.csv)
+
+## Gefundene Probleme in v0.1
+
+- [ ] L201 (6.8uH) Footprint passt nicht
+- [ ] KFZ Sicherungen sind viel zu hoch, tauschen auf Glassicherungen

@@ -41,3 +41,9 @@ Der benötigter Strom für das CM4 ist immer stark Abhängig welche Schnittstell
 - [JLCPCB fabrication & stencil](cm4/JLCPCB/cm4-_JLCPCB_compress.zip)
 - [JLCPCB Bom](cm4/JLCPCB/cm4_bom_jlc.csv)
 - [JLCPCB Pick&Place](cm4/JLCPCB/cm4_cpl_jlc.csv)
+
+## Gefundene Probleme in v0.1
+
+- [ ] Footprint von CM4 passt nicht (Outline muss vergrößert werden), CM4 Modul passt aber aktuell trotzdem drauf. Ausrichtung mit der Antenne beachten dann passt es
+- [ ] LED Schaltung kontrollieren
+- [ ] Debug UART (Serielle zur Console) auf Pinheader nach vorne
