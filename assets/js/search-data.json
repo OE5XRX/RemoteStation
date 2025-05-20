@@ -92,7 +92,7 @@
   },"13": {
     "doc": "Power PCB",
     "title": "Gefundene Probleme in v0.1",
-    "content": ". | L201 (6.8uH) Footprint passt nicht | KFZ Sicherungen sind viel zu hoch, tauschen auf Glassicherungen | . ",
+    "content": ". | Pin 2 vom TPS62933 darf nicht verbunden ODER auf +VCC liegen! Enable Pin zeigt somit auf AUS! | L201 (6.8uH) Footprint passt nicht | KFZ Sicherungen sind viel zu hoch, tauschen auf Glassicherungen | . ",
     "url": "/RemoteStation/pcb/power.html#gefundene-probleme-in-v01",
     
     "relUrl": "/pcb/power.html#gefundene-probleme-in-v01"
