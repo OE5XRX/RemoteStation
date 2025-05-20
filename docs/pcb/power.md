@@ -41,6 +41,6 @@ Die +5V Versorgungsspannung wird von den +12V über einen Buck-Converter erzeugt
 
 ## Gefundene Probleme in v0.1
 
-- [ ] Pin 2 vom TPS62933 darf nicht verbunden ODER auf +VCC liegen! Enable Pin zeigt somit auf AUS!
+- [X] Pin 2 vom TPS62933 darf nicht verbunden ODER auf +VCC liegen! Enable Pin zeigt somit auf AUS!
 - [ ] L201 (6.8uH) Footprint passt nicht
 - [ ] KFZ Sicherungen sind viel zu hoch, tauschen auf Glassicherungen
