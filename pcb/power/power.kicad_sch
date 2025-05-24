@@ -4817,7 +4817,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PRJ:Fuseholder"
+		(property "Footprint" "PRJ:FUSE_01530007Z"
 			(at 156.21 36.068 90)
 			(effects
 				(font
@@ -4902,7 +4902,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PRJ:Fuseholder"
+		(property "Footprint" "PRJ:FUSE_01530007Z"
 			(at 80.01 41.148 90)
 			(effects
 				(font
@@ -5580,7 +5580,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PRJ:Fuseholder"
+		(property "Footprint" "PRJ:FUSE_01530007Z"
 			(at 156.21 77.978 90)
 			(effects
 				(font
