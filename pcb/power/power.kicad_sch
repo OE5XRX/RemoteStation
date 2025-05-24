@@ -3547,15 +3547,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 86.36 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "MOUSER" ""
 			(at 86.36 147.32 0)
 			(effects
@@ -4120,15 +4111,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 71.12 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "MOUSER" ""
 			(at 71.12 147.32 0)
 			(effects
@@ -4513,56 +4495,6 @@
 				(hide yes)
 			)
 		)
-		(property "Height" "8.4"
-			(at 49.53 427.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "TME Electronic Components Part Number" ""
-			(at 49.53 527.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "TME Electronic Components Price/Stock" ""
-			(at 49.53 627.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Amass"
-			(at 49.53 727.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "XT60PW-M"
-			(at 49.53 827.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
 		(property "LCSC" ""
 			(at 30.48 33.02 0)
 			(effects
@@ -4844,7 +4776,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C19727304"
+		(property "LCSC" ""
 			(at 156.21 34.29 0)
 			(effects
 				(font
@@ -4853,12 +4785,13 @@
 				(hide yes)
 			)
 		)
-		(property "MOUSER" ""
+		(property "MOUSER" "576-01530007Z"
 			(at 156.21 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -4929,7 +4862,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C19727304"
+		(property "LCSC" ""
 			(at 80.01 39.37 0)
 			(effects
 				(font
@@ -4938,12 +4871,13 @@
 				(hide yes)
 			)
 		)
-		(property "MOUSER" ""
+		(property "MOUSER" "576-01530007Z"
 			(at 80.01 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -5607,7 +5541,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C19727304"
+		(property "LCSC" ""
 			(at 156.21 76.2 0)
 			(effects
 				(font
@@ -5616,12 +5550,13 @@
 				(hide yes)
 			)
 		)
-		(property "MOUSER" ""
+		(property "MOUSER" "576-01530007Z"
 			(at 156.21 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
