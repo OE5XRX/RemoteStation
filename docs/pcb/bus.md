@@ -34,4 +34,4 @@ Die Platine welche die benötigten Versorgungsspannungen zur Verfügung stellt h
 
 ## Gefundene Probleme in v0.1
 
-- [ ] USBLC6-2SC6 hat falschen Footprint, richtiger ist: SOT-23-6
+- [X] USBLC6-2SC6 hat falschen Footprint, richtiger ist: SOT-23-6
