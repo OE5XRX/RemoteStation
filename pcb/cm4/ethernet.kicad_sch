@@ -2556,7 +2556,7 @@
 		)
 		(uuid "16930941-03f3-41f7-b5c8-43d14f4df559")
 	)
-	(hierarchical_label "ETH_TRD0_M"
+	(hierarchical_label "ETH_TRD0_N"
 		(shape input)
 		(at 171.45 106.68 180)
 		(effects
@@ -2567,7 +2567,7 @@
 		)
 		(uuid "2939bdd8-66f2-4a40-9a5f-724ae616b390")
 	)
-	(hierarchical_label "ETH_TRD2_M"
+	(hierarchical_label "ETH_TRD2_N"
 		(shape input)
 		(at 171.45 55.88 180)
 		(effects
@@ -2633,7 +2633,7 @@
 		)
 		(uuid "6c53e75c-67c6-4ab3-8fd2-8bc2a23d7ee4")
 	)
-	(hierarchical_label "ETH_TRD2_M"
+	(hierarchical_label "ETH_TRD2_N"
 		(shape input)
 		(at 171.45 60.96 180)
 		(effects
@@ -2644,7 +2644,7 @@
 		)
 		(uuid "862a7b87-8ed8-4b9e-9a46-063858293b17")
 	)
-	(hierarchical_label "ETH_TRD1_M"
+	(hierarchical_label "ETH_TRD1_N"
 		(shape input)
 		(at 171.45 71.12 180)
 		(effects
@@ -2655,7 +2655,7 @@
 		)
 		(uuid "8f3edb5b-9794-4fe1-9d29-7835604a079a")
 	)
-	(hierarchical_label "ETH_TRD1_M"
+	(hierarchical_label "ETH_TRD1_N"
 		(shape input)
 		(at 171.45 66.04 180)
 		(effects
@@ -2666,7 +2666,7 @@
 		)
 		(uuid "961785be-1754-4caa-8fa8-94f2b493699c")
 	)
-	(hierarchical_label "ETH_TRD1_M"
+	(hierarchical_label "ETH_TRD1_N"
 		(shape input)
 		(at 96.52 73.66 180)
 		(effects
@@ -2677,7 +2677,7 @@
 		)
 		(uuid "9efe054a-f265-4f4f-8310-aeac0fdce110")
 	)
-	(hierarchical_label "ETH_TRD0_M"
+	(hierarchical_label "ETH_TRD0_N"
 		(shape input)
 		(at 96.52 63.5 180)
 		(effects
@@ -2699,7 +2699,7 @@
 		)
 		(uuid "af4b191d-c3ed-4e49-8a0e-9d24276a0167")
 	)
-	(hierarchical_label "ETH_TRD3_M"
+	(hierarchical_label "ETH_TRD3_N"
 		(shape input)
 		(at 96.52 78.74 180)
 		(effects
@@ -2710,7 +2710,7 @@
 		)
 		(uuid "c5b82250-5ccd-4dd6-aa8d-c431b72af974")
 	)
-	(hierarchical_label "ETH_TRD2_M"
+	(hierarchical_label "ETH_TRD2_N"
 		(shape input)
 		(at 96.52 71.12 180)
 		(effects
@@ -2721,7 +2721,7 @@
 		)
 		(uuid "c69da684-7607-4ccd-bac7-e9c4daf8796e")
 	)
-	(hierarchical_label "ETH_TRD0_M"
+	(hierarchical_label "ETH_TRD0_N"
 		(shape input)
 		(at 171.45 111.76 180)
 		(effects
@@ -2743,7 +2743,7 @@
 		)
 		(uuid "d2fc899e-c0d4-4b52-b10c-6d497a5a3892")
 	)
-	(hierarchical_label "ETH_TRD3_M"
+	(hierarchical_label "ETH_TRD3_N"
 		(shape input)
 		(at 203.2 66.04 0)
 		(effects
@@ -2765,7 +2765,7 @@
 		)
 		(uuid "d5b2ca0e-1a1c-4229-aa09-34463b857090")
 	)
-	(hierarchical_label "ETH_TRD3_M"
+	(hierarchical_label "ETH_TRD3_N"
 		(shape input)
 		(at 203.2 71.12 0)
 		(effects
