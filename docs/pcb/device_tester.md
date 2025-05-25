@@ -36,6 +36,6 @@ Es befinden sich auch Jumper auf der Platine um ein Computer Module 4 (Raspberry
 
 ## Gefundene Probleme in v0.1
 
-- [ ] 12V Klemme treffen direkt auf ETH-Port -> auf andere Seite vom USB-C Port wechseln
-- [ ] 5V von USB-C oder Bus-PCB? -> Jumper
-- [ ] Möglichkeit vorsehen damit das Modul eingeschoben werden kann (nicht alles Bestücken?)
+- [X] 12V Klemme treffen direkt auf ETH-Port -> auf andere Seite vom USB-C Port wechseln
+- [X] 5V von USB-C oder Bus-PCB? -> Jumper
+- [X] Möglichkeit vorsehen damit das Modul eingeschoben werden kann (nicht alles Bestücken?)
