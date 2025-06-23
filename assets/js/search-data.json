@@ -69,34 +69,48 @@
     
     "relUrl": "/pcb/device_tester.html"
   },"10": {
+    "doc": "FM PCB",
+    "title": "FM PCB",
+    "content": "| Top | Bottom | . | | . Das FM Modul beherbergt einen FM Chip für das 2m oder 70cm Band. | Spannung | benötigter Strom | . | +5V | max. 1A | . | +12V | - | . ",
+    "url": "/RemoteStation/pcb/fm.html",
+    
+    "relUrl": "/pcb/fm.html"
+  },"11": {
+    "doc": "FM PCB",
+    "title": "Daten",
+    "content": ". | Schaltplan | BOM | iBOM | JLCPCB fabrication &amp; stencil | JLCPCB Bom | JLCPCB Pick&amp;Place | . ",
+    "url": "/RemoteStation/pcb/fm.html#daten",
+    
+    "relUrl": "/pcb/fm.html#daten"
+  },"12": {
     "doc": "Platinen",
     "title": "Platinen",
     "content": "In den Unterseite findest du die Dokumentation der Platinen. ",
     "url": "/RemoteStation/pcb.html",
     
     "relUrl": "/pcb.html"
-  },"11": {
+  },"13": {
     "doc": "Power PCB",
     "title": "Power PCB",
     "content": "| Top | Bottom | . | | . Dieses Modul stellt die benötigten Spannungen (+5V und +12V) für den Bus zur Verfügung. Diese Spannungen und Ströme können mit 2 INA226 gemessen werden. | Spannung | INA226 Adresse | . | +12V | 0b1000001 (0x41) | . | +5V | 0b1000000 (0x40) | . Die +12V Versorgungsspannung wird über eine XT60 Buchse ermöglicht. Diese Spannung wird direkt an den Bus weiter gegeben. Somit ist die +12V Bus-Spannung direkt abhängig vom Eingang des Modules. | Spannung | Spannungsbereich | . | +12V | 11.8 - 14.6V | . Die +5V Versorgungsspannung wird von den +12V über einen Buck-Converter erzeugt. Diese ist somit stabil auf +5V geregelt, jedoch auf 3A begrenzt. ",
     "url": "/RemoteStation/pcb/power.html",
     
     "relUrl": "/pcb/power.html"
-  },"12": {
+  },"14": {
     "doc": "Power PCB",
     "title": "Daten",
     "content": ". | Schaltplan | BOM | iBOM | JLCPCB fabrication &amp; stencil | JLCPCB Bom | JLCPCB Pick&amp;Place | . ",
     "url": "/RemoteStation/pcb/power.html#daten",
     
     "relUrl": "/pcb/power.html#daten"
-  },"13": {
+  },"15": {
     "doc": "Power PCB",
     "title": "Gefundene Probleme in v0.1",
     "content": ". | Pin 2 vom TPS62933 darf nicht verbunden ODER auf +VCC liegen! Enable Pin zeigt somit auf AUS! | L201 (6.8uH) Footprint passt nicht -&gt; richtiges Bauteil wird nachbestellt | Tausche den TPS62933 auf LMR51430 500kHz | KFZ Sicherungen sind viel zu hoch, tauschen auf Horizontale KFZ Sicherungen | Tausche den 100mOhm Widerstand auf einen 10mOhm Widerstand um höhere Ströme messen zu können | . ",
     "url": "/RemoteStation/pcb/power.html#gefundene-probleme-in-v01",
     
     "relUrl": "/pcb/power.html#gefundene-probleme-in-v01"
-  },"14": {
+  },"16": {
     "doc": "Versionen",
     "title": "Versionen",
     "content": "Aktuell kannst du folgende Versionen dieses Dokumentes online finden: . | Mainline | v0.1 | . Um neuere Versionen zu finden musst du auf die Mainline-Version dieser Seite wechseln. ",
