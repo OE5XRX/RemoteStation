@@ -4,6 +4,11 @@
 	(generator_version "9.0")
 	(uuid "b1d471ec-d319-4049-a134-46d2804b179b")
 	(paper "A4")
+	(title_block
+		(title "STM32")
+		(rev "<<HASH>>")
+		(company "Amateurfunkclub für Remote Stationen")
+	)
 	(lib_symbols
 		(symbol "Connector:Conn_ARM_JTAG_SWD_10"
 			(pin_names
