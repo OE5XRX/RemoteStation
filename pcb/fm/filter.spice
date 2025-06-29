@@ -1,0 +1,44 @@
+* SA818V AF_OUT -> STM32 ADC Filter with increased ADC level
+
+* Signalquelle: 1kHz Sinus, 0.28Vp (0.56Vpp)
+V1 in 0 SIN(0 0.28 1000)
+
+* Koppelkondensator
+C1 in n1 4.7u
+
+* Serienwiderstand
+R1 n1 n2 2.2k
+
+* DC-Bias für Offset
+V2 vcc 0 DC 3.3
+Rtop vcc n3 5.1k
+Rbot 0 n3 15k
+
+* Tiefpass
+C2 n3 0 10n
+
+* Verbindung Filter zu ADC
+Rload n3 0 100k
+
+* Verbindung Offset-Knoten
+XJOIN n2 n3 n4 join
+
+* .tran für Zeitbereichssimulation
+.tran 0 20m 0 10u
+
+* .ac für Frequenzganganalyse
+.ac dec 100 10 100000
+
+* Steuerung
+.control
+run
+plot V(in) V(n3)
+.endc
+
+* Verbindungshilfe
+.subckt join a b c
+Rj a c 1m
+Rj2 b c 1m
+.ends join
+
+.end

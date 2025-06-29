@@ -264,28 +264,7 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [
-      [
-        "footprint_link_issues|2311400|774700|87c3928c-2b75-4acb-9ad4-c543ec4deb0e|00000000-0000-0000-0000-000000000000|||",
-        ""
-      ],
-      [
-        "footprint_link_issues|2527300|1041400|31181fb2-e49d-4fb1-a998-a617b4659de9|00000000-0000-0000-0000-000000000000|||",
-        ""
-      ],
-      [
-        "footprint_link_issues|495300|1536700|c43c38be-2067-401c-9aa4-55216766e715|00000000-0000-0000-0000-000000000000|||",
-        ""
-      ],
-      [
-        "lib_symbol_mismatch|2527300|1041400|31181fb2-e49d-4fb1-a998-a617b4659de9|00000000-0000-0000-0000-000000000000|||",
-        ""
-      ],
-      [
-        "pin_not_connected|393700|228600|eca733a7-3ee5-4b77-a876-88db6ce4afa6|00000000-0000-0000-0000-000000000000|/f228839c-6576-40b2-ae70-679b7b460639|/f228839c-6576-40b2-ae70-679b7b460639|",
-        ""
-      ]
-    ],
+    "erc_exclusions": [],
     "meta": {
       "version": 0
     },
@@ -666,19 +645,19 @@
           "group_by": true,
           "label": "DNP",
           "name": "${DNP}",
-          "show": true
+          "show": false
         },
         {
           "group_by": true,
           "label": "Exclude from BOM",
           "name": "${EXCLUDE_FROM_BOM}",
-          "show": true
+          "show": false
         },
         {
           "group_by": true,
           "label": "Exclude from Board",
           "name": "${EXCLUDE_FROM_BOARD}",
-          "show": true
+          "show": false
         },
         {
           "group_by": true,
@@ -690,13 +669,43 @@
           "group_by": false,
           "label": "Datasheet",
           "name": "Datasheet",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MOUSER",
+          "name": "MOUSER",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "SnapEDA_Link",
+          "name": "SnapEDA_Link",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "LCSC",
+          "name": "LCSC",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
-      "include_excluded_from_bom": true,
-      "name": "Default Editing",
+      "include_excluded_from_bom": false,
+      "name": "",
       "sort_asc": true,
       "sort_field": "Reference"
     },
@@ -729,7 +738,7 @@
     },
     "net_format_name": "",
     "page_layout_descr_file": "",
-    "plot_directory": "",
+    "plot_directory": "./output",
     "space_save_all_events": true,
     "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",
@@ -748,6 +757,26 @@
     [
       "d648e681-e38c-420a-82e8-80657e125ef8",
       "Connector and CPU"
+    ],
+    [
+      "be8a26fb-cb42-4581-b87a-069209548956",
+      "DAC to MIC_IN filter"
+    ],
+    [
+      "78e2bba8-f1d6-407f-8788-be9ef4447fa2",
+      "AF_OUT to ADC filter"
+    ],
+    [
+      "0ab8e43f-a9b2-43d4-be36-1f1ef25ab18a",
+      "Pin Driver SA818"
+    ],
+    [
+      "9b9e5cf7-8c6a-4bb3-8c33-fcdf0be9d0fd",
+      "Pin Driver SA819"
+    ],
+    [
+      "03cdba2c-ce18-41b8-ae87-2767326fecab",
+      "Pin Driver SA820"
     ]
   ],
   "text_variables": {}
