@@ -627,7 +627,7 @@
 				(hide yes)
 			)
 		)
-		(property "MOUSER" ""
+		(property "MOUSER" "603-RT0805DRE0710KL"
 			(at 177.8 81.28 0)
 			(effects
 				(font
@@ -779,7 +779,7 @@
 				(hide yes)
 			)
 		)
-		(property "MOUSER" ""
+		(property "MOUSER" "603-RT0805DRE0710KL"
 			(at 160.02 81.28 0)
 			(effects
 				(font
@@ -867,7 +867,7 @@
 				(hide yes)
 			)
 		)
-		(property "MOUSER" ""
+		(property "MOUSER" "603-RT0805DRE0756KL"
 			(at 124.46 73.66 90)
 			(effects
 				(font
@@ -910,7 +910,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "5.9nF"
+		(property "Value" "5.6nF/X7R/100V"
 			(at 193.04 90.1699 0)
 			(effects
 				(font
@@ -947,6 +947,15 @@
 			)
 		)
 		(property "LCSC" ""
+			(at 189.23 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MOUSER" "791-0805B562K201CT"
 			(at 189.23 88.9 0)
 			(effects
 				(font
@@ -1186,7 +1195,7 @@
 				(hide yes)
 			)
 		)
-		(property "MOUSER" ""
+		(property "MOUSER" "603-RT0805DRE0710KL"
 			(at 124.46 88.9 0)
 			(effects
 				(font
@@ -1229,7 +1238,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "5.9nF"
+		(property "Value" "5.6nF/X7R/100V"
 			(at 172.72 90.1699 0)
 			(effects
 				(font
@@ -1266,6 +1275,15 @@
 			)
 		)
 		(property "LCSC" ""
+			(at 168.91 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MOUSER" "791-0805B562K201CT"
 			(at 168.91 88.9 0)
 			(effects
 				(font

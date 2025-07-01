@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.5
+          "min_clearance": 0.25
         }
       },
       "diff_pair_dimensions": [
@@ -68,7 +68,28 @@
           "width": 0.315468
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "starved_thermal|119397000|119577500|c02422d8-cc7f-4c86-82d5-4a4dd0636d87|daf4b8d6-1ac1-458f-957c-0b7528f299f8|F.Cu",
+          ""
+        ],
+        [
+          "starved_thermal|121605000|120146500|0d57c912-bc54-4d5b-a9fe-8d4701a1af7f|7b6f5d5b-bbf1-484d-958a-dde10dc61f2f|F.Cu",
+          ""
+        ],
+        [
+          "starved_thermal|125100000|119572000|c02422d8-cc7f-4c86-82d5-4a4dd0636d87|4a3b67ab-063c-4bb8-8f74-4be2a4630cc1|F.Cu",
+          ""
+        ],
+        [
+          "starved_thermal|182239500|81290000|9bb367e3-a959-4f7e-afea-a0e97f371166|22329758-0c9e-4a51-bd81-8c3222249a7a|F.Cu",
+          ""
+        ],
+        [
+          "starved_thermal|191643000|85001000|9bb367e3-a959-4f7e-afea-a0e97f371166|8406c762-93b5-4d0e-bc42-d25249cfe748|F.Cu",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -264,7 +285,48 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      [
+        "footprint_link_issues|1816100|787400|0534aff9-1b9e-4e05-beb6-6aa00ec7ad26|00000000-0000-0000-0000-000000000000|||",
+        ""
+      ],
+      [
+        "footprint_link_issues|2222500|990600|87c3928c-2b75-4acb-9ad4-c543ec4deb0e|00000000-0000-0000-0000-000000000000|||",
+        ""
+      ],
+      [
+        "footprint_link_issues|2311400|774700|87c3928c-2b75-4acb-9ad4-c543ec4deb0e|00000000-0000-0000-0000-000000000000|||",
+        ""
+      ],
+      [
+        "footprint_link_issues|2400300|1054100|31181fb2-e49d-4fb1-a998-a617b4659de9|00000000-0000-0000-0000-000000000000|||",
+        ""
+      ],
+      [
+        "footprint_link_issues|2527300|1041400|31181fb2-e49d-4fb1-a998-a617b4659de9|00000000-0000-0000-0000-000000000000|||",
+        ""
+      ],
+      [
+        "footprint_link_issues|495300|1536700|c43c38be-2067-401c-9aa4-55216766e715|00000000-0000-0000-0000-000000000000|||",
+        ""
+      ],
+      [
+        "footprint_link_issues|508000|1701800|c43c38be-2067-401c-9aa4-55216766e715|00000000-0000-0000-0000-000000000000|||",
+        ""
+      ],
+      [
+        "lib_symbol_mismatch|2400300|1054100|31181fb2-e49d-4fb1-a998-a617b4659de9|00000000-0000-0000-0000-000000000000|||",
+        ""
+      ],
+      [
+        "lib_symbol_mismatch|2527300|1041400|31181fb2-e49d-4fb1-a998-a617b4659de9|00000000-0000-0000-0000-000000000000|||",
+        ""
+      ],
+      [
+        "pin_not_connected|393700|228600|eca733a7-3ee5-4b77-a876-88db6ce4afa6|00000000-0000-0000-0000-000000000000|/f228839c-6576-40b2-ae70-679b7b460639|/f228839c-6576-40b2-ae70-679b7b460639|",
+        ""
+      ]
+    ],
     "meta": {
       "version": 0
     },
@@ -568,7 +630,7 @@
     "netclass_patterns": [
       {
         "netclass": "USB Data (90 Ohm)",
-        "pattern": "*USB_D*"
+        "pattern": "*USB*"
       },
       {
         "netclass": "ETH (100 Ohm)",
@@ -597,7 +659,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "./output_pcb/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
@@ -777,6 +839,10 @@
     [
       "03cdba2c-ce18-41b8-ae87-2767326fecab",
       "Pin Driver SA820"
+    ],
+    [
+      "ae2b220f-194e-4d1c-9897-31c95a90a28f",
+      "5V"
     ]
   ],
   "text_variables": {}
