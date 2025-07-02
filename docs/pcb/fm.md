@@ -16,10 +16,10 @@ parent: Platinen
 
 Das `FM` Modul beherbergt einen FM Chip für das 2m oder 70cm Band.
 
-| Spannung | benötigter Strom |
-| -------- | ---------------- |
-|      +5V |          max. 1A |
-|     +12V |                - |
+| Spannung |                          benötigter Strom |
+| -------- | ----------------------------------------- |
+|      +5V |                                   max. 1A |
+|     +12V | max. 1A (SA818) via buck converter for 5V |
 
 ## Daten
 
