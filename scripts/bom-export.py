@@ -66,7 +66,8 @@ for part in parts:
 
 # check all parts if something is missing
 for part in parts:
-    assert part.inventree_part is not None
+    if not (part.lcsc is None and part.mouser is None):
+        assert part.inventree_part is not None, f"{part}"
 
 pcb_cat = PartCategory(api, 54)
 pcb_part = Part.create(
@@ -107,12 +108,13 @@ bom_item = BomItem.create(
 )
 
 for part in parts:
-    bom_item = BomItem.create(
-        api,
-        {
-            "part": assembly_part.pk,
-            "sub_part": part.inventree_part.pk,
-            "reference": part.reference,
-            "quantity": part.qty,
-        },
-    )
+    if part.inventree_part is not None:
+        bom_item = BomItem.create(
+            api,
+            {
+                "part": assembly_part.pk,
+                "sub_part": part.inventree_part.pk,
+                "reference": part.reference,
+                "quantity": part.qty,
+            },
+        )
