@@ -79,6 +79,9 @@ jobs:
 
       - name: Generate ${{ matrix.pcbs }} Parts on InvenTree Server
         if: github.event_name == 'release'
+        env:
+          INVENTREE_API_TOKEN: ${{ secrets.INVENTREE_API_TOKEN }}
+          INVENTREE_API_HOST: ${{ secrets.INVENTREE_API_HOST }}
         run: |
           pip install -r scripts/requirements.txt
           python3 scripts/bom-export.py --csv_file output/${{ matrix.pcbs }}-bom.csv --name "${{ matrix.pcbs }}" --version "${{ github.ref_name }}" --pcb_image output/${{ matrix.pcbs }}-3D_top-without.png --assembly_image output/${{ matrix.pcbs }}-3D_top-with.png
