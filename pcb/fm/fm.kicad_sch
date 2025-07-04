@@ -3312,16 +3312,6 @@
 				(hide yes)
 			)
 		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/DRA818V/DORJI/view-part/?ref=snap"
-			(at 60.96 103.124 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
 		(property "LCSC" "C3001504"
 			(at 60.96 85.09 0)
 			(effects

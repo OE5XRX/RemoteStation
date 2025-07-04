@@ -17,7 +17,7 @@ jobs:
 
     strategy:
       matrix:
-        pcbs: [bus, cm4, device_test, power]
+        pcbs: [bus, cm4, device_test, power, fm]
 
     steps:
     - name: Checkout Repository

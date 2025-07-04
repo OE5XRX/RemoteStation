@@ -12984,19 +12984,6 @@
 				)
 			)
 		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/DRA818V/DORJI/view-part/?ref=snap"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "ba756928-0232-4aeb-8a75-479bb4c40e6d")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "LCSC" "C3001504"
 			(at 0 0 0)
 			(unlocked yes)

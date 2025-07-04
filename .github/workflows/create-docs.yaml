@@ -65,6 +65,23 @@ jobs:
           path: output
           if-no-files-found: error
 
+      - name: Generate ${{ matrix.pcbs }} Export Files for parts
+        if: github.event_name == 'release'
+        uses: INTI-CMNB/KiBot@v2_k9
+        with:
+          config: pcb/bom-export.kibot.yaml
+          dir: output
+          schema: 'pcb/${{ matrix.pcbs }}/${{ matrix.pcbs }}.kicad_sch'
+          board: 'pcb/${{ matrix.pcbs }}/${{ matrix.pcbs }}.kicad_pcb'
+          cache3D: YES
+          verbose: 0
+
+      - name: Generate ${{ matrix.pcbs }} Parts on InvenTree Server
+        if: github.event_name == 'release'
+        run: |
+          pip install scripts/requirements.txt
+          python3 scripts/bom-export.py --csv_file output/${{ matrix.pcbs }}-bom.csv --name "${{ matrix.pcbs }}" --version "${{ github.ref_name }}" --pcb_image output/${{ matrix.pcbs }}-3D_top-without.png --assembly_image output/${{ matrix.pcbs }}-3D_top-with.png
+
   collect-and-provide:
     runs-on: ubuntu-24.04
     needs: export-ecad

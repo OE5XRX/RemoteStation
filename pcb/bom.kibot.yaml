@@ -1,0 +1,42 @@
+kibot:
+  version: 1
+
+globals:
+  resources_dir: Fabrication
+outputs:
+  - name: 'bom'
+    comment: 'Bill of Materials'
+    type: bom
+    options:
+      csv:
+        hide_pcb_info: true
+        hide_stats_info: true
+      format: CSV
+
+  - name: KiCad_3D_top_with
+    comment: "render 3D top with"
+    type: render_3d
+    options:
+      output: '%f-%i%I%v-with.%x'
+      view: 'top'
+      orthographic: true
+      ray_tracing: true
+      auto_crop: true
+      enable_crop_workaround: true
+      transparent_background: true
+      show_components: 'all'
+      zoom: -2
+      move_y: -1
+
+  - name: KiCad_3D_top_without
+    comment: "render 3D top without"
+    type: render_3d
+    options:
+      output: '%f-%i%I%v-without.%x'
+      view: 'top'
+      orthographic: true
+      ray_tracing: true
+      auto_crop: true
+      enable_crop_workaround: true
+      transparent_background: true
+      show_components: 'none'

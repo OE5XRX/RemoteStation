@@ -21,3 +21,6 @@ pcb/device_test/#auto_saved_files#
 docs/_site
 docs/.jekyll-cache
 Gemfile.lock
+
+
+.env
