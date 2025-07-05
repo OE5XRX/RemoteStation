@@ -1,0 +1,12 @@
+Row,Description,Part,References,Value,Footprint,Quantity Per PCB,Status,Datasheet,LCSC,MOUSER,Sim.Pins
+1,Polarized capacitor,C_Polarized,C101 C201 C301,100u / 25V,CP_EIA-7343-43_Kemet-X,3, ,~,C132558,,
+2,Light emitting diode,LED,D101 D201 D301,LED,LED_0805_2012Metric,3, ,~,C84256,,1=K 2=A
+3,"Generic connector, single row, 01x02, script generated",Conn_01x02_Pin,J303,Conn_01x02_Pin,PinHeader_1x02_P2.54mm_Vertical,1, ,~,,,
+4,"Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)",Conn_01x04,J202,Conn_01x04,PinHeader_1x04_P2.54mm_Vertical,1, ,~,C2691448,,
+5,"Generic connector, double row, 02x10, row letter first pin numbering scheme (pin number consists of a letter for the row and a number for the pin index in this row. a1, ..., aN; b1, ..., bN), script generated (kicad-library-utils/schlib/autogen/connector/)",Conn_02x10_Row_Letter_First,J203,Conn_02x10_Row_Letter_First,PCN10-20P-2.54DS,1, ,~,,798-PCN1020P254DS72,
+6,"Generic connector, double row, 02x10, row letter first pin numbering scheme (pin number consists of a letter for the row and a number for the pin index in this row. a1, ..., aN; b1, ..., bN), script generated (kicad-library-utils/schlib/autogen/connector/)",Conn_02x10_Row_Letter_First,J302,Conn_02x10_Row_Letter_First,PCN10C-20S-2.54DS,1, ,~,,798-PCN10C20S254DS72,
+7,"Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)",Screw_Terminal_01x02,J101,Screw_Terminal_01x02,"TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal",1, ,~,C5349557,,
+8,USB 2.0-only 16P Type-C Receptacle connector,USB_C_Receptacle_USB2.0_16P,J201 J301,USB_C_Receptacle_USB2.0_16P,USB_C_Receptacle_G-Switch_GT-USB-7010ASV,2, ,https://www.usb.org/sites/default/files/documents/usb_type-c.zip,C2988369,,
+9,Resistor,R,R203 R303,1k,R_0805_2012Metric,2, ,~,C17513,,
+10,Resistor,R,R101,2k2,R_0805_2012Metric,1, ,~,C17520,,
+11,Resistor,R,R201 R202 R301 R302,5k1,R_0805_2012Metric,4, ,~,C27834,,
