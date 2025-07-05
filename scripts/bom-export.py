@@ -64,7 +64,7 @@ for part in parts:
 
 # check all parts if something is missing
 for part in parts:
-    if len(part.lcsc) == 0 and len(part.mouser) == 0:
+    if len(part.lcsc) != 0 or len(part.mouser) != 0:
         assert len(part.inventree_part) != 0, f"{part}"
 
 pcb_cat = PartCategory(api, 54)
