@@ -1,0 +1,18 @@
+Row,Description,Part,References,Value,Footprint,Quantity Per PCB,Status,Datasheet,LCSC,MOUSER
+1,Unpolarized capacitor,C,C203 C205 C208 C301 C401,100n,C_0805_2012Metric,5, ,~,C28233,
+2,Unpolarized capacitor,C,C101 C201 C202,10u,C_1206_3216Metric,3, ,~,C13585,
+3,Unpolarized capacitor,C,C206 C207,22u,C_1206_3216Metric,2, ,~,C12891,
+4,Polarized capacitor,C_Polarized,C102 C103 C104,100u / 25V,CP_EIA-7343-43_Kemet-X,3, ,~,C132558,
+5,Light emitting diode,LED,D101 D102,LED,LED_0805_2012Metric,2, ,~,C84256,
+6,Fuse,Fuse,F101 F102 F103,Fuse,FUSE_01530007Z,3, ,~,,576-01530007Z
+7,"Generic connector, double row, 02x10, row letter first pin numbering scheme (pin number consists of a letter for the row and a number for the pin index in this row. a1, ..., aN; b1, ..., bN), script generated (kicad-library-utils/schlib/autogen/connector/)",Conn_02x10_Row_Letter_First,J102,Conn_02x10_Row_Letter_First,PCN10C-20S-2.54DS,1, ,~,,798-PCN10C20S254DS72
+8,Connector: DC supply; socket; XT60; male; PIN: 2; on PCBs; THT; 30A,XT60PW-M,J101,XT60PW-M,XT60PWM,1, ,https://www.tme.eu/Document/b13629717d44ae038681dba08d18c0b6/XT60PW-M.pdf,,
+9,Inductor with iron core,L_Iron,L201,6.8u,WE-XHMI_6060,1, ,~,,710-74439346068
+10,Resistor,R,R301 R401,10m,R_2512_6332Metric,2, ,~,,652-CRF2512FZR010ELF
+11,Resistor,R,R201,49R9,R_0805_2012Metric,1, ,~,,667-ERA-6AED49R9V
+12,Resistor,R,R102,1k,R_0805_2012Metric,1, ,~,C17513,
+13,Resistor,R,R101,2k2,R_0805_2012Metric,1, ,~,C17520,
+14,Resistor,R,R203,13k7,R_0805_2012Metric,1, ,~,,652-CR0805FX-1372ELF
+15,Resistor,R,R202,100k,R_0805_2012Metric,1, ,~,,603-RC0805JR-07100KL
+16,"High-Side or Low-Side Measurement, Bi-Directional Current and Power Monitor (0-36V) with I2C Compatible Interface, VSSOP-10",INA226,U301 U401,INA226,VSSOP-10_3x3mm_P0.5mm,2, ,http://www.ti.com/lit/ds/symlink/ina226.pdf,C49851,
+17,"4.5-V to 36-V, 3-A synchronous buck converter with 40-µA IQ, SOT-23-6",LMR51430,U203,LMR51430 500kHz,SOT-23-6,1, ,https://www.ti.com/lit/ds/symlink/lmr51430.pdf,,595-LMR51430XDDCR
