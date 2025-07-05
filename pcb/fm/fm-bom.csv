@@ -10,7 +10,7 @@ Row,Description,Part,References,Value,Footprint,Quantity Per PCB,Status,Datashee
 9,Unpolarized capacitor,C,C207 C209 C301 C401,4.7u/10V/X5R,C_0805_2012Metric,4, ,~,,187-CL21A475KAQNNNF
 10,Unpolarized capacitor,C,C302 C303,5.6nF/X7R/100V,C_0805_2012Metric,2, ,~,,791-0805B562K201CT
 11,"30V 0.2A Small Signal Schottky diode, SOD-123",BAT43W-V,D101,BAT43W-V,D_SOD-123,1, ,http://www.vishay.com/docs/85660/bat42.pdf,,78-BAT43W-G3-08
-12,"180MHz/490MHz 50 Ohm Passive Low Pass Filter, FV1206",LFCN-160,FL101,LFCN-180/490,Filter_Mini-Circuits_FV1206,1, ,https://www.minicircuits.com/pdfs/LFCN-180+.pdf,,139-LFCN-180 / 139-LFCN-490
+12,"180MHz/490MHz 50 Ohm Passive Low Pass Filter, FV1206",LFCN-160,FL101,LFCN-180/490,Filter_Mini-Circuits_FV1206,1, ,https://www.minicircuits.com/pdfs/LFCN-180+.pdf,,"139-LFCN-180,139-LFCN-490"
 13,"Generic connector, double row, 02x10, row letter first pin numbering scheme (pin number consists of a letter for the row and a number for the pin index in this row. a1, ..., aN; b1, ..., bN), script generated (kicad-library-utils/schlib/autogen/connector/)",Conn_02x10_Row_Letter_First,J202,Conn_02x10_Row_Letter_First,PCN10C-20S-2.54DS,1, ,~,,798-PCN10C20S254DS72
 14,"Cortex Debug Connector, standard ARM Cortex-M SWD and JTAG interface",Conn_ARM_JTAG_SWD_10,J201,Conn_ARM_JTAG_SWD_10,PinHeader_2x05_P2.54mm_Horizontal,1, ,http://infocenter.arm.com/help/topic/com.arm.doc.ddi0314h/DDI0314H_coresight_components_trm.pdf,,
 15,"coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)",Conn_Coaxial,J101,Conn_Coaxial,SMA_Amphenol_132289_EdgeMount,1, ,~,,530-142-0701-801
