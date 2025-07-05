@@ -15657,7 +15657,7 @@
 				)
 			)
 		)
-		(property "MOUSER" "139-LFCN-180 / 139-LFCN-490"
+		(property "MOUSER" "139-LFCN-180,139-LFCN-490"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")

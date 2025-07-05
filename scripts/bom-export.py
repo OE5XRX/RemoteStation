@@ -29,17 +29,15 @@ api = InvenTreeAPI()
 class BuildPart:
     reference: str
     qty: int
-    lcsc: str | None
-    mouser: str | None
-    inventree_part: Part | None = None
+    lcsc: list[str] = []
+    mouser: list[str] = []
+    inventree_part: list[Part] = []
 
     def compare_and_fetch(self, supplier_part: company.SupplierPart) -> bool:
-        matching = (self.lcsc and self.lcsc == supplier_part.SKU) or (
-            self.mouser and self.mouser == supplier_part.SKU
-        )
-        if matching:
-            self.inventree_part = Part(api, pk=supplier_part.part)
-        return matching
+        if supplier_part.SKU in self.lcsc or supplier_part.SKU in self.mouser:
+            self.inventree_part.append(Part(api, pk=supplier_part.part))
+            return True
+        return False
 
 
 parts: list[BuildPart] = []
@@ -51,8 +49,8 @@ with open(args.csv_file, newline="") as csvfile:
             BuildPart(
                 row["References"],
                 row["Quantity Per PCB"],
-                row["LCSC"] if len(row["LCSC"]) > 0 else None,
-                row["MOUSER"] if len(row["MOUSER"]) > 0 else None,
+                row["LCSC"].split(",") if len(row["LCSC"]) > 0 else [],
+                row["MOUSER"].split(",") if len(row["MOUSER"]) > 0 else [],
             )
         )
 
@@ -66,8 +64,8 @@ for part in parts:
 
 # check all parts if something is missing
 for part in parts:
-    if not (part.lcsc is None and part.mouser is None):
-        assert part.inventree_part is not None, f"{part}"
+    if len(part.lcsc) == 0 and len(part.mouser) == 0:
+        assert len(part.inventree_part) != 0, f"{part}"
 
 pcb_cat = PartCategory(api, 54)
 pcb_part = Part.create(
@@ -108,12 +106,12 @@ bom_item = BomItem.create(
 )
 
 for part in parts:
-    if part.inventree_part is not None:
+    for inventree_part in part.inventree_part:
         bom_item = BomItem.create(
             api,
             {
                 "part": assembly_part.pk,
-                "sub_part": part.inventree_part.pk,
+                "sub_part": inventree_part.pk,
                 "reference": part.reference,
                 "quantity": part.qty,
             },

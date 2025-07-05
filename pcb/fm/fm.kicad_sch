@@ -2922,7 +2922,7 @@
 				(hide yes)
 			)
 		)
-		(property "MOUSER" "139-LFCN-180 / 139-LFCN-490"
+		(property "MOUSER" "139-LFCN-180,139-LFCN-490"
 			(at 58.42 152.4 0)
 			(effects
 				(font
