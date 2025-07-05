@@ -2,7 +2,7 @@
 
 import argparse
 import csv
-from dataclasses import dataclass
+from dataclasses import dataclass, field
 from inventree import company
 from inventree.api import InvenTreeAPI
 from inventree.part import Part, PartCategory, BomItem
@@ -29,9 +29,9 @@ api = InvenTreeAPI()
 class BuildPart:
     reference: str
     qty: int
-    lcsc: list[str] = []
-    mouser: list[str] = []
-    inventree_part: list[Part] = []
+    lcsc: list[str] = field(default_factory=list)
+    mouser: list[str] = field(default_factory=list)
+    inventree_part: list[Part] = field(default_factory=list)
 
     def compare_and_fetch(self, supplier_part: company.SupplierPart) -> bool:
         if supplier_part.SKU in self.lcsc or supplier_part.SKU in self.mouser:
