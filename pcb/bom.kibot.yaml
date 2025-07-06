@@ -40,3 +40,22 @@ outputs:
       enable_crop_workaround: true
       transparent_background: true
       show_components: 'none'
+
+  - name: KiCad_3D_top_stencil
+    comment: "render 3D top as some kind of stencil"
+    type: render_3d
+    options:
+      output: '%f-%i%I%v-stencil.%x'
+      view: 'top'
+      orthographic: true
+      ray_tracing: true
+      auto_crop: true
+      enable_crop_workaround: true
+      transparent_background: true
+      show_components: 'none'
+      show_adhesive: false
+      show_comments: false
+      show_drawings: false
+      show_eco: false
+      show_soldermask: false
+      show_zones: false
